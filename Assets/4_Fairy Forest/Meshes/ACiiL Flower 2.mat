@@ -1,0 +1,580 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ACiiL Flower 2
+  m_Shader: {fileID: 4800000, guid: 38b7cda55e9235e48b2064c3fa8a73fe, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _EMISSION
+  m_LightmapFlags: 3
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _1st_ShadeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _2nd_ShadeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AngelRing_Sampler:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ClippingMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubemapFallback:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalEmission1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DynamicShadowMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionColorTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionColorTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive_Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossinessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HighColor_Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IridescenceMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 29cff5fd627bf5945b280624e3627cb4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTexAdd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTexAdd_2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTexEmis:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTexEmis_2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTexHardMult:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTexHardMult_2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTexMult:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTexMult_2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 98871604b0de5dd48baae0d600c3f78e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapDetail:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapForMatCap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSSThicknessMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Set_1st_ShadePosition:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Set_2nd_ShadePosition:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Set_HighColorMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Set_MatcapMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Set_MatcapMask_2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Set_RimLightMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _albedoTexHSVIMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _crossOverAlbedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _crossOverMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _decal1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _decal2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _driverTintTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _emissionHSVIMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tangentShiftMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _1st2nd_Shades_Feather: 0.001
+    - _ARSampler_AlphaOn: 0
+    - _AR_OffsetU: 0
+    - _AR_OffsetV: 0.3
+    - _AngelRing: 0
+    - _Ap_RimLight_Power: 1
+    - _BaseColor_Step: 0.55
+    - _BaseShade_Feather: 0.001
+    - _BlendOp: 0
+    - _BlurLevelMatcap0: 1
+    - _BlurLevelMatcap1: 1
+    - _BlurLevelMatcap2: 1
+    - _BlurLevelMatcap3: 1
+    - _BumpScale: 1
+    - _BumpScaleMatcap: 1
+    - _CameraRolling_Stabilizer: 1
+    - _Clipping_Level: 0.5
+    - _Clipping_Level_Shadow: 1
+    - _ColorAnimated: 0
+    - _CubemapFallbackMode: 0
+    - _CubemapFallbackModeAnimated: 0
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _DecalEmission1_blendAmount: 1
+    - _DecalEmission1_blendAmountAnimated: 0
+    - _DecalEmission1_blendMode: 2
+    - _DecalEmission1_cutoff: 0
+    - _DecalEmission1_rotate: 0
+    - _DecalEmission1_scale: 1
+    - _DecalEmission1_usePremultiplyAlpha: 0
+    - _DetachShadowClipping: 0
+    - _DetailAlbedo: 0
+    - _DetailNormalMapScale: 1
+    - _DetailNormalMapScale01: 0
+    - _DetailSmoothness: 0
+    - _DiffGSF_Feather: 0.2
+    - _DiffGSF_Offset: 1
+    - _DiffToonShadePriority: 0
+    - _Diff_GSF_01: 0
+    - _Dinc: 1
+    - _DstBlend: 0
+    - _ENVMix: 1
+    - _ENVMmode: 1
+    - _EnvGrazeMix: 0
+    - _EnvGrazeRimMix: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossinessAnimated: 0
+    - _GlossinessMapMode: 0
+    - _GlossyReflections: 1
+    - _InventoryItem01Animated: 1
+    - _InventoryItem02Animated: 1
+    - _InventoryItem03Animated: 1
+    - _InventoryItem04Animated: 1
+    - _InventoryItem05Animated: 1
+    - _InventoryItem06Animated: 1
+    - _InventoryItem07Animated: 1
+    - _InventoryItem08Animated: 1
+    - _InventoryItem09Animated: 1
+    - _InventoryItem10Animated: 1
+    - _InventoryItem11Animated: 1
+    - _InventoryItem12Animated: 1
+    - _InventoryItem13Animated: 1
+    - _InventoryItem14Animated: 1
+    - _InventoryItem15Animated: 1
+    - _InventoryItem16Animated: 1
+    - _InventoryStride: 1
+    - _Inverse_Clipping: 0
+    - _IsBaseMapAlphaAsClippingMask: 1
+    - _Is_NormaMapToEnv: 1
+    - _Is_NormalMapForMatCap: 0
+    - _Is_NormalMapToBase: 1
+    - _Is_NormalMapToHighColor: 1
+    - _Is_NormalMapToRimLight: 1
+    - _Is_SpecularToHighColor: 1
+    - _LightDirection_MaskOn: 0
+    - _MatCap: 0
+    - _MatCap2ndLayer: 0
+    - _MatCapTexMultBlend: 1
+    - _McDiffAlbedoMix: 0
+    - _Metallic: 0
+    - _Metallicness: 1
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RimLightAreaOffset: 0
+    - _RimLightSource: 0
+    - _RimLight_InsideMask: 0.00001
+    - _RimLight_Power: 0.5
+    - _Rotate_MatCapUV: 0
+    - _Rotate_NormalMapForMatCapUV: 0
+    - _SSSDensityFake: 1
+    - _SSSDepthColH: 1
+    - _SSSDepthColL: 0
+    - _SSSLens: 0
+    - _SSSLensFake: 0.5
+    - _Set_1st_ShadePositionStrength: 1
+    - _Set_2nd_ShadePositionStrength: 1
+    - _ShadeColor_Step: 0.5
+    - _ShaderOptimizerEnabled: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecColorAnimated: 0
+    - _SpecOverride: 0
+    - _SpecularHighlights: 1
+    - _SpecularMaskHSVAnimated: 0
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 0
+    - _StencilFail: 0
+    - _StencilOp: 0
+    - _ToonRampFeather_n1_OffsetMode: 0
+    - _ToonRampFeather_n2_OffsetMode: 0
+    - _ToonRampLightSourceType_Backwards: 0
+    - _ToonRampLightSourceType_Core: 0
+    - _TweakHighColorOnShadow: 0.5
+    - _TweakMatCapOnShadow: 0
+    - _Tweak_HighColorMaskLevel: 0
+    - _Tweak_LightDirection_MaskLevel: 0
+    - _Tweak_MatCapUV: 0
+    - _Tweak_MatcapMaskLevel: 0
+    - _Tweak_RimLightMaskLevel: 0
+    - _Tweak_transparency: 0
+    - _Tweak_transparencyAnimated: 0
+    - _UVSec: 0
+    - _UseDiffuseEnergyConservation: 1
+    - _UseInventory: 0
+    - _UseLightMap: 0
+    - _UseSpecularSystem: 1
+    - _Use_1stAs2nd: 0
+    - _Use_BaseAs1st: 0
+    - _WorkflowMode: 0
+    - _ZWrite: 1
+    - _anisotropicArry: 1
+    - _anisotropicDirectionFlip: 0
+    - _controllerAlbedoHSVI_1Animated: 0
+    - _controllerAlbedoHSVI_2Animated: 0
+    - _controllerAlbedoHSVI_3Animated: 0
+    - _crossOverFeather: 0.5
+    - _crossOverPinch: 0.1
+    - _crossOverSourceTexSource: 1
+    - _crossOverStep: 0.5
+    - _crossOverUseToonShades: 1
+    - _crosspOverRimPow: 1
+    - _decal1_blendAmount: 1
+    - _decal1_blendAmountAnimated: 0
+    - _decal1_blendMode: 2
+    - _decal1_cutoff: 0
+    - _decal1_rotate: 0
+    - _decal1_scale: 1
+    - _decal1_usePremultiplyAlpha: 0
+    - _decal2_blendAmount: 1
+    - _decal2_blendAmountAnimated: 0
+    - _decal2_blendMode: 2
+    - _decal2_cutoff: 0
+    - _decal2_rotate: 0
+    - _decal2_scale: 1
+    - _decal2_usePremultiplyAlpha: 0
+    - _diffuseIndirectDirectSimCoreMix: 1
+    - _diffuseIndirectDirectSimMix: 0
+    - _directLightIntensity: 1
+    - _directLightIntensityAnimated: 0
+    - _emisLightSourceType: 0
+    - _emission2ndTintHigh: 1
+    - _emission2ndTintLow: 0.5
+    - _emission2ndTintPow: 1
+    - _emissionHSVIController1Animated: 0
+    - _emissionMixTintDiffuseSlider: 0
+    - _emissionProportionalLum: 0
+    - _emissionUse2ndTintRim: 0
+    - _emissionUseMask: 0
+    - _emissionUseMaskDiffuseDimming: 0.032
+    - _emissionUseStandardVars: 0
+    - _emissiveUseMainTexA: 0
+    - _envOnRim: 0
+    - _envOnRimColorize: 1
+    - _envRoughness: 0.5
+    - _eta2: 1.2
+    - _eta3: 2
+    - _eyeStereoViewDirMode: 0
+    - _forceLightClamp: 1
+    - _forceLightClampAnimated: 0
+    - _highColTexSource: 0
+    - _indirectAlbedoMaxAveScale: 1.5
+    - _indirectAlbedoMaxAveScaleAnimated: 0
+    - _indirectGIBlur: 1
+    - _indirectGIDirectionalMix: 0
+    - _indirectGIDirectionalUseNPR: 0
+    - _invertHighColorMask: 0
+    - _invertRimLightMask: 0
+    - _kappa3: 1
+    - _lightMapBlendMode: 0
+    - _lightMapBlendModeCrossOverRim: 1
+    - _lightMapBlur: 0
+    - _lightMapGain: 1
+    - _lightMapRemapH: 1
+    - _lightMapRemapL: 0
+    - _lightMapStrengthShadeRamp1: 0.5
+    - _lightMapStrengthShadeRamp2: 0.5
+    - _lightMapStrengthShadeRampCrossOverRim: 0
+    - _lightMapSymmetry: 0
+    - _matcapEmissMaskSwitch: 1
+    - _matcapSmoothnessSource0: 0
+    - _matcapSmoothnessSource1: 0
+    - _matcapSmoothnessSource2: 0
+    - _matcapSmoothnessSource3: 0
+    - _matcapSpecMaskSwitch: 1
+    - _rimAlbedoMix: 0
+    - _rimLightDirectionGain: 4
+    - _rimLightDirectionMode: 0
+    - _rimLightDirectionStep: 0.5
+    - _rimLightGain: 4
+    - _rimLightGain_AP: 4
+    - _rimLightIntensity: 0.31830987
+    - _rimLightLightsourceType: 0
+    - _rimLightSetPresetCubemap: 0
+    - _rimLightStep: 0.5
+    - _rimLightUseNPRReduction: 0
+    - _rimLightUseTFICol: 0
+    - _rimLightVersionMode: 1
+    - _rimOverToneFeather: 1
+    - _rimOverTonePow: 1
+    - _rimOverToneStep: 0.5
+    - _shadeShadowOffset1: 0
+    - _shadeShadowOffset2: 0
+    - _shadowCastMin_black: 0.65
+    - _shadowCastMin_blackAnimated: 0
+    - _shadowMaskPinch: 0
+    - _shadowNDLFeather: 0.5
+    - _shadowNDLStep: 1
+    - _shadowSplits: 0
+    - _shadowUseCustomRampNDL: 0
+    - _shiftTangentShiftScale1: 0.2
+    - _spaceLayerFeather1: 1
+    - _spaceLayerFeather2: 1
+    - _spaceLayerFeather3: 1
+    - _spaceLayerOffset1: 0
+    - _spaceLayerOffset2: 0
+    - _spaceLayerOffset3: 0
+    - _specColorIntensity: 1
+    - _specLayerHalfAngleRotate2: 0
+    - _specLayerHalfAngleRotate3: 0
+    - _specLayerHalfAngleTilt2: 0.5
+    - _specLayerHalfAngleTilt3: 0.5
+    - _specLayerRoughExp1: 1
+    - _specLayerRoughExp2: 1
+    - _specLayerRoughExp3: 1
+    - _specLayersCount: 1
+    - _specMaskLayersOrder: 0
+    - _specMaskLayersPinch: 0
+    - _specTangentShift1: 0
+    - _specTangentShift2: 0
+    - _specTangentShift3: 0
+    - _specType2: 1
+    - _specType3: 1
+    - _toonRampTexturesBlendMode: 0
+    - _useAlbedoTexModding: 0
+    - _useCrossOverRim: 0
+    - _useCubeMap: 0
+    - _useDecal1: 0
+    - _useDecal2: 0
+    - _useDecalEmission1: 0
+    - _useDiffuseAlbedoTexturesSet: 0
+    - _useDistanceDarken: 0
+    - _useDistanceDarkenAnimated: 0
+    - _useEmissionHSVI: 0
+    - _useFakeSSS: 0
+    - _useMCHardMult: 0
+    - _useRimLightOverTone: 0
+    - _useRimLightSystem: 0
+    - _useSSS: 0
+    - _useShadePosition: 0
+    - _useThinFilmIridescence: 0
+    - _useToonRampSystem: 1
+    - _uvSet_AngelRing: 1
+    - _uvSet_DecalEmission1: 0
+    - _uvSet_DetailMap: 0
+    - _uvSet_EmissionColorTex: 0
+    - _uvSet_LightMap: 0
+    - _uvSet_NormalMapDetail: 0
+    - _uvSet_NormalMapForMatCap: 0
+    - _uvSet_ShadePosition: 0
+    - _uvSet_albedo: 0
+    - _uvSet_albedo1: 0
+    - _uvSet_albedo2: 0
+    - _uvSet_clippingMask: 0
+    - _uvSet_decal1: 0
+    - _uvSet_decal2: 0
+    - _uvSet_detailNormalMask: 0
+    - _uvSet_driverTintTex: 0
+    - _uvSet_emissionMask: 0
+    - _uvSet_highColorMask: 0
+    - _uvSet_matcapMask: 0
+    - _uvSet_normalmap: 0
+    - _uvSet_rimLightMask: 0
+    - _uvSet_specular: 0
+    m_Colors:
+    - _1st_ShadeColor: {r: 0.96999997, g: 0.96999997, b: 0.96999997, a: 1}
+    - _2nd_ShadeColor: {r: 0.95, g: 0.95, b: 0.95, a: 1}
+    - _AngelRing_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Ap_RimLightColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DecalEmission1_boarder: {r: 0, g: 0, b: 1, a: 1}
+    - _DecalEmission1_color: {r: 1, g: 1, b: 1, a: 1}
+    - _DecalEmission1_pivotR: {r: 0.5, g: 0.5, b: -1, a: -1}
+    - _DecalEmission1_pivotS: {r: 0.5, g: 0.5, b: -1, a: -1}
+    - _DecalEmission1_ratioWH: {r: 1, g: 1, b: -1, a: -1}
+    - _DecalEmission1_transform: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Emissive_Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Emissive_Color2: {r: 0, g: 0, b: 0, a: 1}
+    - _HighColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MatCapColAdd: {r: 1, g: 1, b: 1, a: 1}
+    - _MatCapColEmis: {r: 0, g: 0, b: 0, a: 1}
+    - _MatCapColHardMult: {r: 1, g: 1, b: 1, a: 1}
+    - _MatCapColMult: {r: 1, g: 1, b: 1, a: 1}
+    - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SSSColThick: {r: 1, g: 1, b: 1, a: 1}
+    - _SSSColThin: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularMaskHSV: {r: 0, g: 0, b: 0, a: 1}
+    - _backFaceColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _controllerAlbedoHSVI_1: {r: 0, g: 0, b: 0, a: 1}
+    - _controllerAlbedoHSVI_2: {r: 0, g: 0, b: 0, a: 1}
+    - _controllerAlbedoHSVI_3: {r: 0, g: 0, b: 0, a: 1}
+    - _crossOverTint: {r: 1, g: 1, b: 1, a: 1}
+    - _decal1_boarder: {r: 0, g: 0, b: 1, a: 1}
+    - _decal1_color: {r: 1, g: 1, b: 1, a: 1}
+    - _decal1_pivotR: {r: 0.5, g: 0.5, b: -1, a: -1}
+    - _decal1_pivotS: {r: 0.5, g: 0.5, b: -1, a: -1}
+    - _decal1_ratioWH: {r: 1, g: 1, b: -1, a: -1}
+    - _decal1_transform: {r: 0, g: 0, b: 0, a: 0}
+    - _decal2_boarder: {r: 0, g: 0, b: 1, a: 1}
+    - _decal2_color: {r: 1, g: 1, b: 1, a: 1}
+    - _decal2_pivotR: {r: 0.5, g: 0.5, b: -1, a: -1}
+    - _decal2_pivotS: {r: 0.5, g: 0.5, b: -1, a: -1}
+    - _decal2_ratioWH: {r: 1, g: 1, b: -1, a: -1}
+    - _decal2_transform: {r: 0, g: 0, b: 0, a: 0}
+    - _emissionHSVIController1: {r: 0, g: 0, b: 0, a: 1}
+    - _rimLightOverToneBlendColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _rimLightOverToneBlendColor2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _specLayerCol2: {r: 1, g: 1, b: 1, a: 1}
+    - _specLayerCol3: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
