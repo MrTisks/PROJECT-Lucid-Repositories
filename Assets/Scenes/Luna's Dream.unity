@@ -343,7 +343,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c57055c8c8fd0574791232938403a941,
         type: 3}
       propertyPath: m_Name
-      value: Flower 2 (1)
+      value: Flower Dummy Toon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -869,7 +869,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c57055c8c8fd0574791232938403a941,
         type: 3}
       propertyPath: m_Name
-      value: Flower 2
+      value: Flower Poiyomi
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c57055c8c8fd0574791232938403a941,
         type: 3}
@@ -1267,8 +1267,103 @@ Transform:
   - {fileID: 742201098316264179}
   - {fileID: 81660734}
   - {fileID: 1874273989}
+  - {fileID: 1513153417}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1513153416
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1457247112}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.5768
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.29362714
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.0997577
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 719eb374c0b84fc47b98a7c9e34baff8, type: 2}
+    - target: {fileID: 919132149155446097, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_Name
+      value: Flower Standard
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c57055c8c8fd0574791232938403a941,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c57055c8c8fd0574791232938403a941, type: 3}
+--- !u!4 &1513153417 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c57055c8c8fd0574791232938403a941,
+    type: 3}
+  m_PrefabInstance: {fileID: 1513153416}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1726513800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,7 +1565,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c57055c8c8fd0574791232938403a941,
         type: 3}
       propertyPath: m_Name
-      value: Flower 2 (2)
+      value: Flower ACiiL
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c57055c8c8fd0574791232938403a941,
         type: 3}

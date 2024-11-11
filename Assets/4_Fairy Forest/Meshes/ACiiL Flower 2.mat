@@ -8,17 +8,18 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ACiiL Flower 2
-  m_Shader: {fileID: 4800000, guid: 38b7cda55e9235e48b2064c3fa8a73fe, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _EMISSION
-  m_LightmapFlags: 3
+  m_ValidKeywords:
+  - _ALPHATEST_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 7
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    RenderType: TransparentCutout
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -29,6 +30,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _2nd_ShadeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -234,6 +239,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - PixelSnap: 0
     - _1st2nd_Shades_Feather: 0.001
     - _ARSampler_AlphaOn: 0
     - _AR_OffsetU: 0
@@ -256,7 +262,7 @@ Material:
     - _CubemapFallbackMode: 0
     - _CubemapFallbackModeAnimated: 0
     - _CullMode: 0
-    - _Cutoff: 0.5
+    - _Cutoff: 0.935
     - _DecalEmission1_blendAmount: 1
     - _DecalEmission1_blendAmountAnimated: 0
     - _DecalEmission1_blendMode: 2
@@ -277,6 +283,7 @@ Material:
     - _DstBlend: 0
     - _ENVMix: 1
     - _ENVMmode: 1
+    - _EnableExternalAlpha: 0
     - _EnvGrazeMix: 0
     - _EnvGrazeRimMix: 0
     - _GlossMapScale: 1
@@ -316,7 +323,7 @@ Material:
     - _McDiffAlbedoMix: 0
     - _Metallic: 0
     - _Metallicness: 1
-    - _Mode: 0
+    - _Mode: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RimLightAreaOffset: 0
@@ -545,11 +552,13 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emissive_Color: {r: 0, g: 0, b: 0, a: 1}
     - _Emissive_Color2: {r: 0, g: 0, b: 0, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _HighColor: {r: 1, g: 1, b: 1, a: 1}
     - _MatCapColAdd: {r: 1, g: 1, b: 1, a: 1}
     - _MatCapColEmis: {r: 0, g: 0, b: 0, a: 1}
     - _MatCapColHardMult: {r: 1, g: 1, b: 1, a: 1}
     - _MatCapColMult: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _SSSColThick: {r: 1, g: 1, b: 1, a: 1}
     - _SSSColThin: {r: 1, g: 1, b: 1, a: 1}
