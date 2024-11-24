@@ -1,5 +1,5 @@
 {
-    "default_texture_type": 0,
+    "default_texture_type": 1,
     "showRenderQueue": true,
     "showManualReloadButton": false,
     "allowCustomLockingRenaming": false,

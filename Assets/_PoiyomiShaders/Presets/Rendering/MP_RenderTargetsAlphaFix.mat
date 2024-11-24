@@ -2,27 +2,36 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MP_RenderTargetsAlphaFix
-  m_Shader: {fileID: 4800000, guid: 1787129096f7e4d45814aa4d2a62d45c, type: 3}
-  m_ShaderKeywords: POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE POI_LIGHT_DATA_ADDITIVE_ENABLE
-    POI_VERTEXLIGHT_ON VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
-    _STOCHASTICMODE_DELIOT_HEITZ
+  m_Shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE
+  - POI_LIGHT_DATA_ADDITIVE_ENABLE
+  - POI_VERTEXLIGHT_ON
+  - VIGNETTE_MASKED
+  - _LIGHTINGMODE_FLAT
+  - _RIM2STYLE_POIYOMI
+  - _RIMSTYLE_POIYOMI
+  - _STOCHASTICMODE_DELIOT_HEITZ
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap:
-    RenderType: Transparent
     _BlendOpAlpha_isPreset: true
     _DstBlendAlpha_isPreset: true
     isPreset: true
     presetName: Rendering/RenderTargetsAlphaFix
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -224,6 +233,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _FlipbookTexArray:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: 305c07a8ce5ca984b8387c51eed98f95, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlitterColorMap:
@@ -514,6 +527,19 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _WaterMap1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterMap2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - GeometryShader_Enabled: 1
     - Instancing: 0
@@ -618,6 +644,8 @@ Material:
     - _AnisoReplace: 0
     - _AnisoUseBaseColor: 0
     - _AnisoUseLightColor: 1
+    - _AntiAliasingThresholdSm: 0.01
+    - _AntiAliasingVarianceSm: 5
     - _Ap_Rim2Light_FeatherOff: 0
     - _Ap_Rim2Light_Power: 0.1
     - _Ap_RimLight_FeatherOff: 0
@@ -1209,6 +1237,7 @@ Material:
     - _FlipbookStartFrame: 0
     - _FlipbookTexArrayUV: 0
     - _FlipbookTiled: 0
+    - _FlowSpeed: 0
     - _ForgotToLockMaterial: 1
     - _GITDEMaxEmissionMultiplier: 0
     - _GITDEMaxEmissionMultiplier1: 0
@@ -1504,6 +1533,7 @@ Material:
     - _GlobalThemeValue1: 0
     - _GlobalThemeValue2: 0
     - _GlobalThemeValue3: 0
+    - _Glossiness: 0
     - _GreenAlphaAdd: 0
     - _GreenColorThemeIndex: 0
     - _GreenTextureStochastic: 0
@@ -1732,6 +1762,7 @@ Material:
     - _MatcapTPSDepthEnabled: 0
     - _MatcapTPSMaskStrength: 1
     - _MatcapUVMode: 1
+    - _Metallic: 0
     - _Mirror: 0
     - _MirrorColorThemeIndex: 0
     - _MirrorTextureBlendType: 0
@@ -2225,9 +2256,17 @@ Material:
     - _VisibilityVRCMirrorDesktop: 1
     - _VisibilityVRCMirrorVR: 1
     - _VisibilityVRCRegular: 1
+    - _Water1SpeedX: 0
+    - _Water1SpeedY: 0
+    - _Water1Strength: 3
+    - _Water2SpeedX: 0
+    - _Water2SpeedY: 0
+    - _Water2Strength: 1
     - _ZTest: 4
     - _ZWrite: 0
+    - __dirty: 1
     - _glitterFrequencyLinearEmissive: 20
+    - footer_booth: 0
     - footer_discord: 0
     - footer_github: 0
     - footer_patreon: 0
@@ -2266,6 +2305,10 @@ Material:
     - g_start_deliot: 0
     - g_start_hextile: 0
     - m_AudioLinkCategory: 0
+    - m_Flow: 0
+    - m_MainSet: 0
+    - m_Water1: 0
+    - m_Water2: 0
     - m_end_ALDecalSpectrum: 0
     - m_end_Alpha: 0
     - m_end_AlphaGlobalMask: 0
@@ -2538,6 +2581,7 @@ Material:
     - shader_is_using_thry_editor: 69
     - shader_locale: 0
     - shader_master_label: 0
+    - shader_properties_label_file: 0
     m_Colors:
     - _1st_ShadeColor: {r: 1, g: 1, b: 1, a: 1}
     - _1st_ShadeMapPan: {r: 0, g: 0, b: 0, a: 0}
@@ -2909,3 +2953,6 @@ Material:
     - _VertexWorldTranslationALMin: {r: 0, g: 0, b: 0, a: 1}
     - _VideoMaskTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _VideoResolution: {r: 1280, g: 720, b: 0, a: 0}
+    - _Water1Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Water2Tiling: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
