@@ -23,7 +23,6 @@ Shading/Clear Coat/Shiny;6382f88be2e476c4eaedf94602a16b32
 Lighting/Full UTS2;b3ea4f0c69d93b14ca1f17342c9502fa
 Rendering/Blending/Additive;20c22678e0d5e0a469d799e0cadae812
 SpecialFX/DepthFX/Color Near Object;a849d2112be2420448553ed035a7d9aa
-Color & Normals/Color Adjust/Continuous Hue Shift;80e5451b6d4c5d147abcb49b5a25cae9
 Rendering/Blending/Traditional Fade;ed1b6067028b7954795c81e6bf01b79c
 SpecialFX/Iridescence/Basic Replace;a2148f1e07bda204f95afdd9b7dc1363
 SpecialFX/Stats Overlay/FPS Counter;bd64ff25d55580d4babac484ae4eb86a
@@ -44,3 +43,4 @@ SpecialFX/Glitter/GlitterStars;e41c3ae22febb2941b81d61ae77282e1
 Rendering/Reduce Clip Distance;16015d7685d651f499367599c40abd08
 Color & Normals/Alpha Options/Center Fade;c62e16dcbb7c663458f6e5a0b7c135e6
 Shading/Stylized Specular/Simple Two Layer;cb35437f4ab29234db690b5f1dd22fb4
+Color & Normals/Color Adjust/Continuous Hue Shift;80e5451b6d4c5d147abcb49b5a25cae9
