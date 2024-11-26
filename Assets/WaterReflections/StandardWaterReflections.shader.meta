@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: c40ece220179048828952c169fc07af1
+timeCreated: 1536023375
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _Flipbook: {fileID: 2800000, guid: 7164845e9415a408ea78b2516e23b9bc, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

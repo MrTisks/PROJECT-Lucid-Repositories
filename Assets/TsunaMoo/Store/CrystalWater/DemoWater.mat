@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DemoWater
+  m_Shader: {fileID: 4800000, guid: 958d7a8f4efc20041b2aac6332dc4ff4, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: 305c07a8ce5ca984b8387c51eed98f95, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterMap1:
+        m_Texture: {fileID: 2800000, guid: 077a10adfe7833347b250d448bf41899, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterMap2:
+        m_Texture: {fileID: 2800000, guid: eaa8c0021d7b12140b65997434a07438, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Instancing: 0
+    - _AntiAliasingThresholdSm: 0.01
+    - _AntiAliasingVarianceSm: 5
+    - _Cull: 2
+    - _FlowSpeed: 0.005
+    - _Glossiness: 0.611
+    - _Metallic: 0.814
+    - _Water1SpeedX: 0.01
+    - _Water1SpeedY: 0.01
+    - _Water1Strength: 2.26
+    - _Water2SpeedX: -0.02
+    - _Water2SpeedY: -0.02
+    - _Water2Strength: 1.96
+    - __dirty: 0
+    - footer_booth: 0
+    - footer_discord: 0
+    - footer_github: 0
+    - footer_patreon: 0
+    - m_Flow: 1
+    - m_MainSet: 1
+    - m_Water1: 1
+    - m_Water2: 1
+    - shader_is_using_thry_editor: 69
+    - shader_master_label: 0
+    - shader_properties_label_file: 0
+    m_Colors:
+    - _Color: {r: 0, g: 0.59802246, b: 1, a: 1}
+    - _Water1Tiling: {r: 5, g: 5, b: 0, a: 0}
+    - _Water2Tiling: {r: 5, g: 5, b: 0, a: 0}
+  m_BuildTextureStacks: []

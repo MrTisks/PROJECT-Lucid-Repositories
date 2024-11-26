@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2226297076affab4fa7d77825ee4ad7c
+timeCreated: 1525446624
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _MainTex: {fileID: 2800000, guid: 111d6c7bba262844b9d4f718e8d0198f, type: 3}
+  - _Water4: {fileID: 2800000, guid: eaa8c0021d7b12140b65997434a07438, type: 3}
+  - _Water3: {fileID: 2800000, guid: 077a10adfe7833347b250d448bf41899, type: 3}
+  - _Water2: {fileID: 2800000, guid: e13418555c7b85443a784514bbec2574, type: 3}
+  - _Water1: {fileID: 2800000, guid: 90ff426733b42774fa4fb464cc68b2c9, type: 3}
+  - _BaseColor2: {fileID: 2800000, guid: 111d6c7bba262844b9d4f718e8d0198f, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
