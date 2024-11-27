@@ -8613,12 +8613,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811851294}
   m_Mesh: {fileID: -2432090755550338912, guid: 0a04783f0087413419924fdecda1c7f2, type: 3}
---- !u!1 &1877918910 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8686363131519615810, guid: 1215d7267bdc6da47aed9ff194f6b308,
-    type: 3}
-  m_PrefabInstance: {fileID: 2809320439797651855}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1886474979
 GameObject:
   m_ObjectHideFlags: 0
@@ -10215,6 +10209,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Whole Island
       objectReference: {fileID: 0}
+    - target: {fileID: 5973697735661823449, guid: 7fbe179b9b8c26d41a820f477af4d551,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6520940895637475311, guid: 7fbe179b9b8c26d41a820f477af4d551,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10459,7 +10458,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3096532949762612178, guid: 1215d7267bdc6da47aed9ff194f6b308, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1215d7267bdc6da47aed9ff194f6b308, type: 3}
@@ -11619,7 +11619,7 @@ MonoBehaviour:
   - {fileID: 3480278762663400089}
   spawnOrder: 2
   spawnOrientation: 0
-  ReferenceCamera: {fileID: 1877918910}
+  ReferenceCamera: {fileID: 0}
   RespawnHeightY: -100
   ObjectBehaviourAtRespawnHeight: 0
   ForbidUserPortals: 0
