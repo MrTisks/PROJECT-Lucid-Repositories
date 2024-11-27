@@ -85,7 +85,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowMap:
-        m_Texture: {fileID: 2800000, guid: 756d6724924f2448ab273c1be1db34c8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 305c07a8ce5ca984b8387c51eed98f95, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LinkMap:
@@ -161,11 +161,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WaterMap1:
-        m_Texture: {fileID: 2800000, guid: ead3be67941d84de8806e2bdbc4a2d24, type: 3}
+        m_Texture: {fileID: 2800000, guid: 53b06b2f03a596341824dafa781c6447, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WaterMap2:
-        m_Texture: {fileID: 2800000, guid: ead3be67941d84de8806e2bdbc4a2d24, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6c456715c4b60a44fbee50c098bae96c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WaterTex1:
@@ -263,7 +263,7 @@ Material:
     - _Glossiness: 0.722
     - _GlossyReflections: 1
     - _HueShift: 0
-    - _Metallic: 0.342
+    - _Metallic: 0.505
     - _Mode: 0
     - _NoiseScale: 5
     - _NoiseStength: 1
