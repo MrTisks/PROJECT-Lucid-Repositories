@@ -5427,11 +5427,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-<<<<<<< HEAD
-    m_TransformParent: {fileID: 0}
-=======
     m_TransformParent: {fileID: 108130244}
->>>>>>> MrTisks/PROJECT_Lucid
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 501ed9ecc66a6b64eb9392af87144024,
         type: 3}
@@ -5451,29 +5447,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 501ed9ecc66a6b64eb9392af87144024,
         type: 3}
       propertyPath: m_LocalPosition.x
-<<<<<<< HEAD
-      value: -49.158493
-=======
       value: -44.77677
->>>>>>> MrTisks/PROJECT_Lucid
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 501ed9ecc66a6b64eb9392af87144024,
         type: 3}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD
-      value: 13.81
-=======
       value: 13.377632
->>>>>>> MrTisks/PROJECT_Lucid
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 501ed9ecc66a6b64eb9392af87144024,
         type: 3}
       propertyPath: m_LocalPosition.z
-<<<<<<< HEAD
-      value: 39.55897
-=======
       value: 35.45839
->>>>>>> MrTisks/PROJECT_Lucid
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 501ed9ecc66a6b64eb9392af87144024,
         type: 3}
@@ -5525,15 +5509,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 501ed9ecc66a6b64eb9392af87144024, type: 3}
-<<<<<<< HEAD
-=======
 --- !u!4 &1165843614 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 501ed9ecc66a6b64eb9392af87144024,
     type: 3}
   m_PrefabInstance: {fileID: 1165843613}
   m_PrefabAsset: {fileID: 0}
->>>>>>> MrTisks/PROJECT_Lucid
 --- !u!1 &1166310262
 GameObject:
   m_ObjectHideFlags: 0
@@ -11973,11 +11954,6 @@ SceneRoots:
   - {fileID: 2164208548563211385}
   - {fileID: 6698364286177274602}
   - {fileID: 3481448887418424350}
-<<<<<<< HEAD
-  - {fileID: 7816659590723646847}
-  - {fileID: 1165843613}
-=======
   - {fileID: 7145837014586313135}
   - {fileID: 2809320439797651855}
   - {fileID: 7536768528571275160}
->>>>>>> MrTisks/PROJECT_Lucid
