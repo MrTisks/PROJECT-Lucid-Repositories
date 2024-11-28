@@ -33,14 +33,14 @@ SpecialFX/Dissolve/To Invisible;1bb1012914274c84da6f0dc407b68259
 Shading/Shading/lil Toon;b7ef0798bfb2152479b2ec8ace110aee
 Shading/Cubemap/Skybox;5d8da54b7658ecb4a82a6ee900d654a0
 Shading/Shading/Shade Maps;0dfb68f3451a286408b0be70c899a6c2
-Rendering/RenderTargetsAlphaFix;a8afcc492d1d60140b3f7b38f372f420
-Lighting/Toon Hard Shadow;b84dedf1d78543840bd79dea015df1bc
-Rendering/Double Sided;1080d7f1b2a986b4c97921a6ec4165d6
-Color & Normals/Alpha Options/Fade Close;10fbdd7dc0c5ca740a4ce43ab8c14ebc
-Lighting/Realistic;c307c1f8bf70e944e83e2db5de65c395
-LilToon Shading Preset;bf8c5ab91bf6aaa49b949bf74998ddc2
-SpecialFX/Glitter/GlitterStars;e41c3ae22febb2941b81d61ae77282e1
-Rendering/Reduce Clip Distance;16015d7685d651f499367599c40abd08
 Color & Normals/Alpha Options/Center Fade;c62e16dcbb7c663458f6e5a0b7c135e6
+Rendering/RenderTargetsAlphaFix;a8afcc492d1d60140b3f7b38f372f420
+Rendering/Double Sided;1080d7f1b2a986b4c97921a6ec4165d6
+SpecialFX/Glitter/GlitterStars;e41c3ae22febb2941b81d61ae77282e1
+Lighting/Realistic;c307c1f8bf70e944e83e2db5de65c395
+Lighting/Toon Hard Shadow;b84dedf1d78543840bd79dea015df1bc
+Rendering/Reduce Clip Distance;16015d7685d651f499367599c40abd08
+Color & Normals/Alpha Options/Fade Close;10fbdd7dc0c5ca740a4ce43ab8c14ebc
+LilToon Shading Preset;bf8c5ab91bf6aaa49b949bf74998ddc2
 Shading/Stylized Specular/Simple Two Layer;cb35437f4ab29234db690b5f1dd22fb4
 Color & Normals/Color Adjust/Continuous Hue Shift;80e5451b6d4c5d147abcb49b5a25cae9
