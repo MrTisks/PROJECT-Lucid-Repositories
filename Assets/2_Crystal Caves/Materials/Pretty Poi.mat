@@ -8,10 +8,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Pretty Poi
-  m_Shader: {fileID: 4800000, guid: 68d4032c05798c44eafe02f272e6895c, type: 3}
+  m_Shader: {fileID: 4800000, guid: 2fecf34e8d520154d9faca69cb309dfd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
   - VIGNETTE_MASKED
   - _LIGHTINGMODE_FLAT
@@ -19,12 +20,16 @@ Material:
   - _RIMSTYLE_POIYOMI
   - _STOCHASTICMODE_DELIOT_HEITZ
   - _SUNDISK_SIMPLE
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap:
+    AllLockedGUIDS: a333231ffa4d4c84491c82f86336a9b9
+    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI
+      _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ _SUNDISK_SIMPLE
+    OriginalShader: .poiyomi/Poiyomi Toon World
+    OriginalShaderGUID: 68d4032c05798c44eafe02f272e6895c
     RenderType: Transparent
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -2404,7 +2409,7 @@ Material:
     - _Set_RimLightMaskChannel: 1
     - _Set_RimLightMaskUV: 0
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 0
+    - _ShaderOptimizerEnabled: 1
     - _ShaderUIWarning0: -0
     - _ShaderUIWarning1: -0
     - _ShadingEnabled: 1
@@ -2797,8 +2802,8 @@ Material:
     - m_lightingCategory: 0
     - m_mainCategory: 0
     - m_modifierCategory: 0
-    - m_renderingCategory: 0
-    - m_specialFXCategory: 1
+    - m_renderingCategory: 1
+    - m_specialFXCategory: 0
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
     - m_start_Alpha: 0
