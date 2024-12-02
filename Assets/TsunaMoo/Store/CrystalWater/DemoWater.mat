@@ -85,7 +85,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowMap:
-        m_Texture: {fileID: 2800000, guid: 756d6724924f2448ab273c1be1db34c8, type: 3}
+        m_Texture: {fileID: 2800000, guid: b22ec7629f38ec44fbe93ec72f2b7792, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LinkMap:
@@ -161,11 +161,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WaterMap1:
-        m_Texture: {fileID: 2800000, guid: ead3be67941d84de8806e2bdbc4a2d24, type: 3}
+        m_Texture: {fileID: 2800000, guid: 53b06b2f03a596341824dafa781c6447, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WaterMap2:
-        m_Texture: {fileID: 2800000, guid: ead3be67941d84de8806e2bdbc4a2d24, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6c456715c4b60a44fbee50c098bae96c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WaterTex1:
@@ -258,12 +258,12 @@ Material:
     - _EnableRimlight: 0
     - _Fail: 0
     - _Float0: 0.02
-    - _FlowSpeed: 0
+    - _FlowSpeed: 0.001
     - _GlossMapScale: 1
     - _Glossiness: 0.722
     - _GlossyReflections: 1
     - _HueShift: 0
-    - _Metallic: 0.342
+    - _Metallic: 0.505
     - _Mode: 0
     - _NoiseScale: 5
     - _NoiseStength: 1
@@ -331,7 +331,7 @@ Material:
     - _UseShake2: 0
     - _UseShake3: 0
     - _VertexNoise: 0
-    - _Water1SpeedX: 0.01
+    - _Water1SpeedX: 0.09
     - _Water1SpeedY: 0
     - _Water1Strength: 2.43
     - _Water2SpeedX: -0.001
