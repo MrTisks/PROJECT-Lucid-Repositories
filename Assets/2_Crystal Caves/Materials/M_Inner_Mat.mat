@@ -13,6 +13,8 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
+  - MOCHIE_PBR
+  - VIGNETTE_MASKED
   - _LIGHTINGMODE_REALISTIC
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_POIYOMI
@@ -31,17 +33,18 @@ Material:
     _LightingAOMaps_texPack_b_fallback: 0
     _LightingAOMaps_texPack_b_inverted: False
     _LightingAOMaps_texPack_g_channel: 1
-    _LightingAOMaps_texPack_g_fallback: 1
-    _LightingAOMaps_texPack_g_guid: 35ac20bdf8c6ac841ace5e0df9496dd0
+    _LightingAOMaps_texPack_g_fallback: 0
+    _LightingAOMaps_texPack_g_guid: bc1c1bb2501f85449ae03a8149099ab5
     _LightingAOMaps_texPack_g_inverted: False
-    _LightingAOMaps_texPack_lastConfirmTime: 1733423837
-    _LightingAOMaps_texPack_r_channel: 4
+    _LightingAOMaps_texPack_lastConfirmTime: 1733429256
+    _LightingAOMaps_texPack_r_channel: 1
     _LightingAOMaps_texPack_r_fallback: 0
     _LightingAOMaps_texPack_r_inverted: False
-    _MochieMetallicMaps_texPack_a_channel: 4
-    _MochieMetallicMaps_texPack_a_fallback: 0
+    _MochieMetallicMaps_texPack_a_channel: 3
+    _MochieMetallicMaps_texPack_a_fallback: 1
+    _MochieMetallicMaps_texPack_a_guid: 35ac20bdf8c6ac841ace5e0df9496dd0
     _MochieMetallicMaps_texPack_a_inverted: False
-    _MochieMetallicMaps_texPack_b_channel: 4
+    _MochieMetallicMaps_texPack_b_channel: 3
     _MochieMetallicMaps_texPack_b_fallback: 1
     _MochieMetallicMaps_texPack_b_guid: 35ac20bdf8c6ac841ace5e0df9496dd0
     _MochieMetallicMaps_texPack_b_inverted: False
@@ -49,7 +52,7 @@ Material:
     _MochieMetallicMaps_texPack_g_fallback: 1
     _MochieMetallicMaps_texPack_g_guid: 35ac20bdf8c6ac841ace5e0df9496dd0
     _MochieMetallicMaps_texPack_g_inverted: False
-    _MochieMetallicMaps_texPack_lastConfirmTime: 1733424564
+    _MochieMetallicMaps_texPack_lastConfirmTime: 1733428470
     _MochieMetallicMaps_texPack_r_channel: 0
     _MochieMetallicMaps_texPack_r_fallback: 1
     _MochieMetallicMaps_texPack_r_guid: 35ac20bdf8c6ac841ace5e0df9496dd0
@@ -100,8 +103,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 0c76a1080259a2449bea2f23f7264283, type: 3}
-        m_Scale: {x: 10, y: 10}
+        m_Texture: {fileID: 2800000, guid: 54daece2465cbf944984c0616abb0154, type: 3}
+        m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _ClearCoatFallback:
         m_Texture: {fileID: 0}
@@ -264,7 +267,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlitterColorMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 5c4dcd6a4d55c704a830a6e4145c556f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlitterMask:
@@ -272,7 +275,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlitterTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 228718385c4656648941cb2d2e1d1395, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlobalMaskTexture0:
@@ -308,8 +311,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightingAOMaps:
-        m_Texture: {fileID: 2800000, guid: 20a2efaf3d79baa44ab8c4385e577120, type: 3}
-        m_Scale: {x: 10, y: 10}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightingDetailShadowMaps:
         m_Texture: {fileID: 0}
@@ -329,7 +332,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: e5495312dcc4e6147afd194adc7cdaec, type: 3}
-        m_Scale: {x: 10, y: 10}
+        m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
         m_Texture: {fileID: 0}
@@ -388,8 +391,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MochieMetallicMaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: ba50b840410b51644a03de6fb9c8722e, type: 3}
+        m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _MochieReflCube:
         m_Texture: {fileID: 0}
@@ -852,7 +855,7 @@ Material:
     - _BlueTextureUV: 0
     - _BumpMapStochastic: 0
     - _BumpMapUV: 0
-    - _BumpScale: 1
+    - _BumpScale: 2.2
     - _CCIgnoreCastedShadows: 0
     - _CameraAngleMax: 90
     - _CameraAngleMin: 45
@@ -1162,7 +1165,7 @@ Material:
     - _DissolveEdgeHueShift: 0
     - _DissolveEdgeHueShiftEnabled: 0
     - _DissolveEdgeHueShiftSpeed: 0
-    - _DissolveEdgeWidth: 0.025
+    - _DissolveEdgeWidth: 0.062
     - _DissolveHueShift: 0
     - _DissolveHueShiftEnabled: 0
     - _DissolveHueShiftSpeed: 0
@@ -1187,8 +1190,8 @@ Material:
     - _DistortionFlowTextureUV: 0
     - _DistortionMaskChannel: 0
     - _DistortionMaskUV: 0
-    - _DistortionStrength: 0.03
-    - _DistortionStrength1: 0.01
+    - _DistortionStrength: 61.71
+    - _DistortionStrength1: 31.73
     - _DistortionStrength1AudioLinkBand: 0
     - _DistortionStrengthAudioLinkBand: 0
     - _DistortionUvToDistort: 0
@@ -1420,41 +1423,41 @@ Material:
     - _GlitterALEnabled: 0
     - _GlitterALMaxBrightnessBand: 0
     - _GlitterALSizeAddBand: 0
-    - _GlitterAngleRange: 0
-    - _GlitterBias: 0.756
-    - _GlitterBlendType: 0
+    - _GlitterAngleRange: 59
+    - _GlitterBias: 0.401
+    - _GlitterBlendType: 1
     - _GlitterBrightness: 40
     - _GlitterCenterSize: 0.08
     - _GlitterColorMapUV: 0
     - _GlitterColorThemeIndex: 0
-    - _GlitterContrast: 300
+    - _GlitterContrast: 295
     - _GlitterEnable: 1
-    - _GlitterFrequency: 300
-    - _GlitterHideInShadow: 0
+    - _GlitterFrequency: 253.57
+    - _GlitterHideInShadow: 0.435
     - _GlitterHueShift: 0
     - _GlitterHueShiftEnabled: 0
     - _GlitterHueShiftSpeed: 0
     - _GlitterJaggyFix: 0
     - _GlitterLayers: 2
-    - _GlitterMaskChannel: 0
+    - _GlitterMaskChannel: 3
     - _GlitterMaskGlobalMask: 0
-    - _GlitterMaskGlobalMaskBlendType: 2
+    - _GlitterMaskGlobalMaskBlendType: 1
     - _GlitterMaskInvert: 0
     - _GlitterMaskUV: 0
     - _GlitterMinBrightness: 0
     - _GlitterMode: 0
-    - _GlitterRandomColors: 1
+    - _GlitterRandomColors: 0
     - _GlitterRandomLocation: 1
     - _GlitterRandomRotation: 0
     - _GlitterRandomSize: 1
-    - _GlitterScaleWithLighting: 0
+    - _GlitterScaleWithLighting: 1
     - _GlitterShape: 0
     - _GlitterSize: 0.168
-    - _GlitterSpeed: 5
-    - _GlitterTextureRotation: 0
+    - _GlitterSpeed: 2.93
+    - _GlitterTextureRotation: 0.1
     - _GlitterUV: 0
     - _GlitterUseNormals: 1
-    - _GlitterUseSurfaceColor: 1
+    - _GlitterUseSurfaceColor: 0
     - _GlobalMaskBackface_0: 0
     - _GlobalMaskBackface_1: 0
     - _GlobalMaskBackface_10: 0
@@ -1747,8 +1750,8 @@ Material:
     - _LightDataAOGlobalMaskR: 0
     - _LightDataAOStrengthA: 0
     - _LightDataAOStrengthB: 0
-    - _LightDataAOStrengthG: 1
-    - _LightDataAOStrengthR: 0
+    - _LightDataAOStrengthG: 0
+    - _LightDataAOStrengthR: 1
     - _LightDataDebugEnabled: 0
     - _LightDataDetailShadowGlobalMaskBlendTypeR: 2
     - _LightDataDetailShadowGlobalMaskR: 0
@@ -1763,16 +1766,16 @@ Material:
     - _LightingAddDetailShadowStrengthR: 1
     - _LightingAdditiveCastedShadows: 1
     - _LightingAdditiveEnable: 1
-    - _LightingAdditiveGradientEnd: 0.207
+    - _LightingAdditiveGradientEnd: 0.5
     - _LightingAdditiveGradientStart: 0
     - _LightingAdditiveLimit: 1
     - _LightingAdditiveLimited: 1
     - _LightingAdditiveMonochromatic: 0
     - _LightingAdditivePassthrough: 0.5
-    - _LightingAdditiveType: 0
+    - _LightingAdditiveType: 3
     - _LightingCap: 1
     - _LightingCapEnabled: 1
-    - _LightingCastedShadows: 0
+    - _LightingCastedShadows: 1
     - _LightingColorMode: 0
     - _LightingDebugVisualize: 0
     - _LightingDetailShadowMapsUV: 0
@@ -2022,7 +2025,7 @@ Material:
     - _MirrorTextureEnabled: 0
     - _MirrorTextureForceEnabled: 0
     - _MirrorTextureUV: 0
-    - _MochieBRDF: 0
+    - _MochieBRDF: 1
     - _MochieForceFallback: 0
     - _MochieGSAAEnabled: 1
     - _MochieLitFallback: 1
@@ -2030,8 +2033,8 @@ Material:
     - _MochieMetallicGlobalMaskBlendType: 2
     - _MochieMetallicMapInvert: 0
     - _MochieMetallicMapsMetallicChannel: 0
-    - _MochieMetallicMapsReflectionMaskChannel: 2
-    - _MochieMetallicMapsRoughnessChannel: 1
+    - _MochieMetallicMapsReflectionMaskChannel: 3
+    - _MochieMetallicMapsRoughnessChannel: 3
     - _MochieMetallicMapsSpecularMaskChannel: 3
     - _MochieMetallicMapsStochastic: 0
     - _MochieMetallicMapsUV: 0
@@ -2138,8 +2141,8 @@ Material:
     - _ParallaxInternalBlendMode: 0
     - _ParallaxInternalHeightFromAlpha: 0
     - _ParallaxInternalHeightmapMode: 0
-    - _ParallaxInternalHueShift: 0
-    - _ParallaxInternalHueShiftEnabled: 0
+    - _ParallaxInternalHueShift: 0.369
+    - _ParallaxInternalHueShiftEnabled: 1
     - _ParallaxInternalHueShiftPerLevel: 0
     - _ParallaxInternalHueShiftSpeed: 0
     - _ParallaxInternalIterations: 4
@@ -2147,10 +2150,10 @@ Material:
     - _ParallaxInternalMapMaskUV: 0
     - _ParallaxInternalMaxColorThemeIndex: 0
     - _ParallaxInternalMaxDepth: 0.1
-    - _ParallaxInternalMaxFade: 0.1
+    - _ParallaxInternalMaxFade: 3.94
     - _ParallaxInternalMinColorThemeIndex: 0
     - _ParallaxInternalMinDepth: 0
-    - _ParallaxInternalMinFade: 1
+    - _ParallaxInternalMinFade: 0
     - _ParallaxInternalSurfaceBlendMode: 8
     - _ParallaxUV: 0
     - _PathALAutoCorrelator: 0
@@ -2435,7 +2438,7 @@ Material:
     - _ShaderOptimizerEnabled: 0
     - _ShaderUIWarning0: -0
     - _ShaderUIWarning1: -0
-    - _ShadingEnabled: 0
+    - _ShadingEnabled: 1
     - _ShadingRampedLightMapApplyGlobalMaskBlendType: 2
     - _ShadingRampedLightMapApplyGlobalMaskIndex: 0
     - _ShadingRampedLightMapInverseApplyGlobalMaskBlendType: 2
@@ -2822,7 +2825,7 @@ Material:
     - m_end_videoEffects: 0
     - m_end_voronoi: 0
     - m_end_voronoiRandom: 0
-    - m_lightingCategory: 1
+    - m_lightingCategory: 0
     - m_mainCategory: 1
     - m_modifierCategory: 0
     - m_renderingCategory: 0
@@ -2896,7 +2899,7 @@ Material:
     - m_start_PPAnimations: 0
     - m_start_PathAudioLink: 0
     - m_start_PoiGlobalCategory: 0
-    - m_start_PoiLightData: 1
+    - m_start_PoiLightData: 0
     - m_start_PoiPostProcessingCategory: 0
     - m_start_PoiShading: 0
     - m_start_PoiUVCategory: 0
@@ -2927,7 +2930,7 @@ Material:
     - m_start_backlight: 0
     - m_start_bakedLighting: 0
     - m_start_blending: 0
-    - m_start_brdf: 1
+    - m_start_brdf: 0
     - m_start_clearCoat: 0
     - m_start_clearcoatadvanced: 0
     - m_start_clearcoatglobalmask: 0
@@ -3247,15 +3250,15 @@ Material:
     - s_start_GlitterAudioLink: 0
     - s_start_GlitterColorAndShape: 1
     - s_start_GlitterHueShiftSection: 0
-    - s_start_GlitterMask: 0
+    - s_start_GlitterMask: 1
     - s_start_GlitterPositionSize: 1
-    - s_start_GlitterRotationSection: 0
+    - s_start_GlitterRotationSection: 1
     - s_start_GlitterSparkleControl: 1
     - s_start_GlobalMaskOptionsForceToggles: 0
     - s_start_GlobalMaskOptionsMinMaxSliders: 0
     - s_start_GlobalMaskOptionsSliders: 0
     - s_start_LightDataAddPass: 1
-    - s_start_LightDataBasePass: 1
+    - s_start_LightDataBasePass: 0
     - s_start_LightDataDebug: 0
     - s_start_LocalRotation: 0
     - s_start_LocalTranslation: 0
@@ -3303,7 +3306,7 @@ Material:
     - s_start_OutlineRenderingOptions: 0
     - s_start_PBRSecondSpecular: 0
     - s_start_PBRSplitMaskSample: 0
-    - s_start_ParallaxInternalHueShift: 0
+    - s_start_ParallaxInternalHueShift: 1
     - s_start_ParallaxInternalLayerColoring: 1
     - s_start_ParallaxInternalLayerControls: 1
     - s_start_Positioning: 1
@@ -3465,7 +3468,7 @@ Material:
     - _ClearCoatReflectionTint: {r: 1, g: 1, b: 1, a: 1}
     - _ClearCoatSpecularTint: {r: 1, g: 1, b: 1, a: 1}
     - _ClothMetallicSmoothnessMapPan: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.15117498, g: 0.1183299, b: 0.19496846, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _CubeMapColor: {r: 1, g: 1, b: 1, a: 1}
     - _CubeMapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _CubeMapRotation: {r: 0, g: 0, b: 0, a: 0}
@@ -3547,14 +3550,14 @@ Material:
     - _GlitterALAlphaAdd: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterALMaxBrightnessAdd: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterALSizeAdd: {r: 0, g: 0, b: 0, a: 0}
-    - _GlitterColor: {r: 0, g: 0.36900854, b: 1, a: 1}
-    - _GlitterColorMapPan: {r: 0, g: 0, b: 0, a: 0}
+    - _GlitterColor: {r: 0, g: 1, b: 0.659116, a: 1}
+    - _GlitterColorMapPan: {r: 1, g: 1, b: 0, a: 0}
     - _GlitterMaskPan: {r: 0, g: 0, b: 0, a: 0}
-    - _GlitterMinMaxBrightness: {r: 0.3841035, g: 1, b: 0, a: 1}
-    - _GlitterMinMaxSaturation: {r: 0.7399262, g: 1, b: 0, a: 1}
-    - _GlitterMinMaxSize: {r: 0.04454723, g: 0.2134937, b: 0, a: 1}
-    - _GlitterRandomRotationSpeed: {r: 0, g: 0, b: 0, a: 0}
-    - _GlitterUVPanning: {r: 0, g: 0, b: 0, a: 0}
+    - _GlitterMinMaxBrightness: {r: 0.49038845, g: 1, b: 0, a: 1}
+    - _GlitterMinMaxSaturation: {r: 0.9062848, g: 1, b: 0, a: 1}
+    - _GlitterMinMaxSize: {r: 0.24029577, g: 0.7042514, b: 0, a: 1}
+    - _GlitterRandomRotationSpeed: {r: -20, g: 20, b: 0, a: 0}
+    - _GlitterUVPanning: {r: 0.001, g: 0.001, b: 0, a: 0}
     - _GlobalMaskMinMaxSlider_0: {r: 0, g: 1, b: 0, a: 1}
     - _GlobalMaskMinMaxSlider_1: {r: 0, g: 1, b: 0, a: 1}
     - _GlobalMaskMinMaxSlider_10: {r: 0, g: 1, b: 0, a: 1}
