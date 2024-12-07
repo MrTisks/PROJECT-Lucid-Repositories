@@ -348,24 +348,24 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 5792}
+      scrollPos: {x: 0, y: 4068.6}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c07fffff9e80ffffc084ffff9286ffff068bffffa88bffff4690ffff2093ffff7894ffffbc98ffffbcdf00006ce20000
+      m_ExpandedIDs: 3e7ed3ff6494ecff8c9afffff6a0ffffcca2ffff30aeffff1cafffff68b4ffffe2b6ffffecd50000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Pillow 2 Low Poly (42)
-        m_OriginalName: Pillow 2 Low Poly (42)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -30296
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 4
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -844,9 +844,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -59.933743, y: 15.606158, z: -6.261727}
+    m_Target: {x: -57.71927, y: 14.071951, z: -0.85424274}
     speed: 2
-    m_Value: {x: -59.933743, y: 15.606158, z: -6.261727}
+    m_Value: {x: -57.71927, y: 14.071951, z: -0.85424274}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -892,13 +892,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.06868271, y: -0.8320812, z: 0.10764403, w: 0.5403088}
+    m_Target: {x: 0.043804392, y: 0.9544118, z: -0.25697973, w: 0.1482598}
     speed: 2
-    m_Value: {x: 0.068791285, y: -0.831184, z: 0.107529424, w: 0.54114527}
+    m_Value: {x: 0.04347773, y: 0.9541883, z: -0.2569242, w: 0.14705266}
   m_Size:
-    m_Target: 1.6461488
+    m_Target: 4.3024063
     speed: 2
-    m_Value: 1.6487068
+    m_Value: 4.3024063
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -969,7 +969,7 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/4_Fairy Forest/Meshes
+    - Assets/4_Fairy Forest/Materials
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -977,16 +977,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/4_Fairy Forest/Meshes
+  - Assets/4_Fairy Forest/Materials
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\Ellie\Documents\LUCIDrepositries
   m_LockTracker:
-    m_IsLocked: 0
+    m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 40dc0000
-    m_LastClickedID: 56384
-    m_ExpandedIDs: 000000007a64000002da000004da000000ca9a3bffffff7f
+    m_SelectedIDs: 92cf0000
+    m_LastClickedID: 53138
+    m_ExpandedIDs: 000000007464000050cd000052cd000092cf000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1014,7 +1014,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007a64000002da000004da0000
+    m_ExpandedIDs: 000000007464000050cd000052cd0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1066,7 +1066,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 131.59998}
     m_GridSize: 96
   m_SkipHiddenPackages: 1
   m_DirectoriesAreaWidth: 207

@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pillow 3
+  m_Name: Pillow 8 alt 1
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_Parent: {fileID: 2100000, guid: 88265b63ed3223a4f871fbc4ff356662, type: 2}
+  m_Parent: {fileID: 2100000, guid: 94ed1744e50eae640af6392426ee5ccf, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _METALLICGLOSSMAP
@@ -26,23 +26,23 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: a553de101f82a154091ded77094e5a02, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5595a8343c8e07040882701557d8134d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7691058f0ce6d944fa94ea08cc4a2f26, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: c57058912b37f39409e3c36169a91759, type: 3}
+        m_Texture: {fileID: 2800000, guid: b68822c85d8b9384b9bd4f2fbdbcb974, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: c57058912b37f39409e3c36169a91759, type: 3}
+        m_Texture: {fileID: 2800000, guid: b68822c85d8b9384b9bd4f2fbdbcb974, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _Color: {r: 0.60669065, g: 0.20392157, b: 1, a: 1}
+    - _Color: {r: 1, g: 0.5264151, b: 0.5264151, a: 1}
   m_BuildTextureStacks: []
