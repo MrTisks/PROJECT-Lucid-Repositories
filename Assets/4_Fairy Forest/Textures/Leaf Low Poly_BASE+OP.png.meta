@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: f35a640f5da90b043b2bb5b43ceef171
+=======
+guid: 33f35805a5a17054187c87a04530b968
+>>>>>>> MrTisks/PROJECT_Lucid
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
