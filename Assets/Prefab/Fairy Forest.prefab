@@ -5034,16 +5034,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4115262445998478001}
     m_Modifications:
-    - target: {fileID: -7635826562936255635, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 9790ea02a9f0da340912e13f8468e17a, type: 2}
-    - target: {fileID: 8164078558771037576, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4d422a7d44f1d5d44817ac24b16cb9cf,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -5125,6 +5115,16 @@ PrefabInstance:
       value: Curved Tree Low Poly (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4d422a7d44f1d5d44817ac24b16cb9cf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9790ea02a9f0da340912e13f8468e17a, type: 2}
+    - target: {fileID: 8164078558771037576, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -20823,16 +20823,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4115262445998478001}
     m_Modifications:
-    - target: {fileID: -7635826562936255635, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 9790ea02a9f0da340912e13f8468e17a, type: 2}
-    - target: {fileID: 8164078558771037576, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4d422a7d44f1d5d44817ac24b16cb9cf,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -20914,6 +20904,16 @@ PrefabInstance:
       value: Curved Tree Low Poly (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4d422a7d44f1d5d44817ac24b16cb9cf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9790ea02a9f0da340912e13f8468e17a, type: 2}
+    - target: {fileID: 8164078558771037576, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -24019,16 +24019,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4115262445998478001}
     m_Modifications:
-    - target: {fileID: -7635826562936255635, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 9790ea02a9f0da340912e13f8468e17a, type: 2}
-    - target: {fileID: 8164078558771037576, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4d422a7d44f1d5d44817ac24b16cb9cf,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -24110,6 +24100,16 @@ PrefabInstance:
       value: Curved Tree Low Poly (4)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4d422a7d44f1d5d44817ac24b16cb9cf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9790ea02a9f0da340912e13f8468e17a, type: 2}
+    - target: {fileID: 8164078558771037576, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -31186,6 +31186,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7635826562936255635, guid: dff9258d9ea443345972f5cd60527389,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: dff9258d9ea443345972f5cd60527389,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: aa076b96da80d2e4d829b78306124c04, type: 2}
@@ -31202,7 +31207,7 @@ PrefabInstance:
     - target: {fileID: 8164078558771037576, guid: dff9258d9ea443345972f5cd60527389,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 126
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31703,16 +31708,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4115262445998478001}
     m_Modifications:
-    - target: {fileID: -7635826562936255635, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 9790ea02a9f0da340912e13f8468e17a, type: 2}
-    - target: {fileID: 8164078558771037576, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4d422a7d44f1d5d44817ac24b16cb9cf,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -31794,6 +31789,16 @@ PrefabInstance:
       value: Curved Tree Low Poly
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4d422a7d44f1d5d44817ac24b16cb9cf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9790ea02a9f0da340912e13f8468e17a, type: 2}
+    - target: {fileID: 8164078558771037576, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -49949,16 +49954,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4115262445998478001}
     m_Modifications:
-    - target: {fileID: -7635826562936255635, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5eb1b1882274a9c42b4816b9ccfc5d91, type: 2}
-    - target: {fileID: 8164078558771037576, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4d422a7d44f1d5d44817ac24b16cb9cf,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -50040,6 +50035,16 @@ PrefabInstance:
       value: Curved Tree Low Poly (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4d422a7d44f1d5d44817ac24b16cb9cf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5eb1b1882274a9c42b4816b9ccfc5d91, type: 2}
+    - target: {fileID: 8164078558771037576, guid: 8dd2ced53f4fbd74ba31e7b6bfd2bcf0,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
