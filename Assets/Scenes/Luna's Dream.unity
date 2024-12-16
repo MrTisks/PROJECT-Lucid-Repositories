@@ -588,7 +588,7 @@ Transform:
   m_GameObject: {fileID: 1069902874}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 5.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1614,6 +1614,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7204874344684397968, guid: 1d06cf6cbaefed34eb9077b347e903ae,
+        type: 3}
+      propertyPath: m_Name
+      value: ROCKS old
+      objectReference: {fileID: 0}
     - target: {fileID: 8011748496191824584, guid: 1d06cf6cbaefed34eb9077b347e903ae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1670,7 +1675,8 @@ PrefabInstance:
       value: Magic Pools
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6592199284240528231, guid: 1d06cf6cbaefed34eb9077b347e903ae, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d06cf6cbaefed34eb9077b347e903ae, type: 3}
