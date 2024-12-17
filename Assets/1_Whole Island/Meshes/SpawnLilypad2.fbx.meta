@@ -3,7 +3,12 @@ guid: f33168d026c23b64e8c79008e1628293
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lilypads_mat
+    second: {fileID: 2100000, guid: e6e009fb21625ed4a9b21fd717d5b1bc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
