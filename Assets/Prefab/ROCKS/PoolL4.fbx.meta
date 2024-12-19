@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: XSmat
-    second: {fileID: 2100000, guid: 5a89fa7fbc51e024e90f61993e7b238a, type: 2}
+    second: {fileID: 2100000, guid: 6da1a19437f422b4ab93cd0fdf5060b1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
