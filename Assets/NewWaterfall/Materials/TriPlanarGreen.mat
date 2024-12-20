@@ -2,24 +2,20 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 8
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TriPlanarGreen
   m_Shader: {fileID: 4800000, guid: fb8206817e9319d46ad531906a2647aa, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -44,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b9d49b48b72fbc042a06e608b9b26698, type: 3}
+        m_Texture: {fileID: 2800000, guid: f8e81a3345f76214f9de6e29ef4d05a4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexBottom:
@@ -64,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise:
-        m_Texture: {fileID: 2800000, guid: b9d49b48b72fbc042a06e608b9b26698, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2c454852d9347a24494289ee3c64e610, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
@@ -87,7 +83,6 @@ Material:
         m_Texture: {fileID: 2800000, guid: 09fd6ac256831d64d9dcc3cc4b1f6783, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -107,11 +102,11 @@ Material:
     - _MergeY: -0.61
     - _Metallic: 0
     - _Mode: 0
-    - _NoiseScale: 2
+    - _NoiseScale: 0.62
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RimPower: 2.9
-    - _Scale: 0.18
+    - _Scale: 0.55
     - _SideScale: 0.31
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -120,7 +115,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.36163503, g: 0.7301221, b: 1, a: 1}
+    - _Color: {r: 0.5188679, g: 0.7969249, b: 1, a: 1}
     - _Color2: {r: 0.73671407, g: 1, b: 0.13235295, a: 1}
     - _EdgeColor: {r: 0.21774122, g: 0, b: 0.3301887, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
@@ -128,4 +123,3 @@ Material:
     - _RimColor: {r: 0.3842478, g: 0, b: 0.38679248, a: 0.709}
     - _RimColor2: {r: 0.08823532, g: 0.0012975795, b: 0.0012975795, a: 1}
     - _TopColor: {r: 0.75, g: 0, b: 0, a: 1}
-  m_BuildTextureStacks: []
