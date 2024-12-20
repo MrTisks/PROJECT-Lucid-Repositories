@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: PoolPlanesMat
+    second: {fileID: 2100000, guid: 37b61f88edd8dc542aa3b67c8898ae90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: XSmat
     second: {fileID: 2100000, guid: 5a89fa7fbc51e024e90f61993e7b238a, type: 2}
   materials:
