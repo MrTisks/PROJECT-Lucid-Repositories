@@ -2,20 +2,25 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ReflectivePond
   m_Shader: {fileID: 4800000, guid: 2ecd2903d107ab243b62d6869ae2eef8, type: 3}
-  m_ShaderKeywords: VERTEX
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - VERTEX
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -35,11 +40,12 @@ Material:
         m_Texture: {fileID: 2800000, guid: 7b99b9eccb5c6f84a9189d8e44803e8b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _Amount: 10
     - _BrightNess: 1.698
     - _Brightness: 2
-    - _DepthOffset: 0.3
+    - _DepthOffset: -5.1
     - _Distort: 0.279
     - _EdgeWidth: 0.26
     - _EdgeWidth2: -0.3
@@ -51,7 +57,7 @@ Material:
     - _FresnelScale3: 0.69
     - _Height: 0.323
     - _HorSpeed: 0.29
-    - _Metallic: 0.022
+    - _Metallic: 0
     - _NoiseScale: 0.016
     - _RIM: 0
     - _Reflectivity: 0.48
@@ -60,7 +66,7 @@ Material:
     - _Softness: 0.03
     - _Speed: 0.5
     - _SpeedV: 4.41
-    - _Stretch: 1.18
+    - _Stretch: 0.16
     - _Test: 0.03
     - _TopScale: 0.256
     - _TopSpread: 1.53
@@ -69,5 +75,6 @@ Material:
     m_Colors:
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 0, g: 0.36950952, b: 0.4811321, a: 1}
-    - _TColor: {r: 0, g: 0.7411766, b: 1, a: 0}
-    - _WaterColor: {r: 0, g: 1, b: 1, a: 0.2901961}
+    - _TColor: {r: 0.33333302, g: 0, b: 1, a: 0}
+    - _WaterColor: {r: 0, g: 0.7370963, b: 1, a: 0.2901961}
+  m_BuildTextureStacks: []
