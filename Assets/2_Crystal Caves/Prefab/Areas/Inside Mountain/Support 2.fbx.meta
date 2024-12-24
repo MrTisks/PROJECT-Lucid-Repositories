@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Support_2_Mat
+    second: {fileID: 2100000, guid: e41a493a0b408b24d8bada645079a57a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: XSmat
     second: {fileID: 2100000, guid: 5a89fa7fbc51e024e90f61993e7b238a, type: 2}
   materials:
