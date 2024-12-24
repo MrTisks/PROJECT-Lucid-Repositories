@@ -42,39 +42,39 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amount: 0
+    - _Amount: 4.02
     - _BrightNess: 1.698
     - _Brightness: 2
-    - _DepthOffset: 0
+    - _DepthOffset: -0.8
     - _Distort: 1
-    - _EdgeWidth: 0.26
+    - _EdgeWidth: 1.73
     - _EdgeWidth2: -0.3
-    - _Foam: 34.9
-    - _FresnelBias: 0.6
-    - _FresnelPower: 0.6
-    - _FresnelScale: 0
+    - _Foam: 1
+    - _FresnelBias: 0.61
+    - _FresnelPower: 1.27
+    - _FresnelScale: 0.07
     - _FresnelScale2: 0.94
     - _FresnelScale3: 0.69
-    - _Height: 0
-    - _HorSpeed: 0.09
+    - _Height: 0.015
+    - _HorSpeed: 0.06
     - _Metallic: 0
-    - _NoiseScale: 0.016
+    - _NoiseScale: 0.065
     - _RIM: 0
     - _Reflectivity: 0.48
     - _RimPower: 1
     - _Smoothness: 1
     - _Softness: 0.5
     - _Speed: 0.5
-    - _SpeedV: 0
-    - _Stretch: 0.48
+    - _SpeedV: 0.6
+    - _Stretch: 0.55
     - _Test: 0.03
-    - _TopScale: 0.166
-    - _TopSpread: 1.53
+    - _TopScale: 0.118
+    - _TopSpread: -0.63
     - _VERTEX: 1
-    - _VertSpeed: 43.8
+    - _VertSpeed: 6.2
     m_Colors:
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
-    - _RimColor: {r: 0, g: 0.36950952, b: 0.4811321, a: 1}
-    - _TColor: {r: 0, g: 0.7411766, b: 1, a: 0}
+    - _FoamColor: {r: 0.10457456, g: 0.8867924, b: 0.83622813, a: 1}
+    - _RimColor: {r: 0, g: 0.42517543, b: 0.5660378, a: 1}
+    - _TColor: {r: 0, g: 0.8565588, b: 1, a: 0}
     - _WaterColor: {r: 0, g: 1, b: 1, a: 0.2901961}
   m_BuildTextureStacks: []
