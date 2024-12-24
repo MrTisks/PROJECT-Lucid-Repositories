@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Inner_Mat Variant
+  m_Shader: {fileID: 4800000, guid: 68d4032c05798c44eafe02f272e6895c, type: 3}
+  m_Parent: {fileID: 2100000, guid: 08e63796899f9fa49ba6a4aab15c1858, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - BSSBLOOMFOGTYPE_HEIGHT
+  - MOCHIE_PBR
+  - VIGNETTE_MASKED
+  - _LIGHTINGMODE_REALISTIC
+  - _RIM2STYLE_POIYOMI
+  - _RIMSTYLE_POIYOMI
+  - _STOCHASTICMODE_DELIOT_HEITZ
+  - _SUNDISK_SIMPLE
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Cutoff: 0
+    m_Colors:
+    - _Color: {r: 0.335849, g: 0.335849, b: 0.335849, a: 1}
+  m_BuildTextureStacks: []

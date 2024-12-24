@@ -37,7 +37,9 @@ Material:
     m_Floats:
     - _BumpScale: 2
     - _GlossMapScale: 1
+    - _GlossyReflections: 1
     - _OcclusionStrength: 1
+    - _SpecularHighlights: 1
     m_Colors:
-    - _Color: {r: 0.055224013, g: 0.055224013, b: 0.468, a: 1}
+    - _Color: {r: 0.38116762, g: 0.38116762, b: 0.4867924, a: 1}
   m_BuildTextureStacks: []
