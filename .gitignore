@@ -65,3 +65,7 @@ crashlytics-build.properties
 UserSettings/EditorUserSettings.asset
 
 Thry/presets_known_materials.txt
+
+ProjectSettings/Packages/com.unity.probuilder/
+
+UserSettings/Layouts/
