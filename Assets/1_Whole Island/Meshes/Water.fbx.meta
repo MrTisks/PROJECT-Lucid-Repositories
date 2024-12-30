@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ReflectivePond
-    second: {fileID: 2100000, guid: 22b3e12d45bd8b2428e4937ecb06f6ce, type: 2}
+    second: {fileID: 2100000, guid: 9fe7485ca02c10346ae6e102c4a2872a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

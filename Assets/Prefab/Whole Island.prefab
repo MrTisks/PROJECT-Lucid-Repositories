@@ -6893,6 +6893,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 14ddd62c8f4f26b4abc3df322553304b,
         type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 14ddd62c8f4f26b4abc3df322553304b,
+        type: 3}
       propertyPath: m_LightProbeUsage
       value: 1
       objectReference: {fileID: 0}
@@ -6905,11 +6910,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8e7a89fec4dd8374b894eeed1298d1b3, type: 2}
+      objectReference: {fileID: 2100000, guid: 9fe7485ca02c10346ae6e102c4a2872a, type: 2}
     - target: {fileID: 919132149155446097, guid: 14ddd62c8f4f26b4abc3df322553304b,
         type: 3}
       propertyPath: m_Name
       value: Water (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 14ddd62c8f4f26b4abc3df322553304b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 14ddd62c8f4f26b4abc3df322553304b,
         type: 3}
