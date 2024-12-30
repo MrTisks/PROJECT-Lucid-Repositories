@@ -45,7 +45,7 @@ Material:
     - _Amount: 4.02
     - _BrightNess: 1.698
     - _Brightness: 2
-    - _DepthOffset: -0.8
+    - _DepthOffset: 2.8
     - _Distort: 1
     - _EdgeWidth: 1.73
     - _EdgeWidth2: -0.3
@@ -66,7 +66,7 @@ Material:
     - _Softness: 0.5
     - _Speed: 0.5
     - _SpeedV: 0.6
-    - _Stretch: 0.55
+    - _Stretch: 0.15
     - _Test: 0.03
     - _TopScale: 0.118
     - _TopSpread: -0.63

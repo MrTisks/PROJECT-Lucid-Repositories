@@ -63,7 +63,7 @@ Material:
     - _RIM: 1
     - _Reflectivity: 0.558
     - _RimPower: 20
-    - _Smoothness: 0.732
+    - _Smoothness: 1
     - _Softness: 0.033
     - _Speed: 0.5
     - _SpeedV: 10
