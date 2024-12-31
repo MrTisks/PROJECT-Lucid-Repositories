@@ -7,12 +7,22 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: MOD_Rock_Tile
+    second: {fileID: 2100000, guid: 401cd005ae8890844b3ebfc843329edf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Place_holder
+    second: {fileID: 2100000, guid: 230adae50093ab7488f348072a9889e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: XSmat
     second: {fileID: 2100000, guid: 5a89fa7fbc51e024e90f61993e7b238a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
-    materialSearch: 1
+    materialSearch: 2
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
