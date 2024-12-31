@@ -35,11 +35,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BumpScale: 2
+    - _BumpScale: 1
     - _GlossMapScale: 1
     - _GlossyReflections: 1
     - _OcclusionStrength: 1
     - _SpecularHighlights: 1
     m_Colors:
-    - _Color: {r: 0.38116762, g: 0.38116762, b: 0.4867924, a: 1}
+    - _Color: {r: 0.60641456, g: 0.52643293, b: 0.6603774, a: 1}
   m_BuildTextureStacks: []
