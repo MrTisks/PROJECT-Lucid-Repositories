@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 14ddd62c8f4f26b4abc3df322553304b
+guid: a67d0f8e82f416d44a21178621402d6b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ReflectivePond
-    second: {fileID: 2100000, guid: 9fe7485ca02c10346ae6e102c4a2872a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

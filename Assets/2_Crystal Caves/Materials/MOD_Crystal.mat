@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MOD_Crystal
-  m_Shader: {fileID: 4800000, guid: afb232933361f1a43bc429759aab0b77, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -55,6 +55,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: c55abaa1f3806f84e87f233fb8d5c5aa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainTexSide:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MatCap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -64,6 +68,18 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalT:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -125,10 +141,11 @@ Material:
     - _DetailNormalMapScale: 1
     - _DirectLightBoost: 1
     - _DstBlend: 0
+    - _EdgeWidth: 1
     - _EmissionMapIsTint: 0
     - _EmissionPremultiply: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.4472136
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _HueShiftAmount: 0
     - _HueShiftAmountOverTime: 0.45
@@ -146,6 +163,7 @@ Material:
     - _Metallic: 0
     - _MetallicMode: 0
     - _Mode: 0
+    - _NoiseScale: 1
     - _OcclusionStrength: 1
     - _OverrideWorldLightDir: 0
     - _Parallax: 0.02
@@ -154,12 +172,15 @@ Material:
     - _RampTinting: 0
     - _RimInvert: 0
     - _RimLightMode: 0
+    - _RimPower: 1
     - _RimWidth: 0.75
     - _Saturation: 1
     - _SaturationB: 1
     - _SaturationG: 1
     - _SaturationR: 1
+    - _Scale: 1
     - _ShaderOptimized: 0
+    - _SideScale: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularEnabled: 0
     - _SpecularHighlights: 1
@@ -181,6 +202,7 @@ Material:
     - _ToonRampOffsetB: 0
     - _ToonRampOffsetG: 0
     - _ToonRampOffsetR: 0
+    - _TopSpread: 1
     - _UVSec: 0
     - _VertexOffsetEnabled: 0
     - _ZTest: 4
@@ -188,9 +210,12 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DebugUVsOffset: {r: -0.5, g: -0.5, b: 0, a: 0}
+    - _EdgeColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _LightDirectionNudge: {r: 1, g: 1, b: 1, a: 1}
     - _MatCapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _RimColor2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 0.4}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}

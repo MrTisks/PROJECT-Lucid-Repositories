@@ -60,7 +60,7 @@ Material:
     - _Metallic: 0
     - _NoiseScale: 0.1
     - _RIM: 0
-    - _Reflectivity: 0.567
+    - _Reflectivity: 1
     - _RimPower: 1
     - _Smoothness: 1
     - _Softness: 0.5

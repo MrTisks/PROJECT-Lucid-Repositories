@@ -8,10 +8,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Inner_Mat Variant
-  m_Shader: {fileID: 4800000, guid: 68d4032c05798c44eafe02f272e6895c, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6b9519ffa87a9dc4caeee5dd0182ce79, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
   - MOCHIE_PBR
   - POSTPROCESS
@@ -21,12 +22,12 @@ Material:
   - _RIMSTYLE_POIYOMI
   - _STOCHASTICMODE_DELIOT_HEITZ
   - _SUNDISK_SIMPLE
-  m_InvalidKeywords: []
   m_LightmapFlags: 6
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
+    AllLockedGUIDS: e41a493a0b408b24d8bada645079a57a
     OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT MOCHIE_PBR POSTPROCESS VIGNETTE_MASKED
       _LIGHTINGMODE_REALISTIC _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
       _SUNDISK_SIMPLE
@@ -1400,7 +1401,7 @@ Material:
     - _GlitterALMaxBrightnessBand: 0
     - _GlitterALSizeAddBand: 0
     - _GlitterAngleRange: 59
-    - _GlitterBias: 0.401
+    - _GlitterBias: 0.011
     - _GlitterBlendType: 1
     - _GlitterBrightness: 40
     - _GlitterCenterSize: 0.08
@@ -1409,8 +1410,8 @@ Material:
     - _GlitterContrast: 295
     - _GlitterEnable: 1
     - _GlitterFrequency: 253.57
-    - _GlitterHideInShadow: 0.435
-    - _GlitterHueShift: 0
+    - _GlitterHideInShadow: 0
+    - _GlitterHueShift: 0.477
     - _GlitterHueShiftEnabled: 0
     - _GlitterHueShiftSpeed: 0
     - _GlitterJaggyFix: 0
@@ -1423,13 +1424,13 @@ Material:
     - _GlitterMinBrightness: 0
     - _GlitterMode: 0
     - _GlitterRandomColors: 0
-    - _GlitterRandomLocation: 1
+    - _GlitterRandomLocation: 0
     - _GlitterRandomRotation: 0
     - _GlitterRandomSize: 1
     - _GlitterScaleWithLighting: 1
     - _GlitterShape: 0
     - _GlitterSize: 0.168
-    - _GlitterSpeed: 2.93
+    - _GlitterSpeed: 2
     - _GlitterTextureRotation: 0.1
     - _GlitterUV: 0
     - _GlitterUseNormals: 1
@@ -1797,8 +1798,8 @@ Material:
     - _MainHueALMotionSpeed: 1
     - _MainHueGlobalMask: 0
     - _MainHueGlobalMaskBlendType: 2
-    - _MainHueShift: 0
-    - _MainHueShiftReplace: 0
+    - _MainHueShift: 0.949
+    - _MainHueShiftReplace: 1
     - _MainHueShiftSpeed: 0
     - _MainHueShiftToggle: 0
     - _MainPixelMode: 0
@@ -2037,7 +2038,7 @@ Material:
     - _ModelAngleMin: 45
     - _MultilayerMathBlurMapUV: 0
     - _NormalCorrect: 0
-    - _NormalCorrectAmount: 0
+    - _NormalCorrectAmount: 0.308
     - _OcclusionStrength: 1
     - _OffsetFactor: 0
     - _OffsetUnits: 0
@@ -2411,7 +2412,7 @@ Material:
     - _Set_RimLightMaskChannel: 1
     - _Set_RimLightMaskUV: 0
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 0
+    - _ShaderOptimizerEnabled: 1
     - _ShaderUIWarning0: -0
     - _ShaderUIWarning1: -0
     - _ShadingEnabled: 1
@@ -2875,9 +2876,9 @@ Material:
     - m_start_PPAnimations: 0
     - m_start_PathAudioLink: 0
     - m_start_PoiGlobalCategory: 0
-    - m_start_PoiLightData: 0
+    - m_start_PoiLightData: 1
     - m_start_PoiPostProcessingCategory: 1
-    - m_start_PoiShading: 0
+    - m_start_PoiShading: 1
     - m_start_PoiUVCategory: 0
     - m_start_RGBMask: 0
     - m_start_Rim2AudioLink: 0
@@ -2904,7 +2905,7 @@ Material:
     - m_start_audioLinkOverrides: 0
     - m_start_backFace: 0
     - m_start_backlight: 0
-    - m_start_bakedLighting: 0
+    - m_start_bakedLighting: 1
     - m_start_blending: 0
     - m_start_brdf: 1
     - m_start_clearCoat: 0
@@ -2929,7 +2930,7 @@ Material:
     - m_start_parallax: 0
     - m_start_pathing: 0
     - m_start_pointToPoint: 0
-    - m_start_postprocess: 1
+    - m_start_postprocess: 0
     - m_start_reflectionRim: 0
     - m_start_rim2LightOptions: 0
     - m_start_rimLight1Options: 0
@@ -3228,17 +3229,17 @@ Material:
     - s_start_GlitterHueShiftSection: 0
     - s_start_GlitterMask: 0
     - s_start_GlitterPositionSize: 1
-    - s_start_GlitterRotationSection: 1
+    - s_start_GlitterRotationSection: 0
     - s_start_GlitterSparkleControl: 1
     - s_start_GlobalMaskOptionsForceToggles: 0
     - s_start_GlobalMaskOptionsMinMaxSliders: 0
     - s_start_GlobalMaskOptionsSliders: 0
     - s_start_LightDataAddPass: 1
-    - s_start_LightDataBasePass: 0
+    - s_start_LightDataBasePass: 1
     - s_start_LightDataDebug: 0
     - s_start_LocalRotation: 0
     - s_start_LocalTranslation: 0
-    - s_start_MainHueShift: 1
+    - s_start_MainHueShift: 0
     - s_start_MainHueShiftAL: 0
     - s_start_MainHueShiftGlobalMask: 0
     - s_start_Matcap0AudioLink: 0
@@ -3444,7 +3445,7 @@ Material:
     - _ClearCoatReflectionTint: {r: 1, g: 1, b: 1, a: 1}
     - _ClearCoatSpecularTint: {r: 1, g: 1, b: 1, a: 1}
     - _ClothMetallicSmoothnessMapPan: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _CubeMapColor: {r: 1, g: 1, b: 1, a: 1}
     - _CubeMapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _CubeMapRotation: {r: 0, g: 0, b: 0, a: 0}
@@ -3526,12 +3527,12 @@ Material:
     - _GlitterALAlphaAdd: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterALMaxBrightnessAdd: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterALSizeAdd: {r: 0, g: 0, b: 0, a: 0}
-    - _GlitterColor: {r: 0, g: 1, b: 0.659116, a: 1}
-    - _GlitterColorMapPan: {r: 1, g: 1, b: 0, a: 0}
+    - _GlitterColor: {r: 0, g: 1.4807394, b: 1.9999999, a: 1}
+    - _GlitterColorMapPan: {r: 1, g: 0.5, b: 0, a: 0}
     - _GlitterMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterMinMaxBrightness: {r: 0.49038845, g: 1, b: 0, a: 1}
     - _GlitterMinMaxSaturation: {r: 0.9062848, g: 1, b: 0, a: 1}
-    - _GlitterMinMaxSize: {r: 0.24029577, g: 0.7042514, b: 0, a: 1}
+    - _GlitterMinMaxSize: {r: 0.29121876, g: 0.41780972, b: 0, a: 1}
     - _GlitterRandomRotationSpeed: {r: -20, g: 20, b: 0, a: 0}
     - _GlitterUVPanning: {r: 0.001, g: 0.001, b: 0, a: 0}
     - _GlobalMaskMinMaxSlider_0: {r: 0, g: 1, b: 0, a: 1}
@@ -3648,7 +3649,7 @@ Material:
     - _PBRMaskScaleTiling: {r: 1, g: 1, b: 0, a: 0}
     - _PPMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _PPRGB: {r: 1, g: 1, b: 1, a: 1}
-    - _PPTint: {r: 2, g: 2, b: 2, a: 1}
+    - _PPTint: {r: 5.9921575, g: 5.9921575, b: 5.9921575, a: 1}
     - _ParallaxInternalMapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _ParallaxInternalMapPan: {r: 0, g: 0, b: 1, a: 1}
     - _ParallaxInternalMaxColor: {r: 1, g: 1, b: 1, a: 1}
