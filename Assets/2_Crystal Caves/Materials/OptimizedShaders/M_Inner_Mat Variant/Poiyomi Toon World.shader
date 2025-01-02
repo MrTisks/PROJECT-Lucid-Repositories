@@ -3164,7 +3164,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 					}
 					glitterColor *= lerp(1, poiFragData.baseColor, (0.0 /*_GlitterUseSurfaceColor*/));
 					#if defined(PROP_GLITTERCOLORMAP) || !defined(OPTIMIZER_ENABLED)
-					glitterColor *= POI2D_SAMPLER_PAN(_GlitterColorMap, _MainTex, poiUV(poiMesh.uv[(7.0 /*_GlitterColorMapUV*/)], float4(1,1,0,0)), float4(1,0.5,0,0)).rgb;
+					glitterColor *= POI2D_SAMPLER_PAN(_GlitterColorMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_GlitterColorMapUV*/)], float4(1,1,0,0)), float4(1,0.5,0,0)).rgb;
 					#endif
 					float2 uv = remapClamped(-size, size, dank, 0, 1);
 					
@@ -3588,7 +3588,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 			{
 				float3 col = poiFragData.finalColor;
 				col = hueShift(col, (0.0 /*_PPHue*/));
-				col *= float4(5.992157,5.992157,5.992157,1);
+				col *= float4(1.498039,1.498039,1.498039,1);
 				col *= float4(1,1,1,1);
 				col = GetSaturation(col, (1.0 /*_PPSaturation*/));
 				col = lerp(col, GetHDR(col), (1.0 /*_PPHDR*/));
@@ -6855,7 +6855,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 					}
 					glitterColor *= lerp(1, poiFragData.baseColor, (0.0 /*_GlitterUseSurfaceColor*/));
 					#if defined(PROP_GLITTERCOLORMAP) || !defined(OPTIMIZER_ENABLED)
-					glitterColor *= POI2D_SAMPLER_PAN(_GlitterColorMap, _MainTex, poiUV(poiMesh.uv[(7.0 /*_GlitterColorMapUV*/)], float4(1,1,0,0)), float4(1,0.5,0,0)).rgb;
+					glitterColor *= POI2D_SAMPLER_PAN(_GlitterColorMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_GlitterColorMapUV*/)], float4(1,1,0,0)), float4(1,0.5,0,0)).rgb;
 					#endif
 					float2 uv = remapClamped(-size, size, dank, 0, 1);
 					
@@ -7279,7 +7279,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 			{
 				float3 col = poiFragData.finalColor;
 				col = hueShift(col, (0.0 /*_PPHue*/));
-				col *= float4(5.992157,5.992157,5.992157,1);
+				col *= float4(1.498039,1.498039,1.498039,1);
 				col *= float4(1,1,1,1);
 				col = GetSaturation(col, (1.0 /*_PPSaturation*/));
 				col = lerp(col, GetHDR(col), (1.0 /*_PPHDR*/));
@@ -12161,7 +12161,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 					}
 					glitterColor *= lerp(1, poiFragData.baseColor, (0.0 /*_GlitterUseSurfaceColor*/));
 					#if defined(PROP_GLITTERCOLORMAP) || !defined(OPTIMIZER_ENABLED)
-					glitterColor *= POI2D_SAMPLER_PAN(_GlitterColorMap, _MainTex, poiUV(poiMesh.uv[(7.0 /*_GlitterColorMapUV*/)], float4(1,1,0,0)), float4(1,0.5,0,0)).rgb;
+					glitterColor *= POI2D_SAMPLER_PAN(_GlitterColorMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_GlitterColorMapUV*/)], float4(1,1,0,0)), float4(1,0.5,0,0)).rgb;
 					#endif
 					float2 uv = remapClamped(-size, size, dank, 0, 1);
 					
@@ -12286,7 +12286,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 			{
 				float3 col = poiFragData.finalColor;
 				col = hueShift(col, (0.0 /*_PPHue*/));
-				col *= float4(5.992157,5.992157,5.992157,1);
+				col *= float4(1.498039,1.498039,1.498039,1);
 				col *= float4(1,1,1,1);
 				col = GetSaturation(col, (1.0 /*_PPSaturation*/));
 				col = lerp(col, GetHDR(col), (1.0 /*_PPHDR*/));

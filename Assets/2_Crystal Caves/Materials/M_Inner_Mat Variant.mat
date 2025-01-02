@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Inner_Mat Variant
-  m_Shader: {fileID: 4800000, guid: 6b9519ffa87a9dc4caeee5dd0182ce79, type: 3}
+  m_Shader: {fileID: 4800000, guid: adc3b1e094a16d54b8f1b32fd29710d2, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -28,6 +28,7 @@ Material:
   m_CustomRenderQueue: 2000
   stringTagMap:
     AllLockedGUIDS: e41a493a0b408b24d8bada645079a57a
+    OptimizedShaderFolder: e41a493a0b408b24d8bada645079a57a
     OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT MOCHIE_PBR POSTPROCESS VIGNETTE_MASKED
       _LIGHTINGMODE_REALISTIC _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
       _SUNDISK_SIMPLE
@@ -1405,7 +1406,7 @@ Material:
     - _GlitterBlendType: 1
     - _GlitterBrightness: 40
     - _GlitterCenterSize: 0.08
-    - _GlitterColorMapUV: 7
+    - _GlitterColorMapUV: 0
     - _GlitterColorThemeIndex: 0
     - _GlitterContrast: 295
     - _GlitterEnable: 1
@@ -2930,7 +2931,7 @@ Material:
     - m_start_parallax: 0
     - m_start_pathing: 0
     - m_start_pointToPoint: 0
-    - m_start_postprocess: 0
+    - m_start_postprocess: 1
     - m_start_reflectionRim: 0
     - m_start_rim2LightOptions: 0
     - m_start_rimLight1Options: 0
@@ -3649,7 +3650,7 @@ Material:
     - _PBRMaskScaleTiling: {r: 1, g: 1, b: 0, a: 0}
     - _PPMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _PPRGB: {r: 1, g: 1, b: 1, a: 1}
-    - _PPTint: {r: 5.9921575, g: 5.9921575, b: 5.9921575, a: 1}
+    - _PPTint: {r: 1.4980394, g: 1.4980394, b: 1.4980394, a: 1}
     - _ParallaxInternalMapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _ParallaxInternalMapPan: {r: 0, g: 0, b: 1, a: 1}
     - _ParallaxInternalMaxColor: {r: 1, g: 1, b: 1, a: 1}

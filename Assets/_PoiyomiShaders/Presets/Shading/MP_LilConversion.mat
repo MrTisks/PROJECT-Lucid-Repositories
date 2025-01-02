@@ -8,21 +8,27 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MP_LilConversion
-  m_Shader: {fileID: 4800000, guid: 5ca92f1e9fc35504aba297fd1acd62df, type: 3}
+  m_Shader: {fileID: 4800000, guid: 1c0b2da82cd8def4d867057af5c62257, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - VIGNETTE_MASKED
   - _LIGHTINGMODE_MULTILAYER_MATH
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_POIYOMI
   - _STOCHASTICMODE_DELIOT_HEITZ
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap:
+    AllLockedGUIDS: bf8c5ab91bf6aaa49b949bf74998ddc2
+    OriginalKeywords: VIGNETTE_MASKED _LIGHTINGMODE_MULTILAYER_MATH _RIM2STYLE_POIYOMI
+      _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
+    OriginalShader: .poiyomi/Old Versions/8.1/Poiyomi Toon
+    OriginalShaderGUID: 5ca92f1e9fc35504aba297fd1acd62df
+    RenderType: Opaque
     _AddBlendOp_isPreset: true
     _LightingAdditiveGradientEnd_isPreset: true
     _LightingAdditiveGradientStart_isPreset: true
@@ -2184,7 +2190,7 @@ Material:
     - _Set_RimLightMaskChannel: 1
     - _Set_RimLightMaskUV: 0
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 0
+    - _ShaderOptimizerEnabled: 1
     - _ShaderUIWarning0: -0
     - _ShaderUIWarning1: -0
     - _ShadingEnabled: 1

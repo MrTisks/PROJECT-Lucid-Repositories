@@ -8,9 +8,15 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.FD7A1EDD" = "ref=\"Assets/Prefab/ROCKS/PoolM2.fbx\""
+	"last_search.FD7A1EDD" = "ref=\"Assets/Scenes/Luna's Dream/ReflectionProbe-17.exr\""
 	"OpenInspectorPreview.FD7A1EDD" = "0"
 	"currentGroup.FD7A1EDD" = "all"
+	"last_search.3BE40471" = ""
+	"OpenInspectorPreview.3BE40471" = "0"
+	"currentGroup.3BE40471" = "all"
+	"last_search.110DEAF1" = "h: t=MeshFilter"
+	"OpenInspectorPreview.110DEAF1" = "0"
+	"currentGroup.110DEAF1" = "scene"
 }
 providers = {
 	asset = {
@@ -62,6 +68,10 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"h: t=MeshFilter vertices>=1024"
+	"h: r"
+	"h: ref=<$o"
+	"h: ref=<$object:none$>"
 ]
 searchItemFavorites = [
 ]

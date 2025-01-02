@@ -57,11 +57,11 @@ MonoBehaviour:
     overrideState: 1
     value: 0
   dirtTexture:
-    overrideState: 1
+    overrideState: 0
     value: {fileID: 0}
     defaultState: 1
   dirtIntensity:
-    overrideState: 1
+    overrideState: 0
     value: 0
 --- !u!114 &114357776453000568
 MonoBehaviour:

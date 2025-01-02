@@ -1,0 +1,4072 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1521398425 &-2302817008745023552
+VideoBuildInfo:
+  m_VideoClipCount: 0
+  m_IsVideoModuleDisabled: 0
+--- !u!1126 &-2284728190233591093
+PackedAssets:
+  m_ShortPath: CAB-5ed6c7fc24023ca2d743dc4cfc673a35
+  m_Overhead: 4032
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4032
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 112
+    offset: 4136
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!1126 &-1166450888926226134
+PackedAssets:
+  m_ShortPath: BuildPlayer-Luna's Dream.sharedAssets
+  m_Overhead: 140023
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 49
+    offset: 140552
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 160
+    offset: 140608
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 928
+    offset: 140768
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 4
+    classID: 21
+    packedSize: 916
+    offset: 141696
+    sourceAssetGUID: 1983715c21bc287408bb4eee2f7ec07a
+    buildTimeAssetPath: Assets/2_Crystal Caves/Meshes/Cube Crystal Norm.fbx
+  - fileID: 5
+    classID: 21
+    packedSize: 948
+    offset: 142616
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 6
+    classID: 21
+    packedSize: 980
+    offset: 143568
+    sourceAssetGUID: 128b546abff815745984b37a543cb1e9
+    buildTimeAssetPath: Assets/1_Whole Island/Meshes/References.fbx
+  - fileID: 7
+    classID: 21
+    packedSize: 1080
+    offset: 144552
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 8
+    classID: 21
+    packedSize: 944
+    offset: 145632
+    sourceAssetGUID: eaca3412123ca0d469f1ba050cc371ac
+    buildTimeAssetPath: Assets/1_Whole Island/Materials/BEDMAT.mat
+  - fileID: 9
+    classID: 21
+    packedSize: 948
+    offset: 146576
+    sourceAssetGUID: a84e4df546c5f8c4d9f4f7ca0f587a3e
+    buildTimeAssetPath: Assets/1_Whole Island/Materials/BLANKETMAT.mat
+  - fileID: 10
+    classID: 21
+    packedSize: 904
+    offset: 147528
+    sourceAssetGUID: ac140d84cfe34884ab3de628e8c5dab3
+    buildTimeAssetPath: Assets/1_Whole Island/Materials/DEFAULT.mat
+  - fileID: 11
+    classID: 21
+    packedSize: 948
+    offset: 148432
+    sourceAssetGUID: dfbae9776ce416f4496900797c4ca6aa
+    buildTimeAssetPath: Assets/1_Whole Island/Materials/FLOWERMAT.mat
+  - fileID: 12
+    classID: 21
+    packedSize: 948
+    offset: 149384
+    sourceAssetGUID: e6e009fb21625ed4a9b21fd717d5b1bc
+    buildTimeAssetPath: Assets/1_Whole Island/Materials/LILYPADSMAT.mat
+  - fileID: 13
+    classID: 21
+    packedSize: 948
+    offset: 150336
+    sourceAssetGUID: 790a2c90d15814d4f9c1fc8037dc1a20
+    buildTimeAssetPath: Assets/1_Whole Island/Materials/PILLOWSMAT.mat
+  - fileID: 14
+    classID: 21
+    packedSize: 948
+    offset: 151288
+    sourceAssetGUID: 476cfaf42808d8c4c83d62fc3cad787a
+    buildTimeAssetPath: Assets/1_Whole Island/Materials/Spawn Island.mat
+  - fileID: 15
+    classID: 21
+    packedSize: 944
+    offset: 152240
+    sourceAssetGUID: 64dbb6f1f148cd545a0b8aad00ae80c1
+    buildTimeAssetPath: Assets/1_Whole Island/Materials/TREEMAT.mat
+  - fileID: 16
+    classID: 21
+    packedSize: 3020
+    offset: 153184
+    sourceAssetGUID: 7a68320ea9bf1974b86470407ab08961
+    buildTimeAssetPath: Assets/2_Crystal Caves/Materials/MOD_Crystal.mat
+  - fileID: 17
+    classID: 21
+    packedSize: 106532
+    offset: 156208
+    sourceAssetGUID: e41a493a0b408b24d8bada645079a57a
+    buildTimeAssetPath: Assets/2_Crystal Caves/Materials/M_Inner_Mat Variant.mat
+  - fileID: 18
+    classID: 21
+    packedSize: 108188
+    offset: 262744
+    sourceAssetGUID: 08e63796899f9fa49ba6a4aab15c1858
+    buildTimeAssetPath: Assets/2_Crystal Caves/Materials/M_Inner_Mat.mat
+  - fileID: 19
+    classID: 21
+    packedSize: 948
+    offset: 370936
+    sourceAssetGUID: 8b632f9e38dc9214babce020e24512ef
+    buildTimeAssetPath: Assets/2_Crystal Caves/Materials/Wall Rocks.mat
+  - fileID: 20
+    classID: 21
+    packedSize: 944
+    offset: 371888
+    sourceAssetGUID: a7281d8aafa8ea94e9b26f2c7bb52b7d
+    buildTimeAssetPath: Assets/3_Magic Pools/Materials/FENCEMAT.mat
+  - fileID: 21
+    classID: 21
+    packedSize: 940
+    offset: 372832
+    sourceAssetGUID: 6da1a19437f422b4ab93cd0fdf5060b1
+    buildTimeAssetPath: Assets/3_Magic Pools/Materials/LMAT.mat
+  - fileID: 22
+    classID: 21
+    packedSize: 940
+    offset: 373776
+    sourceAssetGUID: b13aa33dc2619004cbeacb01f4126ac2
+    buildTimeAssetPath: Assets/3_Magic Pools/Materials/MMAT.mat
+  - fileID: 23
+    classID: 21
+    packedSize: 944
+    offset: 374720
+    sourceAssetGUID: 37b61f88edd8dc542aa3b67c8898ae90
+    buildTimeAssetPath: Assets/3_Magic Pools/Materials/PoolPath.mat
+  - fileID: 24
+    classID: 21
+    packedSize: 940
+    offset: 375664
+    sourceAssetGUID: 9c5f9cc969e48b6419bff43df881a4b5
+    buildTimeAssetPath: Assets/3_Magic Pools/Materials/SMAT.mat
+  - fileID: 25
+    classID: 21
+    packedSize: 944
+    offset: 376608
+    sourceAssetGUID: a74f272b44e317f43b01a1f1d31c8fbe
+    buildTimeAssetPath: Assets/3_Magic Pools/Materials/STAGEMAT.mat
+  - fileID: 26
+    classID: 21
+    packedSize: 952
+    offset: 377552
+    sourceAssetGUID: 00c13db4514a7ab4f82b3e7b04922c0f
+    buildTimeAssetPath: Assets/3_Magic Pools/Materials/STAIRSNPOLESMAT.mat
+  - fileID: 27
+    classID: 21
+    packedSize: 944
+    offset: 378504
+    sourceAssetGUID: 5632e1ec95dd25d469f8a6e06bd0b0d4
+    buildTimeAssetPath: Assets/3_Magic Pools/Materials/XLMAT.mat
+  - fileID: 28
+    classID: 21
+    packedSize: 944
+    offset: 379448
+    sourceAssetGUID: 859f7771b114c7845997d041e3654bb4
+    buildTimeAssetPath: Assets/3_Magic Pools/Materials/XSMAT.mat
+  - fileID: 29
+    classID: 21
+    packedSize: 956
+    offset: 380392
+    sourceAssetGUID: f72b072850af1894fba18f9411530f9f
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Curved Tree Purple.mat
+  - fileID: 30
+    classID: 21
+    packedSize: 948
+    offset: 381352
+    sourceAssetGUID: 9790ea02a9f0da340912e13f8468e17a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Curved Tree.mat
+  - fileID: 31
+    classID: 21
+    packedSize: 1308
+    offset: 382304
+    sourceAssetGUID: db26de432276e524f9c9d8189ea82835
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Flower 1.mat
+  - fileID: 32
+    classID: 21
+    packedSize: 1300
+    offset: 383616
+    sourceAssetGUID: 8bc8cc9735daa784695e03db7512ed9f
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Flower 4 Base.mat
+  - fileID: 33
+    classID: 21
+    packedSize: 1308
+    offset: 384920
+    sourceAssetGUID: 607d0f7a3981c4e44bc3d20bf02e92a2
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Flower 4.mat
+  - fileID: 34
+    classID: 21
+    packedSize: 1300
+    offset: 386232
+    sourceAssetGUID: ec00c510f50107741a3c690fb60bd63a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Flower 5 Base.mat
+  - fileID: 35
+    classID: 21
+    packedSize: 1308
+    offset: 387536
+    sourceAssetGUID: d1dd9ed4873adf64cbca0988049c87a5
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Flower 5.mat
+  - fileID: 36
+    classID: 21
+    packedSize: 1308
+    offset: 388848
+    sourceAssetGUID: a1cc722776f7ff6408290822431dad1e
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Flower 6.mat
+  - fileID: 37
+    classID: 21
+    packedSize: 948
+    offset: 390160
+    sourceAssetGUID: 846157e8ed2acfb4d90bc4a7449c104f
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Hammock 1.mat
+  - fileID: 38
+    classID: 21
+    packedSize: 948
+    offset: 391112
+    sourceAssetGUID: d84862d6e2861724bbbdaa1546dafbb1
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Hammock 2.mat
+  - fileID: 39
+    classID: 21
+    packedSize: 1016
+    offset: 392064
+    sourceAssetGUID: b4e1e14edb2ab7641bc840af3bbe37f4
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Hammock 4.mat
+  - fileID: 40
+    classID: 21
+    packedSize: 948
+    offset: 393080
+    sourceAssetGUID: 5b1cdd523399faf44ac1b0058252b769
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Hammock 5.mat
+  - fileID: 41
+    classID: 21
+    packedSize: 952
+    offset: 394032
+    sourceAssetGUID: 1d7e12c21efebe048800178480233f54
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Hanging Bed 1.mat
+  - fileID: 42
+    classID: 21
+    packedSize: 952
+    offset: 394984
+    sourceAssetGUID: 2a3610bcf442c2f4da7528b28be13dd8
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Hanging Bed 3.mat
+  - fileID: 43
+    classID: 21
+    packedSize: 952
+    offset: 395936
+    sourceAssetGUID: ccb21922d8549b84e8fd891a0c10840b
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Intertwined Tree.mat
+  - fileID: 44
+    classID: 21
+    packedSize: 944
+    offset: 396888
+    sourceAssetGUID: ea065fe861752e346a4d47971c87a9cf
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Island.mat
+  - fileID: 45
+    classID: 21
+    packedSize: 1296
+    offset: 397832
+    sourceAssetGUID: bff96c858045a264faf6a7e35a1a417b
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Leaves Blue.mat
+  - fileID: 46
+    classID: 21
+    packedSize: 1296
+    offset: 399128
+    sourceAssetGUID: 92caf841de5977f4f80ca2e7ae52da43
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Leaves Pink.mat
+  - fileID: 47
+    classID: 21
+    packedSize: 1300
+    offset: 400424
+    sourceAssetGUID: 0b193be4b964b944c8b1aacfef3dbd3b
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Leaves Purple.mat
+  - fileID: 48
+    classID: 21
+    packedSize: 1296
+    offset: 401728
+    sourceAssetGUID: 9c73c811f7e361846a8ec7da2a7b4ed7
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Leaves Red.mat
+  - fileID: 49
+    classID: 21
+    packedSize: 1292
+    offset: 403024
+    sourceAssetGUID: 5eb1b1882274a9c42b4816b9ccfc5d91
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Leaves.mat
+  - fileID: 50
+    classID: 21
+    packedSize: 948
+    offset: 404320
+    sourceAssetGUID: 4e8daade979d170408b6cfaf3a80a544
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Mini Flower.mat
+  - fileID: 51
+    classID: 21
+    packedSize: 1308
+    offset: 405272
+    sourceAssetGUID: e0259554b2a05e8449c95f3aac55bd12
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Mush 2.mat
+  - fileID: 52
+    classID: 21
+    packedSize: 1308
+    offset: 406584
+    sourceAssetGUID: 065268fd184da9549bbd1f781283d127
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Mush 3.mat
+  - fileID: 53
+    classID: 21
+    packedSize: 944
+    offset: 407896
+    sourceAssetGUID: 47602f11957996849b44694c40bcfbcc
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Mush 4.mat
+  - fileID: 54
+    classID: 21
+    packedSize: 948
+    offset: 408840
+    sourceAssetGUID: 477c261d961b84f4da184ef906726bd3
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Mush 6 Base.mat
+  - fileID: 55
+    classID: 21
+    packedSize: 960
+    offset: 409792
+    sourceAssetGUID: 14a8645142e0dba499083d21d8a46014
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Mush 6.mat
+  - fileID: 56
+    classID: 21
+    packedSize: 944
+    offset: 410752
+    sourceAssetGUID: a62ca950b0607cd44876ce0036156a6d
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow 1.mat
+  - fileID: 57
+    classID: 21
+    packedSize: 944
+    offset: 411696
+    sourceAssetGUID: c679f51af661d8f488ec60043b5e832f
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow 2.mat
+  - fileID: 58
+    classID: 21
+    packedSize: 944
+    offset: 412640
+    sourceAssetGUID: 31a18b886cce0c447ba13e364c865313
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow 3.mat
+  - fileID: 59
+    classID: 21
+    packedSize: 944
+    offset: 413584
+    sourceAssetGUID: f4444136c5030af499012b9430c4407f
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow 4.mat
+  - fileID: 60
+    classID: 21
+    packedSize: 944
+    offset: 414528
+    sourceAssetGUID: 8707227e63368af438aaa7703a28adea
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow 5.mat
+  - fileID: 61
+    classID: 21
+    packedSize: 944
+    offset: 415472
+    sourceAssetGUID: 97da6ebde6b073a4fb6808b410c789ee
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow 8.mat
+  - fileID: 62
+    classID: 21
+    packedSize: 948
+    offset: 416416
+    sourceAssetGUID: 17a5d62c072d6a34a908a2e65ce0b7de
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Mush 4 Green.mat
+  - fileID: 63
+    classID: 21
+    packedSize: 948
+    offset: 417368
+    sourceAssetGUID: 411eea680c92e4e4ea16f6a5b27a7c53
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Mush 4 Pink.mat
+  - fileID: 64
+    classID: 21
+    packedSize: 952
+    offset: 418320
+    sourceAssetGUID: 7650f3e7787ddb5489c94b420f6f0643
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Mush 4 Purple.mat
+  - fileID: 65
+    classID: 21
+    packedSize: 948
+    offset: 419272
+    sourceAssetGUID: 6aff913334faa4e498c1f5b1736c46e4
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Mush 4 Red.mat
+  - fileID: 66
+    classID: 21
+    packedSize: 952
+    offset: 420224
+    sourceAssetGUID: b6aac2771b628d5499d3d39d62717324
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Mush 4 Yellow.mat
+  - fileID: 67
+    classID: 21
+    packedSize: 952
+    offset: 421176
+    sourceAssetGUID: a7ec5f3679febd44cab11d8c600764e2
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 1
+      Blue.mat
+  - fileID: 68
+    classID: 21
+    packedSize: 952
+    offset: 422128
+    sourceAssetGUID: 28d3d917ea883794d977c1d68fdcc383
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 1
+      Green.mat
+  - fileID: 69
+    classID: 21
+    packedSize: 952
+    offset: 423080
+    sourceAssetGUID: ad24c7baa68ca084788da3e077415160
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 1
+      Purple.mat
+  - fileID: 70
+    classID: 21
+    packedSize: 948
+    offset: 424032
+    sourceAssetGUID: eecd17eeb310ff64490ac2b198a66093
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 1
+      Red.mat
+  - fileID: 71
+    classID: 21
+    packedSize: 952
+    offset: 424984
+    sourceAssetGUID: 37971559a3f5a474a95f497193c1baf5
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 1
+      Yellow.mat
+  - fileID: 72
+    classID: 21
+    packedSize: 952
+    offset: 425936
+    sourceAssetGUID: 78ef8eb490cc5a744a2a856cf5d9eb35
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      Blue.mat
+  - fileID: 73
+    classID: 21
+    packedSize: 952
+    offset: 426888
+    sourceAssetGUID: 5063c225ed6f8374ca1793a262318df5
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      D Blue.mat
+  - fileID: 74
+    classID: 21
+    packedSize: 956
+    offset: 427840
+    sourceAssetGUID: 6d14c7f07f1001344a8749e75fd615ac
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      D Purple.mat
+  - fileID: 75
+    classID: 21
+    packedSize: 956
+    offset: 428800
+    sourceAssetGUID: f934038b0788fba42936b8757ceb7135
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      D Yellow.mat
+  - fileID: 76
+    classID: 21
+    packedSize: 952
+    offset: 429760
+    sourceAssetGUID: fe527596bd14f264091b3da1c41769fc
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      D pink.mat
+  - fileID: 77
+    classID: 21
+    packedSize: 952
+    offset: 430712
+    sourceAssetGUID: 19c3740562ffb75449b8a1a2d941593b
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      Green.mat
+  - fileID: 78
+    classID: 21
+    packedSize: 952
+    offset: 431664
+    sourceAssetGUID: aac74892c9e40c045bb03b22f3622ba4
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      L Blue.mat
+  - fileID: 79
+    classID: 21
+    packedSize: 956
+    offset: 432616
+    sourceAssetGUID: 646da3147f93ae64a8ed20379e195902
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      L Orange.mat
+  - fileID: 80
+    classID: 21
+    packedSize: 952
+    offset: 433576
+    sourceAssetGUID: 7c52f93e721c86f47965a41873ffcc0f
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      L Pink.mat
+  - fileID: 81
+    classID: 21
+    packedSize: 956
+    offset: 434528
+    sourceAssetGUID: 64e58e0b45c370f4bb83298d316e23c4
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      L Purple.mat
+  - fileID: 82
+    classID: 21
+    packedSize: 952
+    offset: 435488
+    sourceAssetGUID: f75e4df9fcc75ab4ba90b8d41c46e60a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      L Red.mat
+  - fileID: 83
+    classID: 21
+    packedSize: 952
+    offset: 436440
+    sourceAssetGUID: b7470f396c6a69647907eca0823c8555
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      Orange.mat
+  - fileID: 84
+    classID: 21
+    packedSize: 952
+    offset: 437392
+    sourceAssetGUID: 0325896b28668d24fbef1bea6d55a013
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      Pink.mat
+  - fileID: 85
+    classID: 21
+    packedSize: 952
+    offset: 438344
+    sourceAssetGUID: 7ddb9c38bf4b3fb4f963f5182fc385f7
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      Purple.mat
+  - fileID: 86
+    classID: 21
+    packedSize: 948
+    offset: 439296
+    sourceAssetGUID: 5bdcd4e55d8d5cb40b764200de327999
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      Red.mat
+  - fileID: 87
+    classID: 21
+    packedSize: 952
+    offset: 440248
+    sourceAssetGUID: 4d9c5d79ef0727f49ab6e32e173ace01
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 2
+      Yellow.mat
+  - fileID: 88
+    classID: 21
+    packedSize: 952
+    offset: 441200
+    sourceAssetGUID: 89b42e46b1f856b4798bc5449326baf4
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 4
+      D Blue.mat
+  - fileID: 89
+    classID: 21
+    packedSize: 952
+    offset: 442152
+    sourceAssetGUID: 49622a5513e34a44996f1c7c4aa5a84c
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 4
+      D Green.mat
+  - fileID: 90
+    classID: 21
+    packedSize: 952
+    offset: 443104
+    sourceAssetGUID: 9587fa2a2cacafc4fb2d33f96e7ed1c1
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 4
+      Pink.mat
+  - fileID: 91
+    classID: 21
+    packedSize: 952
+    offset: 444056
+    sourceAssetGUID: e5f05cf52f2bd2844ad4aed251c7108b
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 4
+      Purple.mat
+  - fileID: 92
+    classID: 21
+    packedSize: 952
+    offset: 445008
+    sourceAssetGUID: 6fe7fb8a65e9c474ea50a6e6a789ed46
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 5
+      Pink.mat
+  - fileID: 93
+    classID: 21
+    packedSize: 952
+    offset: 445960
+    sourceAssetGUID: bf9ced99f1a89b749b37e2fcdb02a051
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 8
+      Blue.mat
+  - fileID: 94
+    classID: 21
+    packedSize: 952
+    offset: 446912
+    sourceAssetGUID: b2f1b41dd1fbd15468b9ff991550728f
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 8
+      Pink.mat
+  - fileID: 95
+    classID: 21
+    packedSize: 952
+    offset: 447864
+    sourceAssetGUID: fc718254d6e62c5498c69714ac333317
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Pillow Varients/Pillow 8
+      Purple.mat
+  - fileID: 96
+    classID: 21
+    packedSize: 956
+    offset: 448816
+    sourceAssetGUID: ed7c73f73dbc54340aecccb50c08e51c
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Regular Tree Blue.mat
+  - fileID: 97
+    classID: 21
+    packedSize: 956
+    offset: 449776
+    sourceAssetGUID: 9c390313f2f41e7448a7144bd9d2ab17
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Regular Tree Pink.mat
+  - fileID: 98
+    classID: 21
+    packedSize: 952
+    offset: 450736
+    sourceAssetGUID: 6d57e342f23b59b4798acd9cdfb610f3
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Regular Tree Red.mat
+  - fileID: 99
+    classID: 21
+    packedSize: 948
+    offset: 451688
+    sourceAssetGUID: 27c50d25c7eb93441b53d82061381385
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Regular Tree.mat
+  - fileID: 100
+    classID: 21
+    packedSize: 940
+    offset: 452640
+    sourceAssetGUID: 84f840040fddfd9479e5fc4c7dd31fe2
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/TV1.mat
+  - fileID: 101
+    classID: 21
+    packedSize: 940
+    offset: 453584
+    sourceAssetGUID: aa076b96da80d2e4d829b78306124c04
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/TV2.mat
+  - fileID: 102
+    classID: 21
+    packedSize: 948
+    offset: 454528
+    sourceAssetGUID: 742c6ec409d40e943ac8ed0fc5d83433
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Tree Bed Red.mat
+  - fileID: 103
+    classID: 21
+    packedSize: 944
+    offset: 455480
+    sourceAssetGUID: 242fbb5364066f5498e3a68b7fbc7a33
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Tree Bed.mat
+  - fileID: 104
+    classID: 21
+    packedSize: 972
+    offset: 456424
+    sourceAssetGUID: b447d9c8763de2c48b9a1b81cc009505
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Tree Mush 4 Green.mat
+  - fileID: 105
+    classID: 21
+    packedSize: 972
+    offset: 457400
+    sourceAssetGUID: d3acc347bc5a33a4e82f1ec8158de5ec
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Tree Mush 4 Orange.mat
+  - fileID: 106
+    classID: 21
+    packedSize: 968
+    offset: 458376
+    sourceAssetGUID: badbddbf01a77d24a903c74bd132387a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Tree Mush 4 Pink.mat
+  - fileID: 107
+    classID: 21
+    packedSize: 964
+    offset: 459344
+    sourceAssetGUID: 99fd36b0980cc4141bc2bddc5d8d733c
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Tree Mush 4.mat
+  - fileID: 108
+    classID: 21
+    packedSize: 968
+    offset: 460312
+    sourceAssetGUID: 417e133a7c88cbf48800144efd26ce9c
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Tree Mush 5 Blue.mat
+  - fileID: 109
+    classID: 21
+    packedSize: 964
+    offset: 461280
+    sourceAssetGUID: 97c2c5ae9fc7cb745bfcb1f7f67a7d75
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Tree Mush 5.mat
+  - fileID: 110
+    classID: 21
+    packedSize: 960
+    offset: 462248
+    sourceAssetGUID: ea611d4231f30a7459760b05a48ba6d4
+    buildTimeAssetPath: Assets/4_Fairy Forest/Materials/Wysteria.mat
+  - fileID: 111
+    classID: 21
+    packedSize: 588
+    offset: 463208
+    sourceAssetGUID: 256fe267b9221664aa3ff8893b41d428
+    buildTimeAssetPath: Assets/MOZ's Particles v8/assets/Material/particles.mat
+  - fileID: 112
+    classID: 21
+    packedSize: 932
+    offset: 463800
+    sourceAssetGUID: 8e7a89fec4dd8374b894eeed1298d1b3
+    buildTimeAssetPath: Assets/NewWaterfall/Materials/ReflectivePond 1.mat
+  - fileID: 113
+    classID: 21
+    packedSize: 932
+    offset: 464736
+    sourceAssetGUID: 9fe7485ca02c10346ae6e102c4a2872a
+    buildTimeAssetPath: Assets/NewWaterfall/Materials/ReflectivePond 3.mat
+  - fileID: 114
+    classID: 21
+    packedSize: 940
+    offset: 465672
+    sourceAssetGUID: 0740101fa62309845b94dea74ee8d6b5
+    buildTimeAssetPath: Assets/NewWaterfall/Materials/WaterFallNew 1.mat
+  - fileID: 115
+    classID: 21
+    packedSize: 968
+    offset: 466616
+    sourceAssetGUID: b2080f2d9910aa94eb6325221e655881
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene/GridFloor_udon.mat
+  - fileID: 116
+    classID: 21
+    packedSize: 836
+    offset: 467584
+    sourceAssetGUID: f531e09e2ad2fb440b4eed7605863143
+    buildTimeAssetPath: Assets/SkySerie Freebie/CosmicCoolCloud.mat
+  - fileID: 117
+    classID: 21
+    packedSize: 1508
+    offset: 468424
+    sourceAssetGUID: 5a97b04e0bd66f54a859821f4bf4c982
+    buildTimeAssetPath: Assets/SnowIcicles/Materials/ToonIce.mat
+  - fileID: 118
+    classID: 21
+    packedSize: 204
+    offset: 469936
+    sourceAssetGUID: bbb235fff4f48426b863b36058ab66d2
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Resources/Materials/Collider.mat
+  - fileID: 119
+    classID: 21
+    packedSize: 904
+    offset: 470144
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 120
+    classID: 28
+    packedSize: 128
+    offset: 471048
+    sourceAssetGUID: 02c0a84bd64c6f044954d8bde9b46ec8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_28.png
+  - fileID: 121
+    classID: 28
+    packedSize: 136
+    offset: 471176
+    sourceAssetGUID: 06a887f232b2b6c4f8df135d45234d0d
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Intertwined_Tree_MOR.png
+  - fileID: 122
+    classID: 28
+    packedSize: 2796356
+    offset: 471312
+    sourceAssetGUID: 06d6636681083d14e8b5a432ef2e7dbb
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 6 Low Poly_Emissive.png
+  - fileID: 123
+    classID: 28
+    packedSize: 132
+    offset: 3267672
+    sourceAssetGUID: 06e6f188141d4834ba5de8660d57c1e1
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Lilypads/Lilypads_low_MOG.png
+  - fileID: 124
+    classID: 28
+    packedSize: 23608
+    offset: 3267808
+    sourceAssetGUID: 082aa31bddf467d48bbde0d1be5076f2
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 2 Low Poly_MOR.png
+  - fileID: 125
+    classID: 28
+    packedSize: 132
+    offset: 3291416
+    sourceAssetGUID: 083c4e85ddfcb8d41ada295e7dacf525
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/XL_low_BASE+OP.png
+  - fileID: 126
+    classID: 28
+    packedSize: 136
+    offset: 3291552
+    sourceAssetGUID: 098b684a120d9fb42a6f668c536c529a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 3 Low Poly_NRM.png
+  - fileID: 127
+    classID: 28
+    packedSize: 128
+    offset: 3291688
+    sourceAssetGUID: 09f6c01f98a3ded4daf1afc52a3c260f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_26.png
+  - fileID: 128
+    classID: 28
+    packedSize: 128
+    offset: 3291816
+    sourceAssetGUID: 0a79c155edf9b2d429d4736abee5acdb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_35.png
+  - fileID: 129
+    classID: 28
+    packedSize: 2796364
+    offset: 3291944
+    sourceAssetGUID: 0db5c0d31d1d63a40aac4fd2be4cf279
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 1 Low Poly BAKE_Emissive.png
+  - fileID: 130
+    classID: 28
+    packedSize: 140
+    offset: 6088312
+    sourceAssetGUID: 0dbf34e005165d74094982c4e93206af
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 2 Low Poly_Emissive.png
+  - fileID: 131
+    classID: 28
+    packedSize: 128
+    offset: 6088456
+    sourceAssetGUID: 0f8fa14b3731cda4e947062e734d5e1e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_1.png
+  - fileID: 132
+    classID: 28
+    packedSize: 128
+    offset: 6088584
+    sourceAssetGUID: 0fa10b21877c61b4db40ba5708815f81
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_30.png
+  - fileID: 133
+    classID: 28
+    packedSize: 65640
+    offset: 6088712
+    sourceAssetGUID: 10653127c369cf34da181fffdd2686a4
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mini Flower Low Poly_MOR.png
+  - fileID: 134
+    classID: 28
+    packedSize: 140
+    offset: 6154352
+    sourceAssetGUID: 10b22efb8884360479ec3f78ffa6c384
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Spawn Island/SpawnIsland_low_BASE+OP.png
+  - fileID: 135
+    classID: 28
+    packedSize: 85012
+    offset: 6154496
+    sourceAssetGUID: 10eccac455d5f434a809111f9ab85756
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 1 Low Poly BAKE_MOR.png
+  - fileID: 136
+    classID: 28
+    packedSize: 144
+    offset: 6239512
+    sourceAssetGUID: 1166aeab935cbf44bb9fec0e42b0fbb0
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Tree Mush 4 Low Poly_BASE+OP.png
+  - fileID: 137
+    classID: 28
+    packedSize: 128
+    offset: 6239656
+    sourceAssetGUID: 119591e0bb084e848835d237546b3882
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_61.png
+  - fileID: 138
+    classID: 28
+    packedSize: 128
+    offset: 6239784
+    sourceAssetGUID: 1378a33cdd085d64c9da863d2484ff21
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_47.png
+  - fileID: 139
+    classID: 28
+    packedSize: 201784
+    offset: 6239912
+    sourceAssetGUID: 141c67ad97526e54fb535db7fbe52298
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 4 Low Poly_MOR.png
+  - fileID: 140
+    classID: 28
+    packedSize: 128
+    offset: 6441696
+    sourceAssetGUID: 153f7d6dfbe713d4884df0f1e243ba92
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_16.png
+  - fileID: 141
+    classID: 28
+    packedSize: 128
+    offset: 6441824
+    sourceAssetGUID: 15e54aa23a938444389469d53765d741
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_44.png
+  - fileID: 142
+    classID: 28
+    packedSize: 144
+    offset: 6441952
+    sourceAssetGUID: 15eb17e2bc9a1034ca4a9cc5cd3a6863
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hanging Bed 1 Low Poly_NRM.png
+  - fileID: 143
+    classID: 28
+    packedSize: 136
+    offset: 6442096
+    sourceAssetGUID: 1711d40415e383e4bbf1561eca652e16
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hammock_1_BASE+OP.png
+  - fileID: 144
+    classID: 28
+    packedSize: 128
+    offset: 6442232
+    sourceAssetGUID: 17cb1a19f4cfede4b8b52e4365ceae3d
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/XS_low_NORM.png
+  - fileID: 145
+    classID: 28
+    packedSize: 144
+    offset: 6442360
+    sourceAssetGUID: 1837167451ba94249ba638589a4510c0
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 5 Low Poly_Emissive.png
+  - fileID: 146
+    classID: 28
+    packedSize: 128
+    offset: 6442504
+    sourceAssetGUID: 1a9ce5640cde5934aae0022f020464a6
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_40.png
+  - fileID: 147
+    classID: 28
+    packedSize: 128
+    offset: 6442632
+    sourceAssetGUID: 1abfe0e165ca1e9428b455ffc9a2d9ef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_2.png
+  - fileID: 148
+    classID: 28
+    packedSize: 140
+    offset: 6442760
+    sourceAssetGUID: 1cc5a0c0446549e49889968cc5c52cbd
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Tree Mush 5 Low Poly_NRM.png
+  - fileID: 149
+    classID: 28
+    packedSize: 128
+    offset: 6442904
+    sourceAssetGUID: 1d6958e30e40a254dbe5a54c573eeb3c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_37.png
+  - fileID: 150
+    classID: 28
+    packedSize: 136
+    offset: 6443032
+    sourceAssetGUID: 204746fc0a2d91e47aede11858807768
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Spawn Island/SpawnIsland_low_NORM.png
+  - fileID: 151
+    classID: 28
+    packedSize: 128
+    offset: 6443168
+    sourceAssetGUID: 228718385c4656648941cb2d2e1d1395
+    buildTimeAssetPath: Assets/MOZ's Particles v8/resources to edit particles look/UETools/Textures/HQ_256/A01/Flare_01_A01.png
+  - fileID: 152
+    classID: 28
+    packedSize: 132
+    offset: 6443296
+    sourceAssetGUID: 23f61141f6be7b94690a1aa78fc83345
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/L_low_BASE+OP.png
+  - fileID: 153
+    classID: 28
+    packedSize: 148
+    offset: 6443432
+    sourceAssetGUID: 2463c7b83aabc604f94b9fb432d1b6a5
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 6 Low Poly_BASE+OP -
+      Copy.png
+  - fileID: 154
+    classID: 28
+    packedSize: 132
+    offset: 6443584
+    sourceAssetGUID: 25c24f97575c5244a81eaa7999a8e295
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Regular_Tree_MOR.png
+  - fileID: 155
+    classID: 28
+    packedSize: 128
+    offset: 6443720
+    sourceAssetGUID: 25dd6b30cb5135240879f53c66cbb836
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/XS_low_MOG.png
+  - fileID: 156
+    classID: 28
+    packedSize: 132
+    offset: 6443848
+    sourceAssetGUID: 25fda6538dc8870458f75c0f6dbc6979
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/TV2 Low Poly_NRM.png
+  - fileID: 157
+    classID: 28
+    packedSize: 140
+    offset: 6443984
+    sourceAssetGUID: 2772d7442cb2a074f87fc896499b4a57
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 6 Low Poly_NRM.png
+  - fileID: 158
+    classID: 28
+    packedSize: 136
+    offset: 6444128
+    sourceAssetGUID: 27f9f9c42eb97c94bae9157a5a54515e
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Regular_Tree_BASE+OP.png
+  - fileID: 159
+    classID: 28
+    packedSize: 5484
+    offset: 6444264
+    sourceAssetGUID: 296b4f42ae624cd42b938546f3b0594b
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mini Flower Low Poly_BASE+OP.png
+  - fileID: 160
+    classID: 28
+    packedSize: 8836
+    offset: 6449752
+    sourceAssetGUID: 2c979de89372a484e8a5e6931fbf436e
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/TV2 Low Poly_BASE+OP.png
+  - fileID: 161
+    classID: 28
+    packedSize: 136
+    offset: 6458592
+    sourceAssetGUID: 2ed0256d7e1d1e7409a469dc113b081c
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Pillows/Pillows_low_BASE+OP.png
+  - fileID: 162
+    classID: 28
+    packedSize: 128
+    offset: 6458728
+    sourceAssetGUID: 2ee161d8945169243b5698fec114e1b7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_15.png
+  - fileID: 163
+    classID: 28
+    packedSize: 132
+    offset: 6458856
+    sourceAssetGUID: 30b117241d70e9a4e9da0da5323c6a56
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Stage/Stage_low_MOG.png
+  - fileID: 164
+    classID: 28
+    packedSize: 128
+    offset: 6458992
+    sourceAssetGUID: 319b8e66db3faa4438cf6982e9c89b2f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_34.png
+  - fileID: 165
+    classID: 28
+    packedSize: 144
+    offset: 6459120
+    sourceAssetGUID: 32b30954a26fa8b4eace4b7360c8ac0b
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hammock 4 Low Poly_BASE+OP.png
+  - fileID: 166
+    classID: 28
+    packedSize: 128
+    offset: 6459264
+    sourceAssetGUID: 32c6a5f7143b86c44bd5cdee2ff3f8ad
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_24.png
+  - fileID: 167
+    classID: 28
+    packedSize: 128
+    offset: 6459392
+    sourceAssetGUID: 351e95d0e20a54849bd4ce5f9b498934
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_36.png
+  - fileID: 168
+    classID: 28
+    packedSize: 128
+    offset: 6459520
+    sourceAssetGUID: 373f9bf6b0841af4ebf26d25e4a3f4e2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_3.png
+  - fileID: 169
+    classID: 28
+    packedSize: 132
+    offset: 6459648
+    sourceAssetGUID: 3792277dd26c0834bb48e642f54fa675
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Flower/Flower_low_MOG.png
+  - fileID: 170
+    classID: 28
+    packedSize: 91832
+    offset: 6459784
+    sourceAssetGUID: 385eeb26b156fbd4693a95fbfd97246c
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/TV1 Low Poly_MOR.png
+  - fileID: 171
+    classID: 28
+    packedSize: 128
+    offset: 6551616
+    sourceAssetGUID: 3a8f1527b04ebc94f8c4ae65934f8a9a
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/XL_low_MOG.png
+  - fileID: 172
+    classID: 28
+    packedSize: 128
+    offset: 6551744
+    sourceAssetGUID: 3ac02e7e783571c468f9c086d2384ba7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_7.png
+  - fileID: 173
+    classID: 28
+    packedSize: 124
+    offset: 6551872
+    sourceAssetGUID: 3b045b3cf2509024eb8302d39e675baf
+    buildTimeAssetPath: Assets/NewWaterfall/Textures/Perlin.png
+  - fileID: 174
+    classID: 28
+    packedSize: 140
+    offset: 6552000
+    sourceAssetGUID: 3b2b85a7868dbe3448c02c9d8d537373
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 5 Low Poly_MOR.png
+  - fileID: 175
+    classID: 28
+    packedSize: 128
+    offset: 6552144
+    sourceAssetGUID: 3c2f1fb7e4b66e74191b7c328ada52d9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_1.png
+  - fileID: 176
+    classID: 28
+    packedSize: 29692
+    offset: 6552272
+    sourceAssetGUID: 3c7cfd144cb6aca4f9ccc38048bf03c0
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 5 Low Poly_MOR.png
+  - fileID: 177
+    classID: 28
+    packedSize: 128
+    offset: 6581968
+    sourceAssetGUID: 3c861c5468cc6974097465a92b7cb2bd
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Tree_Bed_MOR.png
+  - fileID: 178
+    classID: 28
+    packedSize: 132
+    offset: 6582096
+    sourceAssetGUID: 3dd1cb96424fd4a4bb9f1754b6935a85
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Fences/Fences_low_MOG.png
+  - fileID: 179
+    classID: 28
+    packedSize: 136
+    offset: 6582232
+    sourceAssetGUID: 3e52dfb1f8a3e9640bb5eaab8abaf72a
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Fences/Fences_low_BASE+OP.png
+  - fileID: 180
+    classID: 28
+    packedSize: 87532
+    offset: 6582368
+    sourceAssetGUID: 3e9bfd5bdde68c1438213544ce4815cb
+    buildTimeAssetPath: Assets/NewWaterfall/Textures/Noise1.jpg
+  - fileID: 181
+    classID: 28
+    packedSize: 144
+    offset: 6669904
+    sourceAssetGUID: 3f4289a24e4e9ec4eba68b5a973c42f8
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 4 Low Poly BAKE_MOR.png
+  - fileID: 182
+    classID: 28
+    packedSize: 132
+    offset: 6670048
+    sourceAssetGUID: 3f791cd765f97294a8b09e48f244177e
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Tree/Tree_low_NORM.png
+  - fileID: 183
+    classID: 28
+    packedSize: 128
+    offset: 6670184
+    sourceAssetGUID: 3f7c3687170b90e4a8d2ee6b142670f4
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_49.png
+  - fileID: 184
+    classID: 28
+    packedSize: 128
+    offset: 6670312
+    sourceAssetGUID: 404fa8def46b1c447817e1ebdaa7144e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_60.png
+  - fileID: 185
+    classID: 28
+    packedSize: 4194440
+    offset: 6670440
+    sourceAssetGUID: 438e868ac8cccca4e81873838a67c003
+    buildTimeAssetPath: Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudRight.hdr
+  - fileID: 186
+    classID: 28
+    packedSize: 297808
+    offset: 10864880
+    sourceAssetGUID: 43bb8c00efe08ff4caa22f93c480047e
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hanging Bed 1 Low Poly_MOR.png
+  - fileID: 187
+    classID: 28
+    packedSize: 132
+    offset: 11162688
+    sourceAssetGUID: 45c2c78424022184eb4c29a9387b59e3
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Blanket/Blanket_low_NORM.png
+  - fileID: 188
+    classID: 28
+    packedSize: 136
+    offset: 11162824
+    sourceAssetGUID: 46d3928d935e78244ae467c07a08c98d
+    buildTimeAssetPath: Assets/2_Crystal Caves/Textures/Wall Rocks/Wall Rocks V2_NRM.png
+  - fileID: 189
+    classID: 28
+    packedSize: 126956
+    offset: 11162960
+    sourceAssetGUID: 497a24aeeb7e73543ad61857856fd0d0
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 4 Low Poly_BASE+OP.png
+  - fileID: 190
+    classID: 28
+    packedSize: 128
+    offset: 11289920
+    sourceAssetGUID: 4a11d65ce13d5f542a0ff136cc2f3fba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_63.png
+  - fileID: 191
+    classID: 28
+    packedSize: 136
+    offset: 11290048
+    sourceAssetGUID: 4e6fb67ef1bb6754480e5a27d3bb4b90
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Spawn Island/SpawnIsland_low_MOG.png
+  - fileID: 192
+    classID: 28
+    packedSize: 144
+    offset: 11290184
+    sourceAssetGUID: 4e9ec60bbeaa3f341a76d3064275ecc1
+    buildTimeAssetPath: Assets/2_Crystal Caves/Textures/Cube Crystal/Cube Crystal
+      Norm_BASE+OP.png
+  - fileID: 193
+    classID: 28
+    packedSize: 136
+    offset: 11290328
+    sourceAssetGUID: 4ef32ba523a1cc64d9fb18fb48e7a4bd
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 3 Low Poly_MOR.png
+  - fileID: 194
+    classID: 28
+    packedSize: 15416
+    offset: 11290464
+    sourceAssetGUID: 4fba8c6999a45af49b11ff14cc4e40f1
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hammock 5 Low Poly_BASE+OP.png
+  - fileID: 195
+    classID: 28
+    packedSize: 61224
+    offset: 11305880
+    sourceAssetGUID: 502705ee960286c47ac8f75d7fd07578
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Tree Mush 5 Low Poly_MOR.png
+  - fileID: 196
+    classID: 28
+    packedSize: 128
+    offset: 11367104
+    sourceAssetGUID: 50b54341495978843a6f85583ed4417d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_0.png
+  - fileID: 197
+    classID: 28
+    packedSize: 140
+    offset: 11367232
+    sourceAssetGUID: 5207b60629321c14ba81a15379be13eb
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/StairsnPoles/StairsnPoles_low_BASE+OP.png
+  - fileID: 198
+    classID: 28
+    packedSize: 128
+    offset: 11367376
+    sourceAssetGUID: 533f9120b07d4eb4d8a02b2b9aae583d
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/M_low_NORM.png
+  - fileID: 199
+    classID: 28
+    packedSize: 128
+    offset: 11367504
+    sourceAssetGUID: 547dbd5f858c74047ba3f213e4408307
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_39.png
+  - fileID: 200
+    classID: 28
+    packedSize: 140
+    offset: 11367632
+    sourceAssetGUID: 54daece2465cbf944984c0616abb0154
+    buildTimeAssetPath: Assets/2_Crystal Caves/Textures/Rock044_4K-PNG/Rock044_4K-PNG_NormalGL.png
+  - fileID: 201
+    classID: 28
+    packedSize: 140
+    offset: 11367776
+    sourceAssetGUID: 5595a8343c8e07040882701557d8134d
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 8 Low Poly_NRM.png
+  - fileID: 202
+    classID: 28
+    packedSize: 128
+    offset: 11367920
+    sourceAssetGUID: 5659f3fc17f30064aa27ab766ff19a19
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Wysteria_NRM.png
+  - fileID: 203
+    classID: 28
+    packedSize: 140
+    offset: 11368048
+    sourceAssetGUID: 57c32a8de89cf884eab7e25ceb793e35
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Tree Mush 4 Low Poly_NRM.png
+  - fileID: 204
+    classID: 28
+    packedSize: 1304
+    offset: 11368192
+    sourceAssetGUID: 5c4dcd6a4d55c704a830a6e4145c556f
+    buildTimeAssetPath: Assets/_PoiyomiShaders/Textures/Gifs/T_Ovals_GIF.gif
+  - fileID: 205
+    classID: 28
+    packedSize: 132
+    offset: 11369496
+    sourceAssetGUID: 5cac22313ddda7943a4d1cf046bb0959
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Fences/Fences_low_NORM.png
+  - fileID: 206
+    classID: 28
+    packedSize: 136
+    offset: 11369632
+    sourceAssetGUID: 5df1a393a7017ee43b7cf7729f87b9c6
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hammock_2_BASE+OP.png
+  - fileID: 207
+    classID: 28
+    packedSize: 128
+    offset: 11369768
+    sourceAssetGUID: 5e542d0126a2c7848b66bffc428905fd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_55.png
+  - fileID: 208
+    classID: 28
+    packedSize: 136
+    offset: 11369896
+    sourceAssetGUID: 5fb9bd5e5a673e84381881513ec2c900
+    buildTimeAssetPath: Assets/2_Crystal Caves/Textures/Stone TileSet_MAG.png
+  - fileID: 209
+    classID: 28
+    packedSize: 128
+    offset: 11370032
+    sourceAssetGUID: 6017f374382d64245a0a4aab668e6f38
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_0.png
+  - fileID: 210
+    classID: 28
+    packedSize: 136
+    offset: 11370160
+    sourceAssetGUID: 60c74b56f8855bd489a27866c1ffde9c
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 2 Low Poly_MOR.png
+  - fileID: 211
+    classID: 28
+    packedSize: 132
+    offset: 11370296
+    sourceAssetGUID: 60d853ccc71b6aa4286fc603bc8cbc09
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Tree_Bed_BASE+OP.png
+  - fileID: 212
+    classID: 28
+    packedSize: 144
+    offset: 11370432
+    sourceAssetGUID: 615ed307203b99f4b9dcaeaf468def29
+    buildTimeAssetPath: Assets/2_Crystal Caves/Textures/Cube Crystal/Cube Crystal
+      Norm_Emissive.png
+  - fileID: 213
+    classID: 28
+    packedSize: 140
+    offset: 11370576
+    sourceAssetGUID: 618e7cfb9a4fdf849adb5109590cf371
+    buildTimeAssetPath: Assets/2_Crystal Caves/Textures/Rock Tile 1/Stone texture_BASE+OP.png
+  - fileID: 214
+    classID: 28
+    packedSize: 132
+    offset: 11370720
+    sourceAssetGUID: 61c56c291b320b749985aecd09569916
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Curved_Tree_MOR.png
+  - fileID: 215
+    classID: 28
+    packedSize: 144
+    offset: 11370856
+    sourceAssetGUID: 652721c132c2e7948b03a66fe56b447b
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hammock 4 Low Poly_Emissive.png
+  - fileID: 216
+    classID: 28
+    packedSize: 132
+    offset: 11371000
+    sourceAssetGUID: 669252ce23b44c7439674e75775dfa8d
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hammock_1_MOR.png
+  - fileID: 217
+    classID: 28
+    packedSize: 132
+    offset: 11371136
+    sourceAssetGUID: 679fc0d660089534bb5e3df004386331
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Regular_Tree_NRM.png
+  - fileID: 218
+    classID: 28
+    packedSize: 136
+    offset: 11371272
+    sourceAssetGUID: 67ecc77cae8fabd4fbeacf8a2ffdbc17
+    buildTimeAssetPath: Assets/2_Crystal Caves/Textures/Rock Tile 1/Stone texture_NRM.png
+  - fileID: 219
+    classID: 28
+    packedSize: 3768
+    offset: 11371408
+    sourceAssetGUID: 682dc0f5aed5ba54196636a29b4f3fc0
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 4 Low Poly_BASE+OP.png
+  - fileID: 220
+    classID: 28
+    packedSize: 140
+    offset: 11375176
+    sourceAssetGUID: 68602a9ff82fdd343887bd528df7c406
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 3 Low Poly_Emissive.png
+  - fileID: 221
+    classID: 28
+    packedSize: 128
+    offset: 11375320
+    sourceAssetGUID: 68613e6a221be1a4b9f31d7fa1c2d1bf
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_13.png
+  - fileID: 222
+    classID: 28
+    packedSize: 8396
+    offset: 11375448
+    sourceAssetGUID: 68cdbf921e8bcb145b8c6921462e49fc
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hanging Bed 1 Low Poly_BASE+OP.png
+  - fileID: 223
+    classID: 28
+    packedSize: 128
+    offset: 11383848
+    sourceAssetGUID: 6abd73dd13d10c94b9690c3b3b223332
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/L_low_NORM.png
+  - fileID: 224
+    classID: 28
+    packedSize: 128
+    offset: 11383976
+    sourceAssetGUID: 6b0a189df0bd4d5448eaefb4e673ace8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_31.png
+  - fileID: 225
+    classID: 28
+    packedSize: 128
+    offset: 11384104
+    sourceAssetGUID: 6b5950a075e1eb84092b49ec267df390
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/S_low_MOG.png
+  - fileID: 226
+    classID: 28
+    packedSize: 809216
+    offset: 11384232
+    sourceAssetGUID: 6b7170b9b8e15644aaf40702fa6077dc
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 4 Low Poly_MOR.png
+  - fileID: 227
+    classID: 28
+    packedSize: 132
+    offset: 12193448
+    sourceAssetGUID: 6d4cb842349114647876bf7cb0bb6693
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Island_BASE+OP.png
+  - fileID: 228
+    classID: 28
+    packedSize: 140
+    offset: 12193584
+    sourceAssetGUID: 6da75d4169cf25f44a1209d279253d16
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hammock 4 Low Poly_NRM.png
+  - fileID: 229
+    classID: 28
+    packedSize: 128
+    offset: 12193728
+    sourceAssetGUID: 6dda07f1420a968449cf4c6620c44d9f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_20.png
+  - fileID: 230
+    classID: 28
+    packedSize: 128
+    offset: 12193856
+    sourceAssetGUID: 6fa5cf178eaaa5f42b820f636bb6e0bd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_4.png
+  - fileID: 231
+    classID: 28
+    packedSize: 136
+    offset: 12193984
+    sourceAssetGUID: 70954515bef048446b43daf0206df0c0
+    buildTimeAssetPath: Assets/2_Crystal Caves/Textures/Wall Rocks/Wall Rocks V2_MOR.png
+  - fileID: 232
+    classID: 28
+    packedSize: 128
+    offset: 12194120
+    sourceAssetGUID: 70d0a1182b29d6347ac70374c3593bba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_7.png
+  - fileID: 233
+    classID: 28
+    packedSize: 136
+    offset: 12194248
+    sourceAssetGUID: 70dc198c2f13a0742bb0bd496ede7791
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 4 Low Poly_NRM.png
+  - fileID: 234
+    classID: 28
+    packedSize: 128
+    offset: 12194384
+    sourceAssetGUID: 70f23eaf7d8ae9147aa542d20e93733b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_56.png
+  - fileID: 235
+    classID: 28
+    packedSize: 132
+    offset: 12194512
+    sourceAssetGUID: 70f6eba7e7237db408104535bfd2d2aa
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Bed/Bed_low_BASE+OP.png
+  - fileID: 236
+    classID: 28
+    packedSize: 128
+    offset: 12194648
+    sourceAssetGUID: 71583cfd8899717428d5b1a95fa39cda
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_9.png
+  - fileID: 237
+    classID: 28
+    packedSize: 128
+    offset: 12194776
+    sourceAssetGUID: 71bc1b6b66e8b784b972199b7e90204e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_43.png
+  - fileID: 238
+    classID: 28
+    packedSize: 349676
+    offset: 12194904
+    sourceAssetGUID: 727babd9f1ef0be468453f0751e57c13
+    buildTimeAssetPath: Assets/NewWaterfall/Textures/Noise3.png
+  - fileID: 239
+    classID: 28
+    packedSize: 128
+    offset: 12544584
+    sourceAssetGUID: 729a3ae164bcb3b4380459386adcf331
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_19.png
+  - fileID: 240
+    classID: 28
+    packedSize: 124
+    offset: 12544712
+    sourceAssetGUID: 73ec4ae984a0a0f44a2be737e41a6f2f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/AreaTex.tga
+  - fileID: 241
+    classID: 28
+    packedSize: 4194440
+    offset: 12544840
+    sourceAssetGUID: 740f96d568f4f3e40b049c40f11603e5
+    buildTimeAssetPath: Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudLeft.hdr
+  - fileID: 242
+    classID: 28
+    packedSize: 128
+    offset: 16739280
+    sourceAssetGUID: 74aca53eb7273624baffc2bf5e5cc173
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_18.png
+  - fileID: 243
+    classID: 28
+    packedSize: 140
+    offset: 16739408
+    sourceAssetGUID: 75ab74d7cc26c7a4cbeedea4d7e3b64a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mini Flower Low Poly_NRM.png
+  - fileID: 244
+    classID: 28
+    packedSize: 128
+    offset: 16739552
+    sourceAssetGUID: 75df4a2f358cea14e84e7c071e0f88c3
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Island_NRM.png
+  - fileID: 245
+    classID: 28
+    packedSize: 128
+    offset: 16739680
+    sourceAssetGUID: 771903fe7b4674445829e52e91cff019
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_11.png
+  - fileID: 246
+    classID: 28
+    packedSize: 140
+    offset: 16739808
+    sourceAssetGUID: 7778f173dcf8ca54facaf544d9f2cb61
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 5 Low Poly_NRM.png
+  - fileID: 247
+    classID: 28
+    packedSize: 144
+    offset: 16739952
+    sourceAssetGUID: 78028b8cfdce47649837127735399b7d
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 6 Low Poly_BASE+OP.png
+  - fileID: 248
+    classID: 28
+    packedSize: 128
+    offset: 16740096
+    sourceAssetGUID: 79b86f3419b87f3429164a956da8cfab
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_6.png
+  - fileID: 249
+    classID: 28
+    packedSize: 43828
+    offset: 16740224
+    sourceAssetGUID: 7b99b9eccb5c6f84a9189d8e44803e8b
+    buildTimeAssetPath: Assets/NewWaterfall/Textures/Noise5.jpg
+  - fileID: 250
+    classID: 28
+    packedSize: 144
+    offset: 16784056
+    sourceAssetGUID: 7c3180fa48e39014db45dcaa4d622b3f
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 4 Low Poly BAKE_NRM.png
+  - fileID: 251
+    classID: 28
+    packedSize: 136
+    offset: 16784200
+    sourceAssetGUID: 7d9c5c80315f0f542b14cbd2906db92c
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Blanket/Blanket_low_BASE+OP.png
+  - fileID: 252
+    classID: 28
+    packedSize: 349684
+    offset: 16784336
+    sourceAssetGUID: 7e4b97337334f42d2a700647fd938234
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Material/Textures/GridBox_Collider.png
+  - fileID: 253
+    classID: 28
+    packedSize: 128
+    offset: 17134024
+    sourceAssetGUID: 7f7f86fb565c3d0478d8971f032c1269
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/S_low_NORM.png
+  - fileID: 254
+    classID: 28
+    packedSize: 193760
+    offset: 17134152
+    sourceAssetGUID: 8104f84c87c44be40b7cc801bfe5267a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Tree Mush 5 Low Poly_BASE+OP.png
+  - fileID: 255
+    classID: 28
+    packedSize: 140
+    offset: 17327912
+    sourceAssetGUID: 84436545aee26b240b52ae6639dfe8b6
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 2 Low Poly_NRM.png
+  - fileID: 256
+    classID: 28
+    packedSize: 132
+    offset: 17328056
+    sourceAssetGUID: 85806140ae9882d49a7b0d92c0b98729
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/M_low_BASE+OP.png
+  - fileID: 257
+    classID: 28
+    packedSize: 128
+    offset: 17328192
+    sourceAssetGUID: 85a45a6d8b2ffb84987d2b028ecfb220
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_58.png
+  - fileID: 258
+    classID: 28
+    packedSize: 140
+    offset: 17328320
+    sourceAssetGUID: 85d09999923a45c40b636c6cfa59e511
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 3 Low Poly_BASE+OP.png
+  - fileID: 259
+    classID: 28
+    packedSize: 136
+    offset: 17328464
+    sourceAssetGUID: 86f96c2c605629844a98700b5e373ce2
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Leaf Low Poly_NRM.png
+  - fileID: 260
+    classID: 28
+    packedSize: 128
+    offset: 17328600
+    sourceAssetGUID: 87a5e40cc271ea648b583616f6ebe7fe
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_32.png
+  - fileID: 261
+    classID: 28
+    packedSize: 140
+    offset: 17328728
+    sourceAssetGUID: 8b38863fac8020c459a5bb9307322d9c
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 4 Low Poly_NRM.png
+  - fileID: 262
+    classID: 28
+    packedSize: 136
+    offset: 17328872
+    sourceAssetGUID: 8b38a2293afc4284cb5437312fb6ad0d
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Stage/Stage_low_BASE+OP.png
+  - fileID: 263
+    classID: 28
+    packedSize: 273208
+    offset: 17329008
+    sourceAssetGUID: 8ba9066000b57ba47af418e03e633ebf
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hanging Bed 3 Low Poly_MOR.png
+  - fileID: 264
+    classID: 28
+    packedSize: 140
+    offset: 17602216
+    sourceAssetGUID: 8d9b0219767a4d048878854f578f2df1
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hammock 5 Low Poly_NRM.png
+  - fileID: 265
+    classID: 28
+    packedSize: 128
+    offset: 17602360
+    sourceAssetGUID: 8da15ead031a0644d9f40144f2347724
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Island_MOR.png
+  - fileID: 266
+    classID: 28
+    packedSize: 136
+    offset: 17602488
+    sourceAssetGUID: 8e258904cf88e714cb26cfe47f3e50ec
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Intertwined_Tree_NRM.png
+  - fileID: 267
+    classID: 28
+    packedSize: 128
+    offset: 17602624
+    sourceAssetGUID: 8ecbbcae4cc747a4abbc4adce795d25e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_46.png
+  - fileID: 268
+    classID: 28
+    packedSize: 148
+    offset: 17602752
+    sourceAssetGUID: 901f0c13f4d22734bae06496708d6f45
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 4 Low Poly BAKE_BASE+OP.png
+  - fileID: 269
+    classID: 28
+    packedSize: 128
+    offset: 17602904
+    sourceAssetGUID: 936dea238abb0864ab3985a995e16a29
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_54.png
+  - fileID: 270
+    classID: 28
+    packedSize: 4194444
+    offset: 17603032
+    sourceAssetGUID: 94b877781ad034640abce933599b6f2e
+    buildTimeAssetPath: Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudBottom.hdr
+  - fileID: 271
+    classID: 28
+    packedSize: 128
+    offset: 21797480
+    sourceAssetGUID: 963f1840102cdc64585f27d601838f03
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/XL_low_NORM.png
+  - fileID: 272
+    classID: 28
+    packedSize: 128
+    offset: 21797608
+    sourceAssetGUID: 9660a4ca1ca8425408ac25c641932977
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_38.png
+  - fileID: 273
+    classID: 28
+    packedSize: 128
+    offset: 21797736
+    sourceAssetGUID: 980acadb960f8424c94307ec0e585b4e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_12.png
+  - fileID: 274
+    classID: 28
+    packedSize: 128
+    offset: 21797864
+    sourceAssetGUID: 999434725cbc2be4eb54043b36efd4a8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_6.png
+  - fileID: 275
+    classID: 28
+    packedSize: 12304
+    offset: 21797992
+    sourceAssetGUID: 99a6f7b9edca097428f93f287ae2de36
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/TV1 Low Poly_BASE+OP.png
+  - fileID: 276
+    classID: 28
+    packedSize: 136
+    offset: 21810296
+    sourceAssetGUID: 9b45273fa715da9499342e2706fa6441
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Flower/Flower_low_BASE+OP.png
+  - fileID: 277
+    classID: 28
+    packedSize: 128
+    offset: 21810432
+    sourceAssetGUID: a03c400b0e3959f428ee99dfc6cfc263
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_62.png
+  - fileID: 278
+    classID: 28
+    packedSize: 4194440
+    offset: 21810560
+    sourceAssetGUID: a199da0432efa6a489df8883d1f3bfe0
+    buildTimeAssetPath: Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudTop.hdr
+  - fileID: 279
+    classID: 28
+    packedSize: 128
+    offset: 26005000
+    sourceAssetGUID: a1ae041906217ae44a774d4ca139af50
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_5.png
+  - fileID: 280
+    classID: 28
+    packedSize: 148
+    offset: 26005128
+    sourceAssetGUID: a4272aa8cfff32b4e8b38924672431bc
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 4 Low Poly BAKE_Emissive.png
+  - fileID: 281
+    classID: 28
+    packedSize: 128
+    offset: 26005280
+    sourceAssetGUID: a469f920b21fc7c4fb5b950917ce2fb2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_2.png
+  - fileID: 282
+    classID: 28
+    packedSize: 140
+    offset: 26005408
+    sourceAssetGUID: a553de101f82a154091ded77094e5a02
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 3 Low Poly_NRM.png
+  - fileID: 283
+    classID: 28
+    packedSize: 111092
+    offset: 26005552
+    sourceAssetGUID: a6893d52ff9b92a4487f3996476cde98
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 6 Low Poly_MOR.png
+  - fileID: 284
+    classID: 28
+    packedSize: 136
+    offset: 26116648
+    sourceAssetGUID: a748f0666394e3d46acae832c889439e
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Lilypads/Lilypads_low_BASE+OP.png
+  - fileID: 285
+    classID: 28
+    packedSize: 5592568
+    offset: 26116784
+    sourceAssetGUID: a779becf00399924184cd13e046a100e
+    buildTimeAssetPath: Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudBack.hdr
+  - fileID: 286
+    classID: 28
+    packedSize: 144
+    offset: 31709352
+    sourceAssetGUID: a8904dcadbd635a48a25584511dee974
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 6 Low Poly_MOR - Copy.png
+  - fileID: 287
+    classID: 28
+    packedSize: 128
+    offset: 31709496
+    sourceAssetGUID: aa80dc44aa4fe4c43bb9d51d90cf2958
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_29.png
+  - fileID: 288
+    classID: 28
+    packedSize: 128
+    offset: 31709624
+    sourceAssetGUID: acde5141d5f4f7a4188394bd52c4dc38
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_5.png
+  - fileID: 289
+    classID: 28
+    packedSize: 132
+    offset: 31709752
+    sourceAssetGUID: adf586edc89309949922832b34c21e10
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Pillows/Pillows_low_MOG.png
+  - fileID: 290
+    classID: 28
+    packedSize: 128
+    offset: 31709888
+    sourceAssetGUID: afe1e502240079342a0a980484b6da8b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_10.png
+  - fileID: 291
+    classID: 28
+    packedSize: 128
+    offset: 31710016
+    sourceAssetGUID: aff59c63d25d43f4c938f248837c30fb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_48.png
+  - fileID: 292
+    classID: 28
+    packedSize: 132
+    offset: 31710144
+    sourceAssetGUID: b09fc86eb0b6b264ab64522225fee814
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Wysteria_BASE+OP.png
+  - fileID: 293
+    classID: 28
+    packedSize: 132
+    offset: 31710280
+    sourceAssetGUID: b1b20408ebe77c3488b8d432fb9c7750
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hammock_2_NRM.png
+  - fileID: 294
+    classID: 28
+    packedSize: 128
+    offset: 31710416
+    sourceAssetGUID: b266511438fae724f9d3ce6bd26583e8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_42.png
+  - fileID: 295
+    classID: 28
+    packedSize: 273332
+    offset: 31710544
+    sourceAssetGUID: b2dec0e17f37dae4a840a13313487c80
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 6 Low Poly_BASE+OP.png
+  - fileID: 296
+    classID: 28
+    packedSize: 144
+    offset: 31983880
+    sourceAssetGUID: b518df2c872e22b46be4914413aa8b69
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 6 Low Poly_NRM - Copy.png
+  - fileID: 297
+    classID: 28
+    packedSize: 128
+    offset: 31984024
+    sourceAssetGUID: b52d5033b68309943a2386c270a90f44
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_4.png
+  - fileID: 298
+    classID: 28
+    packedSize: 132
+    offset: 31984152
+    sourceAssetGUID: b623fddefc6d0a74882167fbcfb3ab6c
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/XS_low_BASE+OP.png
+  - fileID: 299
+    classID: 28
+    packedSize: 22576
+    offset: 31984288
+    sourceAssetGUID: b68822c85d8b9384b9bd4f2fbdbcb974
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 8 Low Poly_MOR.png
+  - fileID: 300
+    classID: 28
+    packedSize: 128
+    offset: 32006864
+    sourceAssetGUID: b71bb466b71fd13449dd736f63caeb67
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_33.png
+  - fileID: 301
+    classID: 28
+    packedSize: 128
+    offset: 32006992
+    sourceAssetGUID: b7f000750830ddb4bbc80065b9314ce9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_21.png
+  - fileID: 302
+    classID: 28
+    packedSize: 140
+    offset: 32007120
+    sourceAssetGUID: b846e384189f2b94fad4c7b979e6e992
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/StairsnPoles/StairsnPoles_low_NORM.png
+  - fileID: 303
+    classID: 28
+    packedSize: 128
+    offset: 32007264
+    sourceAssetGUID: b865576d28a2366459e21c653e1a3229
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Tree_Bed_NRM.png
+  - fileID: 304
+    classID: 28
+    packedSize: 132
+    offset: 32007392
+    sourceAssetGUID: b93d697dfd4533e499d3cb898621bd4b
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Stage/Stage_low_NORM.png
+  - fileID: 305
+    classID: 28
+    packedSize: 128
+    offset: 32007528
+    sourceAssetGUID: b9960364038cbfa4aa49d7b2032d3110
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_45.png
+  - fileID: 306
+    classID: 28
+    packedSize: 9520
+    offset: 32007656
+    sourceAssetGUID: ba084ed404dd16f498cb7844c641a07f
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hanging Bed 3 Low Poly_BASE+OP.png
+  - fileID: 307
+    classID: 28
+    packedSize: 132
+    offset: 32017176
+    sourceAssetGUID: ba39ced0b79b0c849be7fe34ee6b2fd7
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Blanket/Blanket_low_MOG.png
+  - fileID: 308
+    classID: 28
+    packedSize: 152
+    offset: 32017312
+    sourceAssetGUID: ba50b840410b51644a03de6fb9c8722e
+    buildTimeAssetPath: Assets/2_Crystal Caves/Textures/Rock Tile/Stone texture_MOR_Reflection
+      Pack.png
+  - fileID: 309
+    classID: 28
+    packedSize: 140
+    offset: 32017464
+    sourceAssetGUID: bb057b15d5161284ca2bcaea08ac133c
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 6 Low Poly_MOR.png
+  - fileID: 310
+    classID: 28
+    packedSize: 144
+    offset: 32017608
+    sourceAssetGUID: bbc61a68e4d8f4843ba3abfc4e76d2ec
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Wysteria Low Poly_Emissive.png
+  - fileID: 311
+    classID: 28
+    packedSize: 2796364
+    offset: 32017752
+    sourceAssetGUID: bc3d0036a29b7f24e9cf83341a8f7ffc
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Tree Mush 5 Low Poly_Emissive.png
+  - fileID: 312
+    classID: 28
+    packedSize: 132
+    offset: 34814120
+    sourceAssetGUID: bdbf9ac2c40f87c4390d5b09f8e1e1be
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hammock_1_NRM.png
+  - fileID: 313
+    classID: 28
+    packedSize: 128
+    offset: 34814256
+    sourceAssetGUID: bdd06fb88ef36ed4a85dd506352c2d80
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_27.png
+  - fileID: 314
+    classID: 28
+    packedSize: 140
+    offset: 34814384
+    sourceAssetGUID: beffc7c84179f824694763229b6be5c3
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 5 Low Poly_NRM.png
+  - fileID: 315
+    classID: 28
+    packedSize: 128
+    offset: 34814528
+    sourceAssetGUID: bf95b6fdc179b0e4f890c841406193fc
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_17.png
+  - fileID: 316
+    classID: 28
+    packedSize: 128
+    offset: 34814656
+    sourceAssetGUID: bfe953600e8fb1849a804ee08ace7b4c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_23.png
+  - fileID: 317
+    classID: 28
+    packedSize: 136
+    offset: 34814784
+    sourceAssetGUID: c01c0f572cea04d47856209301a442d0
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Curved_Tree_BASE+OP.png
+  - fileID: 318
+    classID: 28
+    packedSize: 128
+    offset: 34814920
+    sourceAssetGUID: c072b653e98a06e40857d76ca8c7eecd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_3.png
+  - fileID: 319
+    classID: 28
+    packedSize: 128
+    offset: 34815048
+    sourceAssetGUID: c0a5e3a568bd723419ec02b432bef37f
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Wysteria_MOR.png
+  - fileID: 320
+    classID: 28
+    packedSize: 144
+    offset: 34815176
+    sourceAssetGUID: c0f4089cf770d2548a7c59e78fe75312
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 5 Low Poly_BASE+OP.png
+  - fileID: 321
+    classID: 28
+    packedSize: 174900
+    offset: 34815320
+    sourceAssetGUID: c1d17104ac329429a8ce5b3c5e3e0764
+    buildTimeAssetPath: Assets/NewWaterfall/Textures/Marble.png
+  - fileID: 322
+    classID: 28
+    packedSize: 136
+    offset: 34990224
+    sourceAssetGUID: c359ea71cb2572745ac393bf508e255f
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Leaf Low Poly_MOR.png
+  - fileID: 323
+    classID: 28
+    packedSize: 132
+    offset: 34990360
+    sourceAssetGUID: c3c84bb2f0c521d4cbb906309fb819c0
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Pillows/Pillows_low_NORM.png
+  - fileID: 324
+    classID: 28
+    packedSize: 128
+    offset: 34990496
+    sourceAssetGUID: c55042318a938344ab23cd7f09dd0076
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_8.png
+  - fileID: 325
+    classID: 28
+    packedSize: 2868
+    offset: 34990624
+    sourceAssetGUID: c55abaa1f3806f84e87f233fb8d5c5aa
+    buildTimeAssetPath: Assets/NewWaterfall/Textures/StoneTex.png
+  - fileID: 326
+    classID: 28
+    packedSize: 20836
+    offset: 34993496
+    sourceAssetGUID: c57058912b37f39409e3c36169a91759
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 3 Low Poly_MOR.png
+  - fileID: 327
+    classID: 28
+    packedSize: 132
+    offset: 35014336
+    sourceAssetGUID: c6a65247281aee54a93d6fa693ca9c7d
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hammock_2_MOR.png
+  - fileID: 328
+    classID: 28
+    packedSize: 140
+    offset: 35014472
+    sourceAssetGUID: c81ca09b645f85c43ab1ca34d591f6e2
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 2 Low Poly_BASE+OP.png
+  - fileID: 329
+    classID: 28
+    packedSize: 140
+    offset: 35014616
+    sourceAssetGUID: c8778d539e785ab4586f86be8a1dcc1c
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Intertwined_Tree_BASE+OP.png
+  - fileID: 330
+    classID: 28
+    packedSize: 128
+    offset: 35014760
+    sourceAssetGUID: c94b57b5a32a22d43ade66e09f6a4bd2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_53.png
+  - fileID: 331
+    classID: 28
+    packedSize: 140
+    offset: 35014888
+    sourceAssetGUID: cb2371f216b922c4fa4d2d2bd98d0fb5
+    buildTimeAssetPath: Assets/MOZ's Particles v8/assets/Texture/moz's particle texture.png
+  - fileID: 332
+    classID: 28
+    packedSize: 136
+    offset: 35015032
+    sourceAssetGUID: cc3a99e6b10e6874f8e181e1d88f9968
+    buildTimeAssetPath: Assets/2_Crystal Caves/Textures/Stone TileSet_NRM.png
+  - fileID: 333
+    classID: 28
+    packedSize: 144
+    offset: 35015168
+    sourceAssetGUID: cc8a2ec4569a25c4281d5ed859ff6aec
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 1 Low Poly BAKE_NRM.png
+  - fileID: 334
+    classID: 28
+    packedSize: 3752
+    offset: 35015312
+    sourceAssetGUID: ccf30b8daca379444ade568eaa92c59c
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 5 Low Poly_BASE+OP.png
+  - fileID: 335
+    classID: 28
+    packedSize: 136
+    offset: 35019064
+    sourceAssetGUID: cd78e3564659ee741ad3c25ec8feea85
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Lilypads/Lilypads_low_NORM.png
+  - fileID: 336
+    classID: 28
+    packedSize: 128
+    offset: 35019200
+    sourceAssetGUID: cd9006dc442cc244e89b3f492384d46a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_41.png
+  - fileID: 337
+    classID: 28
+    packedSize: 128
+    offset: 35019328
+    sourceAssetGUID: ced122bb1a4e9ea4ea0b4dccf7a72984
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Bed/Bed_low_MOG.png
+  - fileID: 338
+    classID: 28
+    packedSize: 144
+    offset: 35019456
+    sourceAssetGUID: ced6da8027db1d642b23213827a915eb
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 6 Low Poly_Emissive.png
+  - fileID: 339
+    classID: 28
+    packedSize: 140
+    offset: 35019600
+    sourceAssetGUID: d15cd5af2dfd2e048b5b7e60c592aa14
+    buildTimeAssetPath: Assets/2_Crystal Caves/Textures/Stone TileSet_BASE+OP.png
+  - fileID: 340
+    classID: 28
+    packedSize: 140
+    offset: 35019744
+    sourceAssetGUID: d204d4496883fcc4e8a75f36d2554f1d
+    buildTimeAssetPath: Assets/2_Crystal Caves/Textures/Cube Crystal/Cube Crystal
+      Norm_NRM.png
+  - fileID: 341
+    classID: 28
+    packedSize: 90340
+    offset: 35019888
+    sourceAssetGUID: d255699c8ec93834f8cba0da9ddec06e
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hammock 5 Low Poly_MOR.png
+  - fileID: 342
+    classID: 28
+    packedSize: 128
+    offset: 35110232
+    sourceAssetGUID: d2e8e90fac2e6a341a38e1c3963c218d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_52.png
+  - fileID: 343
+    classID: 28
+    packedSize: 128
+    offset: 35110360
+    sourceAssetGUID: d377e5aee9ee9e341a3b92ed9b742638
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/L_low_MOG.png
+  - fileID: 344
+    classID: 28
+    packedSize: 136
+    offset: 35110488
+    sourceAssetGUID: d571d9b324165b445991c9bcc3638ebe
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 2 Low Poly_NRM.png
+  - fileID: 345
+    classID: 28
+    packedSize: 128
+    offset: 35110624
+    sourceAssetGUID: d5a51525b27e3ee4aadbeb39cbcf0750
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_51.png
+  - fileID: 346
+    classID: 28
+    packedSize: 699196
+    offset: 35110752
+    sourceAssetGUID: d771f9158e772af4fb08c367659145d3
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene/GridFloor_udon.png
+  - fileID: 347
+    classID: 28
+    packedSize: 4194440
+    offset: 35809952
+    sourceAssetGUID: d822c5eff7d42f04691027bc8c2b0716
+    buildTimeAssetPath: Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudFront.hdr
+  - fileID: 348
+    classID: 28
+    packedSize: 128
+    offset: 40004392
+    sourceAssetGUID: d8c290e38ff0425409d0ae6a98c95e41
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_50.png
+  - fileID: 349
+    classID: 28
+    packedSize: 128
+    offset: 40004520
+    sourceAssetGUID: d96974690c77f50489eb60ec84bd8dac
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_59.png
+  - fileID: 350
+    classID: 28
+    packedSize: 128
+    offset: 40004648
+    sourceAssetGUID: d99701099481a2f489610e977df6dcbc
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/SearchTex.tga
+  - fileID: 351
+    classID: 28
+    packedSize: 128
+    offset: 40004776
+    sourceAssetGUID: dbf23674bc4277340bc73ac2c6ff0646
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/M_low_MOG.png
+  - fileID: 352
+    classID: 28
+    packedSize: 132
+    offset: 40004904
+    sourceAssetGUID: dc26fd415d494d44c87ccc6cfbdc7f17
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Curved_Tree_NRM.png
+  - fileID: 353
+    classID: 28
+    packedSize: 140
+    offset: 40005040
+    sourceAssetGUID: dda1462b571e1e04cb81febcbed3ecda
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 1 Low Poly_NRM.png
+  - fileID: 354
+    classID: 28
+    packedSize: 140
+    offset: 40005184
+    sourceAssetGUID: ddd9c2e1739ef6544b437e11e74ed27f
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Tree Mush 4 Low Poly_MOR.png
+  - fileID: 355
+    classID: 28
+    packedSize: 3744
+    offset: 40005328
+    sourceAssetGUID: de127a9978816b14380061f3948f6396
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 2 Low Poly_BASE+OP.png
+  - fileID: 356
+    classID: 28
+    packedSize: 144
+    offset: 40009072
+    sourceAssetGUID: de79c623002edf84797b96ad1c2178c9
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hanging Bed 3 Low Poly_NRM.png
+  - fileID: 357
+    classID: 28
+    packedSize: 128
+    offset: 40009216
+    sourceAssetGUID: df01d03f056c6f445b4b8a0ae054207c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_22.png
+  - fileID: 358
+    classID: 28
+    packedSize: 136
+    offset: 40009344
+    sourceAssetGUID: dfbbce3f351721546b03ac72ecf3476a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Mush 6 Low Poly_NRM.png
+  - fileID: 359
+    classID: 28
+    packedSize: 128
+    offset: 40009480
+    sourceAssetGUID: e138166e7a7c70f49943be7edda35d35
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_57.png
+  - fileID: 360
+    classID: 28
+    packedSize: 136
+    offset: 40009608
+    sourceAssetGUID: e4ba847830042fd42a4cdcdc64d9dfee
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/StairsnPoles/StairsnPoles_low_MOG.png
+  - fileID: 361
+    classID: 28
+    packedSize: 349692
+    offset: 40009744
+    sourceAssetGUID: e5495312dcc4e6147afd194adc7cdaec
+    buildTimeAssetPath: Assets/2_Crystal Caves/Textures/Rock Tile/Stone texture_BASE+OP.png
+  - fileID: 362
+    classID: 28
+    packedSize: 41776
+    offset: 40359440
+    sourceAssetGUID: e55c8134622c63840841ea5b319f74a7
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Pillow 1 Low Poly_MOR.png
+  - fileID: 363
+    classID: 28
+    packedSize: 132
+    offset: 40401216
+    sourceAssetGUID: e78439704a6196643b31f7e856cb6aa1
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/TV1 Low Poly_NRM.png
+  - fileID: 364
+    classID: 28
+    packedSize: 148
+    offset: 40401352
+    sourceAssetGUID: e78746032e81d6c48b4f7cce5358d5df
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Tree Mush 4 Low Poly_Emissive.png
+  - fileID: 365
+    classID: 28
+    packedSize: 404172
+    offset: 40401504
+    sourceAssetGUID: e9fcdc01523750a40971658830c08793
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Flower 1 Low Poly BAKE_BASE+OP.png
+  - fileID: 366
+    classID: 28
+    packedSize: 140
+    offset: 40805680
+    sourceAssetGUID: ed256f98f45527d49b3b733d93e2cfa8
+    buildTimeAssetPath: Assets/2_Crystal Caves/Textures/Wall Rocks/Wall Rocks V2_BASE+OP.png
+  - fileID: 367
+    classID: 28
+    packedSize: 113492
+    offset: 40805824
+    sourceAssetGUID: f0808adbbf8d21245a2379e6762e31e1
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/TV2 Low Poly_MOR.png
+  - fileID: 368
+    classID: 28
+    packedSize: 132
+    offset: 40919320
+    sourceAssetGUID: f2f7942af7b032045b5c95f78e43a2b2
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Tree/Tree_low_BASE+OP.png
+  - fileID: 369
+    classID: 28
+    packedSize: 140
+    offset: 40919456
+    sourceAssetGUID: f35a640f5da90b043b2bb5b43ceef171
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Leaf Low Poly_BASE+OP.png
+  - fileID: 370
+    classID: 28
+    packedSize: 140
+    offset: 40919600
+    sourceAssetGUID: f36f7464e31452d4eb408fd83d160866
+    buildTimeAssetPath: Assets/4_Fairy Forest/Textures/Hammock 4 Low Poly_MOR.png
+  - fileID: 371
+    classID: 28
+    packedSize: 132
+    offset: 40919744
+    sourceAssetGUID: f412f259d1d17904fb6b2ab3b516a052
+    buildTimeAssetPath: Assets/3_Magic Pools/Textures/Rocks/S_low_BASE+OP.png
+  - fileID: 372
+    classID: 28
+    packedSize: 128
+    offset: 40919880
+    sourceAssetGUID: f4b8ab78b57749d4e96d36f6d8a395d0
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_25.png
+  - fileID: 373
+    classID: 28
+    packedSize: 128
+    offset: 40920008
+    sourceAssetGUID: f6439b54b28f3884eb67579dec0b6f21
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_14.png
+  - fileID: 374
+    classID: 28
+    packedSize: 128
+    offset: 40920136
+    sourceAssetGUID: f873bc83e13d47d41915a29b080f138a
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Bed/Bed_low_NORM.png
+  - fileID: 375
+    classID: 28
+    packedSize: 132
+    offset: 40920264
+    sourceAssetGUID: fe86637b3d28ba14c9d72423c09ea817
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Flower/Flower_low_NORM.png
+  - fileID: 376
+    classID: 28
+    packedSize: 128
+    offset: 40920400
+    sourceAssetGUID: ff5887a79a50b3449a4cf28bd28b3af6
+    buildTimeAssetPath: Assets/1_Whole Island/Textures/Tree/Tree_low_MOG.png
+  - fileID: 377
+    classID: 43
+    packedSize: 79016
+    offset: 40920528
+    sourceAssetGUID: 7a6d555b07066fc4baea6ea50c757540
+    buildTimeAssetPath: Assets/1_Whole Island/Meshes/SpawnTree.fbx
+  - fileID: 378
+    classID: 43
+    packedSize: 756
+    offset: 40999544
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 379
+    classID: 43
+    packedSize: 756
+    offset: 41000304
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 380
+    classID: 43
+    packedSize: 756
+    offset: 41001064
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 381
+    classID: 43
+    packedSize: 1788
+    offset: 41001824
+    sourceAssetGUID: 37374790b7fac514189f4bc5061f9ff5
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolM4.fbx
+  - fileID: 382
+    classID: 43
+    packedSize: 920
+    offset: 41003616
+    sourceAssetGUID: f1cfd8994464f9e44aced32c0c3dc462
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/MODULAR/Crystals/Untitled.fbx
+  - fileID: 383
+    classID: 43
+    packedSize: 756
+    offset: 41004536
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 384
+    classID: 43
+    packedSize: 756
+    offset: 41005296
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 385
+    classID: 43
+    packedSize: 756
+    offset: 41006056
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 386
+    classID: 43
+    packedSize: 756
+    offset: 41006816
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 387
+    classID: 43
+    packedSize: 4520
+    offset: 41007576
+    sourceAssetGUID: 4cf11aaed83d64c4aa9e1d5b966c2a43
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolStair2.fbx
+  - fileID: 388
+    classID: 43
+    packedSize: 756
+    offset: 41012096
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 389
+    classID: 43
+    packedSize: 1996
+    offset: 41012856
+    sourceAssetGUID: e61c5dff769b9164eb9529819ef111eb
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolPole2.fbx
+  - fileID: 390
+    classID: 43
+    packedSize: 756
+    offset: 41014856
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 391
+    classID: 43
+    packedSize: 756
+    offset: 41015616
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 392
+    classID: 43
+    packedSize: 756
+    offset: 41016376
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 393
+    classID: 43
+    packedSize: 1948
+    offset: 41017136
+    sourceAssetGUID: 116d5e436cefd6e4785532f04ea70fda
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolDiagFence2p2.fbx
+  - fileID: 394
+    classID: 43
+    packedSize: 756
+    offset: 41019088
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 395
+    classID: 43
+    packedSize: 2744
+    offset: 41019848
+    sourceAssetGUID: 8ec2dac24f058f64e8bfcf746d754942
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/ROCKS 1.fbx
+  - fileID: 396
+    classID: 43
+    packedSize: 756
+    offset: 41022592
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 397
+    classID: 43
+    packedSize: 756
+    offset: 41023352
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 398
+    classID: 43
+    packedSize: 756
+    offset: 41024112
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 399
+    classID: 43
+    packedSize: 20336
+    offset: 41024872
+    sourceAssetGUID: 14ddd62c8f4f26b4abc3df322553304b
+    buildTimeAssetPath: Assets/1_Whole Island/Meshes/Water.fbx
+  - fileID: 400
+    classID: 43
+    packedSize: 756
+    offset: 41045208
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 401
+    classID: 43
+    packedSize: 756
+    offset: 41045968
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 402
+    classID: 43
+    packedSize: 5236
+    offset: 41046728
+    sourceAssetGUID: b9e99fef74c291f40bb634b396a84256
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolPlanes_low.obj
+  - fileID: 403
+    classID: 43
+    packedSize: 756
+    offset: 41051968
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 404
+    classID: 43
+    packedSize: 756
+    offset: 41052728
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 405
+    classID: 43
+    packedSize: 756
+    offset: 41053488
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 406
+    classID: 43
+    packedSize: 10252
+    offset: 41054248
+    sourceAssetGUID: 40387224e7305274b9c083284df64865
+    buildTimeAssetPath: Assets/1_Whole Island/Meshes/Basev2.obj
+  - fileID: 407
+    classID: 43
+    packedSize: 7536
+    offset: 41064504
+    sourceAssetGUID: 480fd663ae8d5494e908a30fde06846b
+    buildTimeAssetPath: Assets/1_Whole Island/Meshes/SpawnBed.fbx
+  - fileID: 408
+    classID: 43
+    packedSize: 920
+    offset: 41072040
+    sourceAssetGUID: f1cfd8994464f9e44aced32c0c3dc462
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/MODULAR/Crystals/Untitled.fbx
+  - fileID: 409
+    classID: 43
+    packedSize: 16152
+    offset: 41072960
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 410
+    classID: 43
+    packedSize: 932
+    offset: 41089112
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 411
+    classID: 43
+    packedSize: 2632
+    offset: 41090048
+    sourceAssetGUID: 0054785d05b6f6049b7d9fe74b2ec763
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolL1.fbx
+  - fileID: 412
+    classID: 43
+    packedSize: 2488
+    offset: 41092680
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 413
+    classID: 43
+    packedSize: 1584
+    offset: 41095168
+    sourceAssetGUID: 596aaf5b9f2d24e419ab6f0fd8993eb1
+    buildTimeAssetPath: Assets/Prefab/ROCKS/PoolXS2.fbx
+  - fileID: 414
+    classID: 43
+    packedSize: 1584
+    offset: 41096752
+    sourceAssetGUID: b8a444f620cd15b4fb4145fb937d4bd2
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolXS2.fbx
+  - fileID: 415
+    classID: 43
+    packedSize: 756
+    offset: 41098336
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 416
+    classID: 43
+    packedSize: 756
+    offset: 41099096
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 417
+    classID: 43
+    packedSize: 756
+    offset: 41099856
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 418
+    classID: 43
+    packedSize: 1824
+    offset: 41100616
+    sourceAssetGUID: 865cdfd5a8d2ab74190e6d07c258b062
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolS4.fbx
+  - fileID: 419
+    classID: 43
+    packedSize: 756
+    offset: 41102440
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 420
+    classID: 43
+    packedSize: 756
+    offset: 41103200
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 421
+    classID: 43
+    packedSize: 756
+    offset: 41103960
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 422
+    classID: 43
+    packedSize: 756
+    offset: 41104720
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 423
+    classID: 43
+    packedSize: 7684
+    offset: 41105480
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 424
+    classID: 43
+    packedSize: 756
+    offset: 41113168
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 425
+    classID: 43
+    packedSize: 756
+    offset: 41113928
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 426
+    classID: 43
+    packedSize: 379004
+    offset: 41114688
+    sourceAssetGUID: a174aa26bbe9606479e06da7643f1c53
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Intertwined Tree Low Poly.fbx
+  - fileID: 427
+    classID: 43
+    packedSize: 756
+    offset: 41493696
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 428
+    classID: 43
+    packedSize: 756
+    offset: 41494456
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 429
+    classID: 43
+    packedSize: 756
+    offset: 41495216
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 430
+    classID: 43
+    packedSize: 756
+    offset: 41495976
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 431
+    classID: 43
+    packedSize: 1580
+    offset: 41496736
+    sourceAssetGUID: 685664bc008d15948b1c4a77d8da208b
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolXS1.fbx
+  - fileID: 432
+    classID: 43
+    packedSize: 756
+    offset: 41498320
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 433
+    classID: 43
+    packedSize: 756
+    offset: 41499080
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 434
+    classID: 43
+    packedSize: 68704
+    offset: 41499840
+    sourceAssetGUID: 4c6e7bc6e04324944b89ce95af08910e
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Hammock 2 Low Poly 1.obj
+  - fileID: 435
+    classID: 43
+    packedSize: 756
+    offset: 41568544
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 436
+    classID: 43
+    packedSize: 920
+    offset: 41569304
+    sourceAssetGUID: f1cfd8994464f9e44aced32c0c3dc462
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/MODULAR/Crystals/Untitled.fbx
+  - fileID: 437
+    classID: 43
+    packedSize: 756
+    offset: 41570224
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 438
+    classID: 43
+    packedSize: 5488
+    offset: 41570984
+    sourceAssetGUID: af4ac3196420e014981326ef3c2112a5
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Tree Bed 1.fbx
+  - fileID: 439
+    classID: 43
+    packedSize: 2528
+    offset: 41576472
+    sourceAssetGUID: 7526d0c42aa7f67429bdcc92efa8b102
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolXL1.fbx
+  - fileID: 440
+    classID: 43
+    packedSize: 1700
+    offset: 41579000
+    sourceAssetGUID: 0bc5da54ad6971c4cbf7d3d2a1c165ae
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 4.fbx
+  - fileID: 441
+    classID: 43
+    packedSize: 14484
+    offset: 41580704
+    sourceAssetGUID: 7629c7794936f9945a65bbb1b99579d1
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Hanging Bed 3 Low Poly.fbx
+  - fileID: 442
+    classID: 43
+    packedSize: 13188
+    offset: 41595192
+    sourceAssetGUID: d2098fdf7149c2848acd8328245e4a57
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Hammock 5 Low Poly.fbx
+  - fileID: 443
+    classID: 43
+    packedSize: 13752
+    offset: 41608384
+    sourceAssetGUID: dbd24ee2687d8c048b288f923fd7979e
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Hanging Bed 1 Low Poly.fbx
+  - fileID: 444
+    classID: 43
+    packedSize: 3252
+    offset: 41622136
+    sourceAssetGUID: 5a79acd9838e45b4c90a5374275eda6f
+    buildTimeAssetPath: Assets/Prefab/ROCKS/PoolXL2.fbx
+  - fileID: 445
+    classID: 43
+    packedSize: 3252
+    offset: 41625392
+    sourceAssetGUID: c5e36411853a36a4e902e7dcb4d07874
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolXL2.fbx
+  - fileID: 446
+    classID: 43
+    packedSize: 1780
+    offset: 41628648
+    sourceAssetGUID: 5593d3bfe08d49945bb5436671be0df6
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolFence2p2.fbx
+  - fileID: 447
+    classID: 43
+    packedSize: 756
+    offset: 41630432
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 448
+    classID: 43
+    packedSize: 756
+    offset: 41631192
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 449
+    classID: 43
+    packedSize: 2584
+    offset: 41631952
+    sourceAssetGUID: ff0d8e2ac9f8a0e4ea3dda89c70c3d1c
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolDiagFence1p1.fbx
+  - fileID: 450
+    classID: 43
+    packedSize: 2412
+    offset: 41634536
+    sourceAssetGUID: 09e32977a64140645a16722f7d80d47d
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolFence1p1.fbx
+  - fileID: 451
+    classID: 43
+    packedSize: 4956
+    offset: 41636952
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 452
+    classID: 43
+    packedSize: 1896
+    offset: 41641912
+    sourceAssetGUID: 00d5a47050284d642a4951757e2bbe4d
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolXS4.fbx
+  - fileID: 453
+    classID: 43
+    packedSize: 2464
+    offset: 41643808
+    sourceAssetGUID: 585456cd9add7444db978c9709a0cf3b
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolXL3.fbx
+  - fileID: 454
+    classID: 43
+    packedSize: 2464
+    offset: 41646272
+    sourceAssetGUID: b439672bd62de4c40bc319e8526c89fc
+    buildTimeAssetPath: Assets/Prefab/ROCKS/PoolXL3.fbx
+  - fileID: 455
+    classID: 43
+    packedSize: 756
+    offset: 41648736
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 456
+    classID: 43
+    packedSize: 2044
+    offset: 41649496
+    sourceAssetGUID: 66de28d0b07d7de4aadba47f8cf672fd
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolS2.fbx
+  - fileID: 457
+    classID: 43
+    packedSize: 7032
+    offset: 41651544
+    sourceAssetGUID: c9227f511ec0d3d468c898428bad8749
+    buildTimeAssetPath: Assets/1_Whole Island/Meshes/SpawnPillow2.fbx
+  - fileID: 458
+    classID: 43
+    packedSize: 756
+    offset: 41658576
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 459
+    classID: 43
+    packedSize: 756
+    offset: 41659336
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 460
+    classID: 43
+    packedSize: 756
+    offset: 41660096
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 461
+    classID: 43
+    packedSize: 9744
+    offset: 41660856
+    sourceAssetGUID: 8abfe3773e8290744b6ddb8c583c31d7
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 4 Low Poly.fbx
+  - fileID: 462
+    classID: 43
+    packedSize: 756
+    offset: 41670600
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 463
+    classID: 43
+    packedSize: 756
+    offset: 41671360
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 464
+    classID: 43
+    packedSize: 756
+    offset: 41672120
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 465
+    classID: 43
+    packedSize: 364
+    offset: 41672880
+    sourceAssetGUID: b4268934b1b736e45bc7e9aa4f484d0a
+    buildTimeAssetPath: Assets/Scenes/Luna's Dream/ProBuilder Meshes/pb_Mesh76578.asset
+  - fileID: 466
+    classID: 43
+    packedSize: 364
+    offset: 41673248
+    sourceAssetGUID: 053e4dda7e9b0ce4a8c486b663d3042b
+    buildTimeAssetPath: Assets/Scenes/Luna's Dream/ProBuilder Meshes/pb_Mesh76850.asset
+  - fileID: 467
+    classID: 43
+    packedSize: 756
+    offset: 41673616
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 468
+    classID: 43
+    packedSize: 756
+    offset: 41674376
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 469
+    classID: 43
+    packedSize: 1496
+    offset: 41675136
+    sourceAssetGUID: 3ce0348c4d2fea04b89529cedba36a90
+    buildTimeAssetPath: Assets/1_Whole Island/Meshes/SpawnBlanket.fbx
+  - fileID: 470
+    classID: 43
+    packedSize: 25972
+    offset: 41676632
+    sourceAssetGUID: 8abfe3773e8290744b6ddb8c583c31d7
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 4 Low Poly.fbx
+  - fileID: 471
+    classID: 43
+    packedSize: 756
+    offset: 41702608
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 472
+    classID: 43
+    packedSize: 756
+    offset: 41703368
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 473
+    classID: 43
+    packedSize: 187116
+    offset: 41704128
+    sourceAssetGUID: 522298a4e49f2064babc749477a4c85c
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Regular Tree 2 Low Poly.fbx
+  - fileID: 474
+    classID: 43
+    packedSize: 280428
+    offset: 41891248
+    sourceAssetGUID: 9c572dd92a91f4d49bb89c7dd455ba83
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Tree Bed 2 Low Poly.fbx
+  - fileID: 475
+    classID: 43
+    packedSize: 598128
+    offset: 42171680
+    sourceAssetGUID: a074250a55573e5418c19faf669d8928
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Wysteria Low Poly.fbx
+  - fileID: 476
+    classID: 43
+    packedSize: 698732
+    offset: 42769808
+    sourceAssetGUID: a174aa26bbe9606479e06da7643f1c53
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Intertwined Tree Low Poly.fbx
+  - fileID: 477
+    classID: 43
+    packedSize: 756
+    offset: 43468544
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 478
+    classID: 43
+    packedSize: 1584
+    offset: 43469304
+    sourceAssetGUID: f3d853b9ee7c06e4985cd0a50a927f3b
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolXS3.fbx
+  - fileID: 479
+    classID: 43
+    packedSize: 788
+    offset: 43470888
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 480
+    classID: 43
+    packedSize: 8844
+    offset: 43471680
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 481
+    classID: 43
+    packedSize: 756
+    offset: 43480528
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 482
+    classID: 43
+    packedSize: 5664
+    offset: 43481288
+    sourceAssetGUID: 85cd37bbf3f3ca8439a188cb1bf00732
+    buildTimeAssetPath: Assets/1_Whole Island/Meshes/SpawnPillow1.fbx
+  - fileID: 483
+    classID: 43
+    packedSize: 73104
+    offset: 43486952
+    sourceAssetGUID: eb8ce202149746b4fb0254ba77ebd222
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Hammock 4 Low Poly.fbx
+  - fileID: 484
+    classID: 43
+    packedSize: 17660
+    offset: 43560056
+    sourceAssetGUID: a074250a55573e5418c19faf669d8928
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Wysteria Low Poly.fbx
+  - fileID: 485
+    classID: 43
+    packedSize: 1732
+    offset: 43577720
+    sourceAssetGUID: 6d7ffc3201c76344994b728312c384da
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolM2.fbx
+  - fileID: 486
+    classID: 43
+    packedSize: 1732
+    offset: 43579456
+    sourceAssetGUID: b6f5c0d59c9e8cf4ab195510a76680d2
+    buildTimeAssetPath: Assets/Prefab/ROCKS/PoolM2.fbx
+  - fileID: 487
+    classID: 43
+    packedSize: 19428
+    offset: 43581192
+    sourceAssetGUID: 47dbe73fc27b9f149b63a69edf07c03b
+    buildTimeAssetPath: Assets/1_Whole Island/Meshes/SpawnFlower.fbx
+  - fileID: 488
+    classID: 43
+    packedSize: 756
+    offset: 43600624
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 489
+    classID: 43
+    packedSize: 3312
+    offset: 43601384
+    sourceAssetGUID: 92c1a96a2348bbb49aed6fafd0313f68
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolDiagFence2p1.fbx
+  - fileID: 490
+    classID: 43
+    packedSize: 756
+    offset: 43604696
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 491
+    classID: 43
+    packedSize: 14660
+    offset: 43605456
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 492
+    classID: 43
+    packedSize: 1412
+    offset: 43620120
+    sourceAssetGUID: 0cd92858a5cc47d48a3b415e16749189
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolM1.fbx
+  - fileID: 493
+    classID: 43
+    packedSize: 1412
+    offset: 43621536
+    sourceAssetGUID: d2f11f2f9f932de419dd39c57602b6c6
+    buildTimeAssetPath: Assets/Prefab/ROCKS/PoolM1.fbx
+  - fileID: 494
+    classID: 43
+    packedSize: 756
+    offset: 43622952
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 495
+    classID: 43
+    packedSize: 756
+    offset: 43623712
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 496
+    classID: 43
+    packedSize: 2276
+    offset: 43624472
+    sourceAssetGUID: 254c5466c65c8944e97a40c8256dd53f
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolL4.fbx
+  - fileID: 497
+    classID: 43
+    packedSize: 7920
+    offset: 43626752
+    sourceAssetGUID: 8590a17dc570eb2438f0401b3ff5139e
+    buildTimeAssetPath: Assets/1_Whole Island/Meshes/SpawnIsland.obj
+  - fileID: 498
+    classID: 43
+    packedSize: 1712
+    offset: 43634672
+    sourceAssetGUID: 8197b8bf47268424995321447aaa5f16
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolDiagFence1p2.fbx
+  - fileID: 499
+    classID: 43
+    packedSize: 3500
+    offset: 43636384
+    sourceAssetGUID: e7da23adbb6c70e4188d11fee65b36e6
+    buildTimeAssetPath: Assets/Prefab/ROCKS/PoolXL4.fbx
+  - fileID: 500
+    classID: 43
+    packedSize: 3500
+    offset: 43639888
+    sourceAssetGUID: f7e746d5988317742a2e20f597151169
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolXL4.fbx
+  - fileID: 501
+    classID: 43
+    packedSize: 19192
+    offset: 43643392
+    sourceAssetGUID: 522298a4e49f2064babc749477a4c85c
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Regular Tree 2 Low Poly.fbx
+  - fileID: 502
+    classID: 43
+    packedSize: 6104
+    offset: 43662584
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 503
+    classID: 43
+    packedSize: 756
+    offset: 43668688
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 504
+    classID: 43
+    packedSize: 756
+    offset: 43669448
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 505
+    classID: 43
+    packedSize: 756
+    offset: 43670208
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 506
+    classID: 43
+    packedSize: 4304
+    offset: 43670968
+    sourceAssetGUID: 6ef3b2c41e38b094cbb49511b89eb854
+    buildTimeAssetPath: Assets/3_Magic Pools/Prefab/PoolWater.fbx
+  - fileID: 507
+    classID: 43
+    packedSize: 756
+    offset: 43675272
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 508
+    classID: 43
+    packedSize: 756
+    offset: 43676032
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 509
+    classID: 43
+    packedSize: 7812
+    offset: 43676792
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 510
+    classID: 43
+    packedSize: 756
+    offset: 43684608
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 511
+    classID: 43
+    packedSize: 756
+    offset: 43685368
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 512
+    classID: 43
+    packedSize: 3652
+    offset: 43686128
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 513
+    classID: 43
+    packedSize: 3324
+    offset: 43689784
+    sourceAssetGUID: 3eea77c3f90020f49bfbd99483793d05
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Inside Mountain/Support
+      1.fbx
+  - fileID: 514
+    classID: 43
+    packedSize: 756
+    offset: 43693112
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 515
+    classID: 43
+    packedSize: 756
+    offset: 43693872
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 516
+    classID: 43
+    packedSize: 756
+    offset: 43694632
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 517
+    classID: 43
+    packedSize: 29792
+    offset: 43695392
+    sourceAssetGUID: cc16662247afde64a9c51ba0526663c1
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Hammock 1 Low Poly.fbx
+  - fileID: 518
+    classID: 43
+    packedSize: 756
+    offset: 43725184
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 519
+    classID: 43
+    packedSize: 3624
+    offset: 43725944
+    sourceAssetGUID: 84a722d409b79534cb12004c7078b645
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Inside Mountain/Support
+      2.fbx
+  - fileID: 520
+    classID: 43
+    packedSize: 2728
+    offset: 43729568
+    sourceAssetGUID: 1747bc8edb8a55643afe5dade4c1172b
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolL3.fbx
+  - fileID: 521
+    classID: 43
+    packedSize: 1256
+    offset: 43732296
+    sourceAssetGUID: bab3506a8121c3544954ad19a0036fa1
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolS1.fbx
+  - fileID: 522
+    classID: 43
+    packedSize: 756
+    offset: 43733552
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 523
+    classID: 43
+    packedSize: 756
+    offset: 43734312
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 524
+    classID: 43
+    packedSize: 3052
+    offset: 43735072
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 525
+    classID: 43
+    packedSize: 7092
+    offset: 43738128
+    sourceAssetGUID: bdaebae84dfd281428baad4b2ab7b9ef
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Tree Mush 5 Low Poly 1.obj
+  - fileID: 526
+    classID: 43
+    packedSize: 2784
+    offset: 43745224
+    sourceAssetGUID: 63e8b0bb02dbd47448f1f4e3fb58d5d5
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolL2.fbx
+  - fileID: 527
+    classID: 43
+    packedSize: 1232
+    offset: 43748008
+    sourceAssetGUID: 3a5399135b0363245860a695633d229e
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolS3.fbx
+  - fileID: 528
+    classID: 43
+    packedSize: 756
+    offset: 43749240
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 529
+    classID: 43
+    packedSize: 756
+    offset: 43750000
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 530
+    classID: 43
+    packedSize: 756
+    offset: 43750760
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 531
+    classID: 43
+    packedSize: 5132
+    offset: 43751520
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 532
+    classID: 43
+    packedSize: 756
+    offset: 43756656
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 533
+    classID: 43
+    packedSize: 1620
+    offset: 43757416
+    sourceAssetGUID: e17091c3c5a9b694984cb688b2831d4f
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolM3.fbx
+  - fileID: 534
+    classID: 43
+    packedSize: 756
+    offset: 43759040
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 535
+    classID: 43
+    packedSize: 1484
+    offset: 43759800
+    sourceAssetGUID: 6f8f4e5e170bb1349b940ab9379309e7
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolPole1.fbx
+  - fileID: 536
+    classID: 43
+    packedSize: 756
+    offset: 43761288
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 537
+    classID: 43
+    packedSize: 756
+    offset: 43762048
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 538
+    classID: 43
+    packedSize: 756
+    offset: 43762808
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 539
+    classID: 43
+    packedSize: 756
+    offset: 43763568
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 540
+    classID: 43
+    packedSize: 756
+    offset: 43764328
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 541
+    classID: 43
+    packedSize: 1492
+    offset: 43765088
+    sourceAssetGUID: a715d5121e1924e49bb984073b1aaa35
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolFence1p2.fbx
+  - fileID: 542
+    classID: 43
+    packedSize: 39072
+    offset: 43766584
+    sourceAssetGUID: 063d4656fc9c743469b6fc652dbb7661
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolStage.fbx
+  - fileID: 543
+    classID: 43
+    packedSize: 756
+    offset: 43805656
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 544
+    classID: 43
+    packedSize: 3460
+    offset: 43806416
+    sourceAssetGUID: 2e13388ff834f1644bc4a38f3c5c15ae
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolFence2p1.fbx
+  - fileID: 545
+    classID: 43
+    packedSize: 756
+    offset: 43809880
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 546
+    classID: 43
+    packedSize: 756
+    offset: 43810640
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 547
+    classID: 43
+    packedSize: 756
+    offset: 43811400
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 548
+    classID: 43
+    packedSize: 22276
+    offset: 43812160
+    sourceAssetGUID: 9c572dd92a91f4d49bb89c7dd455ba83
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Tree Bed 2 Low Poly.fbx
+  - fileID: 549
+    classID: 43
+    packedSize: 5312
+    offset: 43834440
+    sourceAssetGUID: 53c14de7ab0190c4d810902010014e07
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Forest Island.fbx
+  - fileID: 550
+    classID: 43
+    packedSize: 756
+    offset: 43839752
+    sourceAssetGUID: 0e551c56e90200244887b10313e69e5a
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Mush 6 Low Poly.fbx
+  - fileID: 551
+    classID: 43
+    packedSize: 25388
+    offset: 43840512
+    sourceAssetGUID: a174aa26bbe9606479e06da7643f1c53
+    buildTimeAssetPath: Assets/4_Fairy Forest/Meshes/Intertwined Tree Low Poly.fbx
+  - fileID: 552
+    classID: 43
+    packedSize: 5300
+    offset: 43865904
+    sourceAssetGUID: 1e0eff5abcf82394eb19d102aaeffd07
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/Mountain.fbx
+  - fileID: 553
+    classID: 43
+    packedSize: 920
+    offset: 43871208
+    sourceAssetGUID: f1cfd8994464f9e44aced32c0c3dc462
+    buildTimeAssetPath: Assets/2_Crystal Caves/Prefab/Areas/MODULAR/Crystals/Untitled.fbx
+  - fileID: 554
+    classID: 43
+    packedSize: 2596
+    offset: 43872128
+    sourceAssetGUID: 457e345ec05fd864dac82dfb8cac451a
+    buildTimeAssetPath: Assets/3_Magic Pools/Meshes/PoolStair1.fbx
+  - fileID: 555
+    classID: 48
+    packedSize: 18848
+    offset: 43874728
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 556
+    classID: 48
+    packedSize: 36572
+    offset: 43893576
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 557
+    classID: 48
+    packedSize: 236264
+    offset: 43930152
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 558
+    classID: 48
+    packedSize: 19456
+    offset: 44166416
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 559
+    classID: 48
+    packedSize: 6592
+    offset: 44185872
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 560
+    classID: 48
+    packedSize: 6572
+    offset: 44192464
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 561
+    classID: 48
+    packedSize: 135472
+    offset: 44199040
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 562
+    classID: 48
+    packedSize: 6132
+    offset: 44334512
+    sourceAssetGUID: 02d2da9bc88d25c4d878c1ed4e0b3854
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromTexArray.shader
+  - fileID: 563
+    classID: 48
+    packedSize: 10980
+    offset: 44340648
+    sourceAssetGUID: 0d8afcb51cc9f0349a6d190da929b838
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GrainBaker.shader
+  - fileID: 564
+    classID: 48
+    packedSize: 61360
+    offset: 44351632
+    sourceAssetGUID: 0ef78d24e85a44f4da9d5b5eaa00e50b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.shader
+  - fileID: 565
+    classID: 48
+    packedSize: 19860
+    offset: 44412992
+    sourceAssetGUID: 2c459b89a7c8b1a4fbefe0d81341651c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader
+  - fileID: 566
+    classID: 48
+    packedSize: 97168
+    offset: 44432856
+    sourceAssetGUID: 2ecd2903d107ab243b62d6869ae2eef8
+    buildTimeAssetPath: Assets/NewWaterfall/Shaders/NewWaterfall.shader
+  - fileID: 567
+    classID: 48
+    packedSize: 4056
+    offset: 44530024
+    sourceAssetGUID: 3020ac7ece79a7f4eb789a236f8bd6c5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.shader
+  - fileID: 568
+    classID: 48
+    packedSize: 6584
+    offset: 44534080
+    sourceAssetGUID: 34a819c9e33402547a81619693adc8d5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture2DLerp.shader
+  - fileID: 569
+    classID: 48
+    packedSize: 1075848
+    offset: 44540664
+    sourceAssetGUID: 382151503e2a43a4ebb7366d1632731d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader
+  - fileID: 570
+    classID: 48
+    packedSize: 7180
+    offset: 45616512
+    sourceAssetGUID: 4117fce9491711c4094d33a048e36e73
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DeferredFog.shader
+  - fileID: 571
+    classID: 48
+    packedSize: 6176
+    offset: 45623696
+    sourceAssetGUID: 4bf4cff0d0bac3d43894e2e8839feb40
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStd.shader
+  - fileID: 572
+    classID: 48
+    packedSize: 9676
+    offset: 45629872
+    sourceAssetGUID: 51bcf79c50dc92e47ba87821b61100c3
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader
+  - fileID: 573
+    classID: 48
+    packedSize: 3732
+    offset: 45639552
+    sourceAssetGUID: 5ab0816423f0dfe45841cab3b05ec9ef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiscardAlpha.shader
+  - fileID: 574
+    classID: 48
+    packedSize: 12528
+    offset: 45643288
+    sourceAssetGUID: 67f9497810829eb4791ec19e95781e51
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVO.shader
+  - fileID: 575
+    classID: 48
+    packedSize: 201536
+    offset: 45655816
+    sourceAssetGUID: 6b9519ffa87a9dc4caeee5dd0182ce79
+    buildTimeAssetPath: Assets/2_Crystal Caves/Materials/OptimizedShaders/M_Inner_Mat
+      Variant/Poiyomi Toon World.shader
+  - fileID: 576
+    classID: 48
+    packedSize: 16128
+    offset: 45857352
+    sourceAssetGUID: 7ad194cbe7d006f4bace915156972026
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut2DBaker.shader
+  - fileID: 577
+    classID: 48
+    packedSize: 23380
+    offset: 45873480
+    sourceAssetGUID: 81af42a93ade3dd46a9b583d4eec76d6
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader
+  - fileID: 578
+    classID: 48
+    packedSize: 36844
+    offset: 45896864
+    sourceAssetGUID: a254bffbebf998f418a2807de34d5988
+    buildTimeAssetPath: Assets/SnowIcicles/Shaders/ToonIceVertexTess.shader
+  - fileID: 579
+    classID: 48
+    packedSize: 4072
+    offset: 45933712
+    sourceAssetGUID: a71093f2a4fe26a40805c22739e10e4a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.shader
+  - fileID: 580
+    classID: 48
+    packedSize: 203768
+    offset: 45937784
+    sourceAssetGUID: ac8f8a0c8673f6e42aae23218203368d
+    buildTimeAssetPath: Assets/2_Crystal Caves/Materials/OptimizedShaders/M_Inner_Mat/Poiyomi
+      Toon World.shader
+  - fileID: 581
+    classID: 48
+    packedSize: 13316
+    offset: 46141552
+    sourceAssetGUID: b34a29e523cb9d545881e193a079f2df
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/LightMeter.shader
+  - fileID: 582
+    classID: 48
+    packedSize: 23072
+    offset: 46154872
+    sourceAssetGUID: b958ad1c92bd3d64c9e61318b8681dab
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader
+  - fileID: 583
+    classID: 48
+    packedSize: 28364
+    offset: 46177944
+    sourceAssetGUID: c1e1d3119c6fd4646aea0b4b74cacc1a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Bloom.shader
+  - fileID: 584
+    classID: 48
+    packedSize: 6408
+    offset: 46206312
+    sourceAssetGUID: cdbdb71de5f9c454b980f6d0e87f0afb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader
+  - fileID: 585
+    classID: 48
+    packedSize: 30444
+    offset: 46212720
+    sourceAssetGUID: d7640629310e79646af0f46eb55ae466
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader
+  - fileID: 586
+    classID: 48
+    packedSize: 6196
+    offset: 46243168
+    sourceAssetGUID: e8ce9961912f3214586fe8709b9012c1
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromDoubleWide.shader
+  - fileID: 587
+    classID: 48
+    packedSize: 52476
+    offset: 46249368
+    sourceAssetGUID: f75014305794b3948a3c6d5ccd550e05
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader
+  - fileID: 588
+    classID: 48
+    packedSize: 5136
+    offset: 46301848
+    sourceAssetGUID: f7ea35cfb33fcad4ab8f2429ec103bef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.shader
+  - fileID: 589
+    classID: 48
+    packedSize: 16780
+    offset: 46306984
+    sourceAssetGUID: f997a3dc9254c44459323cced085150c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader
+  - fileID: 590
+    classID: 72
+    packedSize: 1900
+    offset: 46323768
+    sourceAssetGUID: 18183ebfeeab97749b43e38b928604a7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.compute
+  - fileID: 591
+    classID: 72
+    packedSize: 1608
+    offset: 46325672
+    sourceAssetGUID: 31e9175024adfd44aba2530ff9b77494
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture3DLerp.compute
+  - fileID: 592
+    classID: 72
+    packedSize: 95828
+    offset: 46327280
+    sourceAssetGUID: 34845e0ca016b7448842e965db5890a5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/AutoExposure.compute
+  - fileID: 593
+    classID: 72
+    packedSize: 80092
+    offset: 46423112
+    sourceAssetGUID: 34a460e8a2e66c243a9c12024e5a798d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute
+  - fileID: 594
+    classID: 72
+    packedSize: 21684
+    offset: 46503208
+    sourceAssetGUID: 42496b74c071f5749950ca1abe33e945
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute
+  - fileID: 595
+    classID: 72
+    packedSize: 5136
+    offset: 46524896
+    sourceAssetGUID: 4c63bc487e6c29a4a99f85a6c47b292b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute
+  - fileID: 596
+    classID: 72
+    packedSize: 185808
+    offset: 46530032
+    sourceAssetGUID: 600d6212b59bb40409d19d750b5fd1e9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute
+  - fileID: 597
+    classID: 72
+    packedSize: 6480
+    offset: 46715840
+    sourceAssetGUID: 6dba4103d23a7904fbc49099355aff3e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute
+  - fileID: 598
+    classID: 72
+    packedSize: 1724
+    offset: 46722320
+    sourceAssetGUID: 8c2fcbdf9bc58664f89917f7b9d79501
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute
+  - fileID: 599
+    classID: 72
+    packedSize: 1912
+    offset: 46724048
+    sourceAssetGUID: 92c63830cd50c0b4fbb8233613839958
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.compute
+  - fileID: 600
+    classID: 72
+    packedSize: 2032
+    offset: 46725960
+    sourceAssetGUID: e1efca7c36fd01840aae0dd10378de5c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.compute
+  - fileID: 601
+    classID: 72
+    packedSize: 2040
+    offset: 46727992
+    sourceAssetGUID: e4d3e4779e48a374f91d48d4c0aedb7b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute
+  - fileID: 602
+    classID: 115
+    packedSize: 96
+    offset: 138720
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 603
+    classID: 115
+    packedSize: 108
+    offset: 138816
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 604
+    classID: 115
+    packedSize: 112
+    offset: 138928
+    sourceAssetGUID: 1ec3f699b938b8245b219d4fbedf71f6
+    buildTimeAssetPath: Assets/NewWaterfall/Scripts/PlanarReflection.cs
+  - fileID: 605
+    classID: 115
+    packedSize: 140
+    offset: 139040
+    sourceAssetGUID: 30f4b897495c7ad40b2d47143e02aaba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessResources.cs
+  - fileID: 606
+    classID: 115
+    packedSize: 84
+    offset: 139184
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
+  - fileID: 607
+    classID: 115
+    packedSize: 116
+    offset: 139272
+    sourceAssetGUID: 48a79b01ea5641d4aa6daa2e23605641
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Bloom.cs
+  - fileID: 608
+    classID: 115
+    packedSize: 124
+    offset: 139392
+    sourceAssetGUID: 4f231c4fb786f3946a6b90b886c48677
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs
+  - fileID: 609
+    classID: 115
+    packedSize: 116
+    offset: 139520
+    sourceAssetGUID: 57444c075000242ea99e263cee940de2
+    buildTimeAssetPath: Packages/com.unity.probuilder/Runtime/Core/ColliderBehaviour.cs
+  - fileID: 610
+    classID: 115
+    packedSize: 100
+    offset: 139640
+    sourceAssetGUID: 76c392e42b5098c458856cdf6ecaaaa1
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs
+  - fileID: 611
+    classID: 115
+    packedSize: 140
+    offset: 139744
+    sourceAssetGUID: 8b9a305e18de0c04dbd257a21cd47087
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessVolume.cs
+  - fileID: 612
+    classID: 115
+    packedSize: 140
+    offset: 139888
+    sourceAssetGUID: 8e6292b2c06870d4495f009f912b9600
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessProfile.cs
+  - fileID: 613
+    classID: 115
+    packedSize: 132
+    offset: 140032
+    sourceAssetGUID: 948f4100a11a5c24981795d21301da5c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessLayer.cs
+  - fileID: 614
+    classID: 115
+    packedSize: 124
+    offset: 140168
+    sourceAssetGUID: adb84e30e02715445aeb9959894e3b4d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/ColorGrading.cs
+  - fileID: 615
+    classID: 115
+    packedSize: 124
+    offset: 140296
+    sourceAssetGUID: b3f6f3f7c722b4544b97e3c75840aa33
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/AutoExposure.cs
+  - fileID: 616
+    classID: 115
+    packedSize: 124
+    offset: 140424
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 617
+    classID: 114
+    packedSize: 88
+    offset: 46730032
+    sourceAssetGUID: 60c6b03996c3e044f915db0d3b91c97d
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+  - fileID: 618
+    classID: 114
+    packedSize: 2896
+    offset: 46730120
+    sourceAssetGUID: 36c5b1ea184f37b4c9b230e339600aeb
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/566cc00e27d5822449529a3785eae366.asset
+  - fileID: 619
+    classID: 114
+    packedSize: 1716
+    offset: 46733016
+    sourceAssetGUID: 034e662e5650755408a59cab7a4a42f8
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+  - fileID: 620
+    classID: 114
+    packedSize: 1380
+    offset: 46734736
+    sourceAssetGUID: d82512f9c8e5d4a4d938b575d47f88d4
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset
+  - fileID: 621
+    classID: 114
+    packedSize: 156
+    offset: 46736120
+    sourceAssetGUID: 60c6b03996c3e044f915db0d3b91c97d
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+  - fileID: 622
+    classID: 114
+    packedSize: 116
+    offset: 46736280
+    sourceAssetGUID: 60c6b03996c3e044f915db0d3b91c97d
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+  - fileID: 623
+    classID: 114
+    packedSize: 4984
+    offset: 46736400
+    sourceAssetGUID: 60c6b03996c3e044f915db0d3b91c97d
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastWindowsBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638713917931791621
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    subtarget: 0
+    options: 0
+    assetBundleOptions: 32
+    outputPath: C:/Users/jongy/AppData/Local/Temp/DefaultCompany/PROJECT Lucid
+    crc: 2211992789
+    totalSize: 43267751
+    totalTimeTicks: 1069125547
+    totalErrors: 1
+    totalWarnings: 5
+    buildType: 2
+    buildResult: 1
+  m_Files:
+  - path: Z:/Project Lucid/LUCIDrepositries/scene-standalonewindows64-luna's dream.vrcw/BuildPlayer-Luna's
+      Dream
+    role: Scene
+    id: 0
+    totalSize: 25836132
+  - path: Z:/Project Lucid/LUCIDrepositries/scene-standalonewindows64-luna's dream.vrcw/BuildPlayer-Luna's
+      Dream.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 46741384
+  - path: Z:/Project Lucid/LUCIDrepositries/scene-standalonewindows64-luna's dream.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 43263794
+  - path: Z:/Project Lucid/LUCIDrepositries/scene-standalonewindows64-luna's dream.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 2729
+  - path: Z:/Project Lucid/LUCIDrepositries/PROJECT Lucid/CAB-5ed6c7fc24023ca2d743dc4cfc673a35
+    role: ResourcesFile
+    id: 4
+    totalSize: 4248
+  - path: Z:/Project Lucid/LUCIDrepositries/PROJECT Lucid
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1057
+  - path: Z:/Project Lucid/LUCIDrepositries/PROJECT Lucid.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 171
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 1069125547
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 13293179
+    depth: 1
+    messages: []
+  - stepName: Prebuild Cleanup and Recompile
+    durationTicks: 233007030
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 232060884
+    depth: 2
+    messages: []
+  - stepName: Generate and validate platform script types
+    durationTicks: 423197
+    depth: 2
+    messages: []
+  - stepName: Build Scene AssetBundle(s)
+    durationTicks: 653413991
+    depth: 1
+    messages: []
+  - stepName: 'Build bundle: scene-standalonewindows64-luna''s dream.vrcw'
+    durationTicks: 650936415
+    depth: 2
+    messages: []
+  - stepName: Verify Build setup
+    durationTicks: 877106
+    depth: 3
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 713105
+    depth: 3
+    messages: []
+  - stepName: Prepare splash screen
+    durationTicks: 360067
+    depth: 3
+    messages:
+    - type: 3
+      content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
+  - stepName: Building scenes
+    durationTicks: 141718439
+    depth: 3
+    messages: []
+  - stepName: Building scene Assets/Scenes/Luna's Dream.unity
+    durationTicks: 141717777
+    depth: 4
+    messages:
+    - type: 3
+      content: Computed code signatures for 74 scripts of type SerializedUdonProgramAsset
+        in 8ms
+  - stepName: Writing asset files
+    durationTicks: 419734374
+    depth: 3
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-Luna's Dream/BuildPlayer-Luna's
+      Dream.sharedAssets
+    durationTicks: 419651823
+    depth: 4
+    messages:
+    - type: 0
+      content: 'Shader error in ''FX/Waterfall Interactive Adv'': undeclared identifier
+        ''sampler_CameraDepthTexture'' at line 191 (on d3d11)
+
+
+        Compiling
+        Subshader: 0, Pass: FORWARD, Vertex program with DIRECTIONAL INSTANCING_ON
+        LIGHTPROBE_SH SHADOWS_SCREEN STEREO_INSTANCING_ON
+
+        Platform defines:
+        SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS
+        UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE
+        UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION
+        UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+
+        Disabled keywords:
+        DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR LIGHTMAP_ON
+        LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING
+        UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS
+        UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING
+        UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm
+        UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
+        UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL
+        UNITY_VIRTUAL_TEXTURING VERTEX VERTEXLIGHT_ON'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/Uber'': Unrecognized renderer
+        for #pragma exclude_renderers: webgpu at line 278'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/Uber'': Unrecognized renderer
+        for #pragma only_renderers: webgpu at line 293'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
+        renderer for #pragma exclude_renderers: webgpu at line 102'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
+        renderer for #pragma exclude_renderers: webgpu at line 118'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
+        renderer for #pragma only_renderers: webgpu at line 150'
+  - stepName: Creating compressed player package
+    durationTicks: 80872755
+    depth: 3
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 368206
+    depth: 3
+    messages: []
+  m_Appendices:
+  - {fileID: 8850276745605734789}
+  - {fileID: -1166450888926226134}
+  - {fileID: 5244207078946367707}
+  - {fileID: 8535080355631462433}
+  - {fileID: -2302817008745023552}
+  - {fileID: -2284728190233591093}
+--- !u!382020655 &5244207078946367707
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - VRC.Udon.VM
+  - VRC.SDK3.Dynamics.PhysBone
+  - VRC.Udon.Security
+  - libvrc_fast_crypto
+  - VRCEconomy
+  - libvrc_image_loader
+  - YamlDotNet
+  - mock_runtime
+  - VRCSDK3
+  - nunit.framework
+  - VRCCore-Editor
+  - Serilog.Sinks.File
+  - vrc_fast_crypto
+  - VRC.SDK3.Dynamics.Contact
+  - System.Collections.Immutable
+  - OculusXRPlugin
+  - VRC.Udon.Wrapper
+  - vrc_image_loader
+  - Unity.Burst.Unsafe
+  - SemanticVersioning
+  - librsync.net
+  - System.Runtime.CompilerServices.Unsafe
+  - OVRPlugin
+  - Newtonsoft.Json
+  - Unity.Collections.LowLevel.ILSupport
+  - VRC.Udon.Common
+  - VRC.Udon.VRCWrapperModules
+  - mock_api
+  - VRC.Dynamics
+  - VRCSDKBase
+  - VRC.Utility
+  - portmidi
+  - VRC.Udon.ClientBindings
+  - SDKBase-Legacy
+  - Blake2Sharp
+  - VRC.SDK3.Dynamics.Constraint
+  - System.Text.Encoding.CodePages
+  - ConformanceAutomationExt
+  - Serilog
+  - openxr_runtime_debugger
+  - Collections.Pooled
+  - UnityOpenXR
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - VRC.Udon.VRCGraphModules
+  - VRC.Udon.EditorBindings
+  - 0Harmony
+  - VRC.SDK3.Dynamics.Contact.Editor
+  - libvrc_shader_compiler_plugin
+  - Mono.Cecil.Pdb
+  - JetBrains.Rider.PathLocator
+  - vrc_shader_compiler_plugin
+  - VRCSDKBase-Editor
+  - Microsoft.CodeAnalysis.CSharp
+  - VRC.Udon.VRCTypeResolverModules
+  - VRCEconomy-Editor
+  - ICSharpCode.SharpZipLib
+  - VRC.SDK3.Dynamics.Constraint.Editor
+  - UnityFbxSdkNative
+  - AppleEventIntegration
+  - Mono.Cecil
+  - VRC.Udon.Graph
+  - openxr_loader
+  - Unity.Burst.Cecil.Pdb
+  - Mono.Cecil.Rocks
+  - Microsoft.CodeAnalysis
+  - VRC.Udon.Compiler
+  - System.Reflection.Metadata
+  - VRCSDK3-Editor
+  - Mono.Cecil.Mdb
+  - Serilog.Sinks.Unity3D
+  - Algolia.Search
+  - Unity.Burst.Cecil.Mdb
+  - VRC.SDK3.Dynamics.PhysBone.Editor
+  - Unity.Burst.Cecil
+  - Unity.Burst.Cecil.Rocks
+  - vpm-core-lib
+  - VRC.Udon.UAssembly
+--- !u!641289076 &8535080355631462433
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!668709126 &8850276745605734789
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-luna's dream.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: PROJECT Lucid
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
