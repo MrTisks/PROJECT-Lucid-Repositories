@@ -108,7 +108,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Height: 0.516
+    - _Height: 0
     - _IceCutoff: 0.487
     - _IceDisplacement: -1.126
     - _Metallic: 0
