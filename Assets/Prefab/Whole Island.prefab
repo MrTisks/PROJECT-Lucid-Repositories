@@ -25,12 +25,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426539287693490457}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.9, y: 0, z: -12.4}
+  m_LocalRotation: {x: -0, y: -0.28405568, z: -0, w: 0.9588078}
+  m_LocalPosition: {x: 31.729126, y: -7.4186363, z: -10.151203}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6520940895637475311}
+  m_Father: {fileID: 8141912371825586509}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &7819930953543063165
 AudioSource:
@@ -128,6 +128,38 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1626446368436693018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8141912371825586509}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8141912371825586509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626446368436693018}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.28405568, z: -0, w: 0.9588078}
+  m_LocalPosition: {x: -22.979372, y: 7.4186363, z: 13.39621}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 677648996916128942}
+  m_Father: {fileID: 6520940895637475311}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1843777354355600374
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +267,7 @@ Transform:
   - {fileID: 4736420061293277923}
   - {fileID: 1938079650263368246}
   - {fileID: 1351120542940467928}
-  - {fileID: 677648996916128942}
+  - {fileID: 8141912371825586509}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5747226099288976116
