@@ -31841,6 +31841,61 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6520940895637475311}
     m_Modifications:
+    - target: {fileID: 977596165025031751, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 977596165025031751, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 977596165025031751, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 08e63796899f9fa49ba6a4aab15c1858, type: 2}
+    - target: {fileID: 977596165025031751, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
+        type: 3}
+      propertyPath: m_SelectedEditorRenderState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616234993556013752, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.32833
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616234993556013752, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.32833
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616234993556013752, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.32833
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616234993556013752, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616234993556013752, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616234993556013752, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5374156224590327083, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 40387224e7305274b9c083284df64865,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -31925,61 +31980,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 109
-      objectReference: {fileID: 0}
-    - target: {fileID: 977596165025031751, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
-        type: 3}
-      propertyPath: m_ReceiveGI
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 977596165025031751, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
-        type: 3}
-      propertyPath: m_DynamicOccludee
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 977596165025031751, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 08e63796899f9fa49ba6a4aab15c1858, type: 2}
-    - target: {fileID: 977596165025031751, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
-        type: 3}
-      propertyPath: m_SelectedEditorRenderState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2616234993556013752, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.32833
-      objectReference: {fileID: 0}
-    - target: {fileID: 2616234993556013752, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.32833
-      objectReference: {fileID: 0}
-    - target: {fileID: 2616234993556013752, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.32833
-      objectReference: {fileID: 0}
-    - target: {fileID: 2616234993556013752, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2616234993556013752, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2616234993556013752, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5374156224590327083, guid: 50ed291fcf2521c4a9b0ef4c7f56ad29,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 126
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36364,12 +36364,12 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 14ddd62c8f4f26b4abc3df322553304b,
         type: 3}
       propertyPath: m_CastShadows
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 14ddd62c8f4f26b4abc3df322553304b,
         type: 3}
       propertyPath: m_MotionVectors
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 14ddd62c8f4f26b4abc3df322553304b,
         type: 3}
@@ -36389,7 +36389,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 14ddd62c8f4f26b4abc3df322553304b,
         type: 3}
       propertyPath: m_ReflectionProbeUsage
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 14ddd62c8f4f26b4abc3df322553304b,
         type: 3}
@@ -36456,7 +36456,7 @@ MonoBehaviour:
   clearColor: {r: 0, g: 0, b: 0, a: 0}
   reflectionSampler: _ReflectionTex
   clipPlaneOffset: 0.07
-  quality: 0.31
+  quality: 0.01
   m_SharedMaterial: {fileID: 2100000, guid: 9fe7485ca02c10346ae6e102c4a2872a, type: 2}
 --- !u!1001 &5065304494421374866
 PrefabInstance:

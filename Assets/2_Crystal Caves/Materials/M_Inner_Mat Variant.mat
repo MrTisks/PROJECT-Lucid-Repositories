@@ -14,6 +14,7 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
+  - COLOR_GRADING_HDR
   - MOCHIE_PBR
   - POSTPROCESS
   - VIGNETTE_MASKED
@@ -29,9 +30,9 @@ Material:
   stringTagMap:
     AllLockedGUIDS: e41a493a0b408b24d8bada645079a57a
     OptimizedShaderFolder: e41a493a0b408b24d8bada645079a57a
-    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT MOCHIE_PBR POSTPROCESS VIGNETTE_MASKED
-      _LIGHTINGMODE_REALISTIC _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
-      _SUNDISK_SIMPLE
+    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT COLOR_GRADING_HDR MOCHIE_PBR POSTPROCESS
+      VIGNETTE_MASKED _LIGHTINGMODE_REALISTIC _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
+      _STOCHASTICMODE_DELIOT_HEITZ _SUNDISK_SIMPLE
     OriginalShader: .poiyomi/Poiyomi Toon World
     OriginalShaderGUID: 68d4032c05798c44eafe02f272e6895c
     RenderType: Opaque
@@ -833,7 +834,7 @@ Material:
     - _BlueTextureUV: 0
     - _BumpMapStochastic: 0
     - _BumpMapUV: 0
-    - _BumpScale: 2.2
+    - _BumpScale: 2.24
     - _CCIgnoreCastedShadows: 0
     - _CameraAngleMax: 90
     - _CameraAngleMin: 45
@@ -1712,7 +1713,7 @@ Material:
     - _Is_LightColor_RimLight: 1
     - _Is_NormalMapToRim2Light: 1
     - _Is_NormalMapToRimLight: 1
-    - _Is_SpecularToHighColor: 0
+    - _Is_SpecularToHighColor: 1
     - _LTCGIEnabled: 0
     - _LTCGI_AnimToggle: 1
     - _LTCGI_Attribution: 0
@@ -1752,7 +1753,7 @@ Material:
     - _LightingAdditivePassthrough: 0.5
     - _LightingAdditiveType: 3
     - _LightingCap: 1
-    - _LightingCapEnabled: 1
+    - _LightingCapEnabled: 0
     - _LightingCastedShadows: 1
     - _LightingColorMode: 0
     - _LightingDebugVisualize: 0
@@ -1793,7 +1794,7 @@ Material:
     - _MainBrightnessGlobalMask: 0
     - _MainBrightnessGlobalMaskBlendType: 2
     - _MainColorAdjustTextureUV: 0
-    - _MainColorAdjustToggle: 0
+    - _MainColorAdjustToggle: 1
     - _MainGradationStrength: 0
     - _MainHueALCTEnabled: 0
     - _MainHueALMotionSpeed: 1
@@ -2029,7 +2030,7 @@ Material:
     - _MochieSmoothnessGlobalMask: 0
     - _MochieSmoothnessGlobalMaskBlendType: 2
     - _MochieSpecularMaskInvert: 0
-    - _MochieSpecularStrength: 5
+    - _MochieSpecularStrength: 1
     - _MochieSpecularStrength2: 1
     - _MochieSpecularStrengthGlobalMask: 0
     - _MochieSpecularStrengthGlobalMaskBlendType: 2
@@ -2039,7 +2040,7 @@ Material:
     - _ModelAngleMin: 45
     - _MultilayerMathBlurMapUV: 0
     - _NormalCorrect: 0
-    - _NormalCorrectAmount: 0.308
+    - _NormalCorrectAmount: 0.587
     - _OcclusionStrength: 1
     - _OffsetFactor: 0
     - _OffsetUnits: 0
@@ -2401,7 +2402,7 @@ Material:
     - _SSSThicknessMapChannel: 0
     - _SSSThicknessMapUV: 0
     - _SSSThicknessMod: -1
-    - _Saturation: 0
+    - _Saturation: -1
     - _ScrollingEmission: 0
     - _ScrollingEmission1: 0
     - _ScrollingEmission2: 0
@@ -2818,7 +2819,7 @@ Material:
     - m_start_BonusSliders: 0
     - m_start_CRT: 0
     - m_start_CenterOutDissolve: 0
-    - m_start_ColorAdjust: 0
+    - m_start_ColorAdjust: 1
     - m_start_CubeMap: 0
     - m_start_Decal0: 0
     - m_start_Decal0AudioLink: 0
@@ -2877,9 +2878,9 @@ Material:
     - m_start_PPAnimations: 0
     - m_start_PathAudioLink: 0
     - m_start_PoiGlobalCategory: 0
-    - m_start_PoiLightData: 1
+    - m_start_PoiLightData: 0
     - m_start_PoiPostProcessingCategory: 1
-    - m_start_PoiShading: 1
+    - m_start_PoiShading: 0
     - m_start_PoiUVCategory: 0
     - m_start_RGBMask: 0
     - m_start_Rim2AudioLink: 0
@@ -2906,9 +2907,9 @@ Material:
     - m_start_audioLinkOverrides: 0
     - m_start_backFace: 0
     - m_start_backlight: 0
-    - m_start_bakedLighting: 1
+    - m_start_bakedLighting: 0
     - m_start_blending: 0
-    - m_start_brdf: 1
+    - m_start_brdf: 0
     - m_start_clearCoat: 0
     - m_start_clearcoatadvanced: 0
     - m_start_clearcoatglobalmask: 0
@@ -3235,8 +3236,8 @@ Material:
     - s_start_GlobalMaskOptionsForceToggles: 0
     - s_start_GlobalMaskOptionsMinMaxSliders: 0
     - s_start_GlobalMaskOptionsSliders: 0
-    - s_start_LightDataAddPass: 1
-    - s_start_LightDataBasePass: 1
+    - s_start_LightDataAddPass: 0
+    - s_start_LightDataBasePass: 0
     - s_start_LightDataDebug: 0
     - s_start_LocalRotation: 0
     - s_start_LocalTranslation: 0
@@ -3307,9 +3308,9 @@ Material:
     - s_start_ScrollingEmission0: 0
     - s_start_ShadingAddPass: 1
     - s_start_ShadingGlobalMask: 0
-    - s_start_StylizedSpecularAdvanced: 0
+    - s_start_StylizedSpecularAdvanced: 1
     - s_start_StylizedSpecularLayer0: 1
-    - s_start_StylizedSpecularLayer1: 1
+    - s_start_StylizedSpecularLayer1: 0
     - s_start_VertAL: 0
     - s_start_VertexBarrelMode: 0
     - s_start_VertexColors: 0

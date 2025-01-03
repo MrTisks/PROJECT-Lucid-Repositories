@@ -67,6 +67,39 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 		[HideInInspector]_AlphaMaskValue ("Blend Offset", Float) = 0
 		[HideInInspector][ToggleUI]_AlphaMaskInvert ("Invert", Float) = 0
 		_Cutoff ("Alpha Cutoff", Range(0, 1.001)) = 0.5
+		[HideInInspector] m_start_ColorAdjust ("Color Adjust--{reference_property:_MainColorAdjustToggle,button_help:{text:Tutorial,action:{type:URL,data:https://www.poiyomi.com/color-and-normals/color-adjust},hover:Documentation}}", Float) = 0
+		[HideInInspector][ThryToggle(COLOR_GRADING_HDR)] _MainColorAdjustToggle ("Adjust Colors", Float) = 0
+		[sRGBWarning][ThryRGBAPacker(R Hue Mask, G Brightness Mask, B Saturation Mask, , linear, false)]_MainColorAdjustTexture ("Mask (Expand)--{reference_properties:[_MainColorAdjustTexturePan, _MainColorAdjustTextureUV]}", 2D) = "white" { }
+		[HideInInspector][Vector2]_MainColorAdjustTexturePan ("Panning", Vector) = (0, 0, 0, 0)
+		[HideInInspector][ThryWideEnum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos, 5, Local Pos, 8, Polar UV, 6, Distorted UV, 7)] _MainColorAdjustTextureUV ("UV", Int) = 0
+		_Saturation ("Saturation", Range(-1, 10)) = 0
+		_MainBrightness ("Brightness", Range(-1, 1)) = 0
+		[HideInInspector] s_start_MainHueShift ("Hue Shift--{reference_property:_MainHueShiftToggle,persistent_expand:true,default_expand:true}", Float) = 1
+		[HideInInspector][ThryToggleUI(true)] _MainHueShiftToggle ("<size=13><b>  Hue Shift</b></size>", Float) = 0
+		[ToggleUI]_MainHueShiftReplace ("Hue Replace?", Float) = 1
+		_MainHueShift ("Hue Shift", Range(0, 1)) = 0
+		_MainHueShiftSpeed ("Hue Shift Speed", Float) = 0
+		[HideInInspector] s_start_MainHueShiftAL ("Hue Shift Audio Link--{reference_property:_MainHueALCTEnabled,persistent_expand:true,default_expand:false, condition_showS:(_EnableAudioLink==1)}", Float) = 0
+		[HideInInspector][ThryToggleUI(true)]_MainHueALCTEnabled ("Hue Shift Audio Link", Float) = 0
+		[Enum(Bass, 0, Low Mid, 1, High Mid, 2, Treble, 3, Volume, 4)]_MainALHueShiftBand ("Band", Int) = 0
+		[ThryWideEnum(Motion increases as intensity of band increases, 0, Above but Smooth, 1, Motion moves back and forth as a function of intensity, 2, Above but Smoooth, 3, Fixed speed increase when the band is dark Stationary when light, 4, Above but Smooooth, 5, Fixed speed increase when the band is dark Fixed speed decrease when light, 6, Above but Smoooooth, 7)]_MainALHueShiftCTIndex ("Motion Type", Int) = 0
+		_MainHueALMotionSpeed ("Motion Speed", Float) = 1
+		[HideInInspector] s_end_MainHueShiftAL ("Audio Link", Float) = 0
+		[HideInInspector] s_end_MainHueShift ("Name Motion", Float) = 0
+		[HideInInspector] s_start_ColorAdjustColorGrading ("Color Grading--{reference_property:_ColorGradingToggle, persistent_expand:true}", Float) = 0
+		[HideInInspector][ToggleUI] _ColorGradingToggle ("Color Grading", Float) = 0
+		[NoScaleOffset] _MainGradationTex ("Gradation Map", 2D) = "white" { }
+		_MainGradationStrength ("Gradation Strength", Range(0, 1)) = 0
+		[HideInInspector] s_end_ColorAdjustColorGrading ("Color Grading", Float) = 0
+		[HideInInspector] s_start_MainHueShiftGlobalMask ("Global Mask--{persistent_expand:true}", Float) = 0
+		[ThryWideEnum(Off, 0, 1R, 1, 1G, 2, 1B, 3, 1A, 4, 2R, 5, 2G, 6, 2B, 7, 2A, 8, 3R, 9, 3G, 10, 3B, 11, 3A, 12, 4R, 13, 4G, 14, 4B, 15, 4A, 16)] _MainHueGlobalMask ("Hue--{reference_property:_MainHueGlobalMaskBlendType}", Int) = 0
+		[HideInInspector][ThryWideEnum(Add, 7, Subtract, 1, Multiply, 2, Divide, 3, Min, 4, Max, 5, Average, 6, Replace, 0)] _MainHueGlobalMaskBlendType ("Blending", Int) = 2
+		[ThryWideEnum(Off, 0, 1R, 1, 1G, 2, 1B, 3, 1A, 4, 2R, 5, 2G, 6, 2B, 7, 2A, 8, 3R, 9, 3G, 10, 3B, 11, 3A, 12, 4R, 13, 4G, 14, 4B, 15, 4A, 16)] _MainSaturationGlobalMask ("Saturation--{reference_property:_MainSaturationGlobalMaskBlendType}", Int) = 0
+		[HideInInspector][ThryWideEnum(Add, 7, Subtract, 1, Multiply, 2, Divide, 3, Min, 4, Max, 5, Average, 6, Replace, 0)] _MainSaturationGlobalMaskBlendType ("Blending", Int) = 2
+		[ThryWideEnum(Off, 0, 1R, 1, 1G, 2, 1B, 3, 1A, 4, 2R, 5, 2G, 6, 2B, 7, 2A, 8, 3R, 9, 3G, 10, 3B, 11, 3A, 12, 4R, 13, 4G, 14, 4B, 15, 4A, 16)] _MainBrightnessGlobalMask ("Brightness--{reference_property:_MainBrightnessGlobalMaskBlendType}", Int) = 0
+		[HideInInspector][ThryWideEnum(Add, 7, Subtract, 1, Multiply, 2, Divide, 3, Min, 4, Max, 5, Average, 6, Replace, 0)] _MainBrightnessGlobalMaskBlendType ("Blending", Int) = 2
+		[HideInInspector] s_end_MainHueShiftGlobalMask ("Global Mask", Float) = 0
+		[HideInInspector] m_end_ColorAdjust ("Color Adjust", Float) = 0
 		[HideInInspector] m_start_Alpha ("Alpha Options--{button_help:{text:Tutorial,action:{type:URL,data:https://www.poiyomi.com/color-and-normals/alpha-options},hover:Documentation}}", Float) = 0
 		[ToggleUI]_AlphaForceOpaque ("Force Opaque", Float) = 1
 		_AlphaMod ("Alpha Mod", Range(-1, 1)) = 0.0
@@ -481,6 +514,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 			BlendOp [_BlendOp], [_BlendOpAlpha]
 			Blend [_SrcBlend] [_DstBlend], [_SrcBlendAlpha] [_DstBlendAlpha]
 			CGPROGRAM
+ #define COLOR_GRADING_HDR 
  #define MOCHIE_PBR 
  #define POSTPROCESS 
  #define VIGNETTE_MASKED 
@@ -658,6 +692,36 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 			float _AlphaMaskValue;
 			#endif
 			float _Cutoff;
+			#ifdef COLOR_GRADING_HDR
+			float _MainColorAdjustToggle;
+			#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _MainColorAdjustTexture;
+			#endif
+			float4 _MainColorAdjustTexture_ST;
+			float2 _MainColorAdjustTexturePan;
+			float _MainColorAdjustTextureUV;
+			float _MainHueShiftToggle;
+			float _MainHueShiftReplace;
+			float _MainHueShift;
+			float _MainHueShiftSpeed;
+			float _Saturation;
+			float _MainBrightness;
+			float _MainHueALCTEnabled;
+			float _MainALHueShiftBand;
+			float _MainALHueShiftCTIndex;
+			float _MainHueALMotionSpeed;
+			float _MainHueGlobalMask;
+			float _MainHueGlobalMaskBlendType;
+			float _MainSaturationGlobalMask;
+			float _MainSaturationGlobalMaskBlendType;
+			float _MainBrightnessGlobalMask;
+			float _MainBrightnessGlobalMaskBlendType;
+			#if defined(PROP_MAINGRADATIONTEX) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _MainGradationTex;
+			#endif
+			float _ColorGradingToggle;
+			float _MainGradationStrength;
+			#endif
 			SamplerState sampler_linear_clamp;
 			SamplerState sampler_linear_repeat;
 			SamplerState sampler_trilinear_repeat;
@@ -3394,7 +3458,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 				}
 				#endif
 				reflectionMask *= (1.0 /*_MochieReflectionStrength*/);
-				specularMask *= (5.0 /*_MochieSpecularStrength*/);
+				specularMask *= (1.0 /*_MochieSpecularStrength*/);
 				if ((0.0 /*_MochieMetallicMapInvert*/))
 				{
 					metallic = 1 - metallic;
@@ -3703,7 +3767,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 				}
 				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, mainUV, float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
-				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_BumpMapUV*/)].xy, float4(5,5,0,0)), float4(0,0,0,0), (0.0 /*_BumpMapStochastic*/)), (2.2 /*_BumpScale*/));
+				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_BumpMapUV*/)].xy, float4(5,5,0,0)), float4(0,0,0,0), (0.0 /*_BumpMapStochastic*/)), (2.24 /*_BumpScale*/));
 				#else
 				poiMesh.tangentSpaceNormal = UnpackNormal(float4(0.5, 0.5, 1, 1));
 				#endif
@@ -3988,7 +4052,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 				}
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
-				if ((1.0 /*_LightingCapEnabled*/))
+				if ((0.0 /*_LightingCapEnabled*/))
 				{
 					poiLight.directColor = min(poiLight.directColor, (1.0 /*_LightingCap*/));
 					poiLight.indirectColor = min(poiLight.indirectColor, (1.0 /*_LightingCap*/));
@@ -4068,6 +4132,64 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 				#endif
 				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, (0.0 /*_ColorThemeIndex*/));
 				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
+				#ifdef COLOR_GRADING_HDR
+				#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
+				float4 hueShiftAlpha = POI2D_SAMPLER_PAN(_MainColorAdjustTexture, _MainTex, poiUV(poiMesh.uv[(0.0 /*_MainColorAdjustTextureUV*/)], float4(1,1,0,0)), float4(0,0,0,0));
+				#else
+				float4 hueShiftAlpha = 1;
+				#endif
+				if ((0.0 /*_MainHueGlobalMask*/) > 0)
+				{
+					hueShiftAlpha.r = maskBlend(hueShiftAlpha.r, poiMods.globalMask[(0.0 /*_MainHueGlobalMask*/) - 1], (2.0 /*_MainHueGlobalMaskBlendType*/));
+				}
+				if ((0.0 /*_MainSaturationGlobalMask*/) > 0)
+				{
+					hueShiftAlpha.b = maskBlend(hueShiftAlpha.b, poiMods.globalMask[(0.0 /*_MainSaturationGlobalMask*/) - 1], (2.0 /*_MainSaturationGlobalMaskBlendType*/));
+				}
+				if ((0.0 /*_MainBrightnessGlobalMask*/) > 0)
+				{
+					hueShiftAlpha.g = maskBlend(hueShiftAlpha.g, poiMods.globalMask[(0.0 /*_MainBrightnessGlobalMask*/) - 1], (2.0 /*_MainBrightnessGlobalMaskBlendType*/));
+				}
+				if ((0.0 /*_MainHueShiftToggle*/))
+				{
+					float shift = (0.949 /*_MainHueShift*/);
+					#ifdef POI_AUDIOLINK
+					if (poiMods.audioLinkAvailable && (0.0 /*_MainHueALCTEnabled*/))
+					{
+						shift += AudioLinkGetChronoTime((0.0 /*_MainALHueShiftCTIndex*/), (0.0 /*_MainALHueShiftBand*/)) * (1.0 /*_MainHueALMotionSpeed*/);
+					}
+					#endif
+					if ((1.0 /*_MainHueShiftReplace*/))
+					{
+						poiFragData.baseColor = lerp(poiFragData.baseColor, hueShift(poiFragData.baseColor, shift + (0.0 /*_MainHueShiftSpeed*/) * _Time.x), hueShiftAlpha.r);
+					}
+					else
+					{
+						poiFragData.baseColor = hueShift(poiFragData.baseColor, frac((shift - (1 - hueShiftAlpha.r) + (0.0 /*_MainHueShiftSpeed*/) * _Time.x)));
+					}
+				}
+				if ((0.0 /*_MainGradationStrength*/) && (0.0 /*_ColorGradingToggle*/))
+				{
+					#if !defined(UNITY_COLORSPACE_GAMMA)
+					float3 tempColor = OpenLitLinearToSRGB(poiFragData.baseColor);
+					#else
+					float3 tempColor = poiFragData.baseColor;
+					#endif
+					#if defined(PROP_MAINGRADATIONTEX) || !defined(OPTIMIZER_ENABLED)
+					tempColor.r = POI_SAMPLE_1D_X(_MainGradationTex, sampler_linear_clamp, tempColor.r).r;
+					tempColor.g = POI_SAMPLE_1D_X(_MainGradationTex, sampler_linear_clamp, tempColor.g).g;
+					tempColor.b = POI_SAMPLE_1D_X(_MainGradationTex, sampler_linear_clamp, tempColor.b).b;
+					#else
+					tempColor = float3(1, 1, 1);
+					#endif
+					#if !defined(UNITY_COLORSPACE_GAMMA)
+					tempColor = OpenLitSRGBToLinear(tempColor);
+					#endif
+					poiFragData.baseColor = lerp(poiFragData.baseColor, tempColor, (0.0 /*_MainGradationStrength*/));
+				}
+				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), - ((-1.0 /*_Saturation*/)) * hueShiftAlpha.b);
+				poiFragData.baseColor = saturate(lerp(poiFragData.baseColor, poiFragData.baseColor * ((0.0 /*_MainBrightness*/) + 1), hueShiftAlpha.g));
+				#endif
 				#if defined(PROP_ALPHAMASK) || !defined(OPTIMIZER_ENABLED)
 				if ((2.0 /*_MainAlphaMaskMode*/))
 				{
@@ -4177,6 +4299,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 			BlendOp [_AddBlendOp], [_AddBlendOpAlpha]
 			Blend [_AddSrcBlend] [_AddDstBlend], [_AddSrcBlendAlpha] [_AddDstBlendAlpha]
 			CGPROGRAM
+ #define COLOR_GRADING_HDR 
  #define MOCHIE_PBR 
  #define POSTPROCESS 
  #define VIGNETTE_MASKED 
@@ -4353,6 +4476,36 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 			float _AlphaMaskValue;
 			#endif
 			float _Cutoff;
+			#ifdef COLOR_GRADING_HDR
+			float _MainColorAdjustToggle;
+			#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _MainColorAdjustTexture;
+			#endif
+			float4 _MainColorAdjustTexture_ST;
+			float2 _MainColorAdjustTexturePan;
+			float _MainColorAdjustTextureUV;
+			float _MainHueShiftToggle;
+			float _MainHueShiftReplace;
+			float _MainHueShift;
+			float _MainHueShiftSpeed;
+			float _Saturation;
+			float _MainBrightness;
+			float _MainHueALCTEnabled;
+			float _MainALHueShiftBand;
+			float _MainALHueShiftCTIndex;
+			float _MainHueALMotionSpeed;
+			float _MainHueGlobalMask;
+			float _MainHueGlobalMaskBlendType;
+			float _MainSaturationGlobalMask;
+			float _MainSaturationGlobalMaskBlendType;
+			float _MainBrightnessGlobalMask;
+			float _MainBrightnessGlobalMaskBlendType;
+			#if defined(PROP_MAINGRADATIONTEX) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _MainGradationTex;
+			#endif
+			float _ColorGradingToggle;
+			float _MainGradationStrength;
+			#endif
 			SamplerState sampler_linear_clamp;
 			SamplerState sampler_linear_repeat;
 			SamplerState sampler_trilinear_repeat;
@@ -7085,7 +7238,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 				}
 				#endif
 				reflectionMask *= (1.0 /*_MochieReflectionStrength*/);
-				specularMask *= (5.0 /*_MochieSpecularStrength*/);
+				specularMask *= (1.0 /*_MochieSpecularStrength*/);
 				if ((0.0 /*_MochieMetallicMapInvert*/))
 				{
 					metallic = 1 - metallic;
@@ -7394,7 +7547,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 				}
 				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, mainUV, float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
-				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_BumpMapUV*/)].xy, float4(5,5,0,0)), float4(0,0,0,0), (0.0 /*_BumpMapStochastic*/)), (2.2 /*_BumpScale*/));
+				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_BumpMapUV*/)].xy, float4(5,5,0,0)), float4(0,0,0,0), (0.0 /*_BumpMapStochastic*/)), (2.24 /*_BumpScale*/));
 				#else
 				poiMesh.tangentSpaceNormal = UnpackNormal(float4(0.5, 0.5, 1, 1));
 				#endif
@@ -7679,7 +7832,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 				}
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
-				if ((1.0 /*_LightingCapEnabled*/))
+				if ((0.0 /*_LightingCapEnabled*/))
 				{
 					poiLight.directColor = min(poiLight.directColor, (1.0 /*_LightingCap*/));
 					poiLight.indirectColor = min(poiLight.indirectColor, (1.0 /*_LightingCap*/));
@@ -7759,6 +7912,64 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 				#endif
 				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, (0.0 /*_ColorThemeIndex*/));
 				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
+				#ifdef COLOR_GRADING_HDR
+				#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
+				float4 hueShiftAlpha = POI2D_SAMPLER_PAN(_MainColorAdjustTexture, _MainTex, poiUV(poiMesh.uv[(0.0 /*_MainColorAdjustTextureUV*/)], float4(1,1,0,0)), float4(0,0,0,0));
+				#else
+				float4 hueShiftAlpha = 1;
+				#endif
+				if ((0.0 /*_MainHueGlobalMask*/) > 0)
+				{
+					hueShiftAlpha.r = maskBlend(hueShiftAlpha.r, poiMods.globalMask[(0.0 /*_MainHueGlobalMask*/) - 1], (2.0 /*_MainHueGlobalMaskBlendType*/));
+				}
+				if ((0.0 /*_MainSaturationGlobalMask*/) > 0)
+				{
+					hueShiftAlpha.b = maskBlend(hueShiftAlpha.b, poiMods.globalMask[(0.0 /*_MainSaturationGlobalMask*/) - 1], (2.0 /*_MainSaturationGlobalMaskBlendType*/));
+				}
+				if ((0.0 /*_MainBrightnessGlobalMask*/) > 0)
+				{
+					hueShiftAlpha.g = maskBlend(hueShiftAlpha.g, poiMods.globalMask[(0.0 /*_MainBrightnessGlobalMask*/) - 1], (2.0 /*_MainBrightnessGlobalMaskBlendType*/));
+				}
+				if ((0.0 /*_MainHueShiftToggle*/))
+				{
+					float shift = (0.949 /*_MainHueShift*/);
+					#ifdef POI_AUDIOLINK
+					if (poiMods.audioLinkAvailable && (0.0 /*_MainHueALCTEnabled*/))
+					{
+						shift += AudioLinkGetChronoTime((0.0 /*_MainALHueShiftCTIndex*/), (0.0 /*_MainALHueShiftBand*/)) * (1.0 /*_MainHueALMotionSpeed*/);
+					}
+					#endif
+					if ((1.0 /*_MainHueShiftReplace*/))
+					{
+						poiFragData.baseColor = lerp(poiFragData.baseColor, hueShift(poiFragData.baseColor, shift + (0.0 /*_MainHueShiftSpeed*/) * _Time.x), hueShiftAlpha.r);
+					}
+					else
+					{
+						poiFragData.baseColor = hueShift(poiFragData.baseColor, frac((shift - (1 - hueShiftAlpha.r) + (0.0 /*_MainHueShiftSpeed*/) * _Time.x)));
+					}
+				}
+				if ((0.0 /*_MainGradationStrength*/) && (0.0 /*_ColorGradingToggle*/))
+				{
+					#if !defined(UNITY_COLORSPACE_GAMMA)
+					float3 tempColor = OpenLitLinearToSRGB(poiFragData.baseColor);
+					#else
+					float3 tempColor = poiFragData.baseColor;
+					#endif
+					#if defined(PROP_MAINGRADATIONTEX) || !defined(OPTIMIZER_ENABLED)
+					tempColor.r = POI_SAMPLE_1D_X(_MainGradationTex, sampler_linear_clamp, tempColor.r).r;
+					tempColor.g = POI_SAMPLE_1D_X(_MainGradationTex, sampler_linear_clamp, tempColor.g).g;
+					tempColor.b = POI_SAMPLE_1D_X(_MainGradationTex, sampler_linear_clamp, tempColor.b).b;
+					#else
+					tempColor = float3(1, 1, 1);
+					#endif
+					#if !defined(UNITY_COLORSPACE_GAMMA)
+					tempColor = OpenLitSRGBToLinear(tempColor);
+					#endif
+					poiFragData.baseColor = lerp(poiFragData.baseColor, tempColor, (0.0 /*_MainGradationStrength*/));
+				}
+				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), - ((-1.0 /*_Saturation*/)) * hueShiftAlpha.b);
+				poiFragData.baseColor = saturate(lerp(poiFragData.baseColor, poiFragData.baseColor * ((0.0 /*_MainBrightness*/) + 1), hueShiftAlpha.g));
+				#endif
 				#if defined(PROP_ALPHAMASK) || !defined(OPTIMIZER_ENABLED)
 				if ((2.0 /*_MainAlphaMaskMode*/))
 				{
@@ -7869,6 +8080,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 			BlendOp [_BlendOp], [_BlendOpAlpha]
 			Blend [_SrcBlend] [_DstBlend], [_SrcBlendAlpha] [_DstBlendAlpha]
 			CGPROGRAM
+ #define COLOR_GRADING_HDR 
  #define MOCHIE_PBR 
  #define POSTPROCESS 
  #define VIGNETTE_MASKED 
@@ -7978,6 +8190,36 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 			float _AlphaMaskValue;
 			#endif
 			float _Cutoff;
+			#ifdef COLOR_GRADING_HDR
+			float _MainColorAdjustToggle;
+			#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _MainColorAdjustTexture;
+			#endif
+			float4 _MainColorAdjustTexture_ST;
+			float2 _MainColorAdjustTexturePan;
+			float _MainColorAdjustTextureUV;
+			float _MainHueShiftToggle;
+			float _MainHueShiftReplace;
+			float _MainHueShift;
+			float _MainHueShiftSpeed;
+			float _Saturation;
+			float _MainBrightness;
+			float _MainHueALCTEnabled;
+			float _MainALHueShiftBand;
+			float _MainALHueShiftCTIndex;
+			float _MainHueALMotionSpeed;
+			float _MainHueGlobalMask;
+			float _MainHueGlobalMaskBlendType;
+			float _MainSaturationGlobalMask;
+			float _MainSaturationGlobalMaskBlendType;
+			float _MainBrightnessGlobalMask;
+			float _MainBrightnessGlobalMaskBlendType;
+			#if defined(PROP_MAINGRADATIONTEX) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _MainGradationTex;
+			#endif
+			float _ColorGradingToggle;
+			float _MainGradationStrength;
+			#endif
 			SamplerState sampler_linear_clamp;
 			SamplerState sampler_linear_repeat;
 			SamplerState sampler_trilinear_repeat;
@@ -9732,7 +9974,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 				}
 				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, mainUV, float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
-				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_BumpMapUV*/)].xy, float4(5,5,0,0)), float4(0,0,0,0), (0.0 /*_BumpMapStochastic*/)), (2.2 /*_BumpScale*/));
+				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_BumpMapUV*/)].xy, float4(5,5,0,0)), float4(0,0,0,0), (0.0 /*_BumpMapStochastic*/)), (2.24 /*_BumpScale*/));
 				#else
 				poiMesh.tangentSpaceNormal = UnpackNormal(float4(0.5, 0.5, 1, 1));
 				#endif
@@ -9770,6 +10012,64 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 				poiCam.worldDirection.w = dot(poiCam.clipPos, CalculateFrustumCorrection());
 				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, (0.0 /*_ColorThemeIndex*/));
 				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
+				#ifdef COLOR_GRADING_HDR
+				#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
+				float4 hueShiftAlpha = POI2D_SAMPLER_PAN(_MainColorAdjustTexture, _MainTex, poiUV(poiMesh.uv[(0.0 /*_MainColorAdjustTextureUV*/)], float4(1,1,0,0)), float4(0,0,0,0));
+				#else
+				float4 hueShiftAlpha = 1;
+				#endif
+				if ((0.0 /*_MainHueGlobalMask*/) > 0)
+				{
+					hueShiftAlpha.r = maskBlend(hueShiftAlpha.r, poiMods.globalMask[(0.0 /*_MainHueGlobalMask*/) - 1], (2.0 /*_MainHueGlobalMaskBlendType*/));
+				}
+				if ((0.0 /*_MainSaturationGlobalMask*/) > 0)
+				{
+					hueShiftAlpha.b = maskBlend(hueShiftAlpha.b, poiMods.globalMask[(0.0 /*_MainSaturationGlobalMask*/) - 1], (2.0 /*_MainSaturationGlobalMaskBlendType*/));
+				}
+				if ((0.0 /*_MainBrightnessGlobalMask*/) > 0)
+				{
+					hueShiftAlpha.g = maskBlend(hueShiftAlpha.g, poiMods.globalMask[(0.0 /*_MainBrightnessGlobalMask*/) - 1], (2.0 /*_MainBrightnessGlobalMaskBlendType*/));
+				}
+				if ((0.0 /*_MainHueShiftToggle*/))
+				{
+					float shift = (0.949 /*_MainHueShift*/);
+					#ifdef POI_AUDIOLINK
+					if (poiMods.audioLinkAvailable && (0.0 /*_MainHueALCTEnabled*/))
+					{
+						shift += AudioLinkGetChronoTime((0.0 /*_MainALHueShiftCTIndex*/), (0.0 /*_MainALHueShiftBand*/)) * (1.0 /*_MainHueALMotionSpeed*/);
+					}
+					#endif
+					if ((1.0 /*_MainHueShiftReplace*/))
+					{
+						poiFragData.baseColor = lerp(poiFragData.baseColor, hueShift(poiFragData.baseColor, shift + (0.0 /*_MainHueShiftSpeed*/) * _Time.x), hueShiftAlpha.r);
+					}
+					else
+					{
+						poiFragData.baseColor = hueShift(poiFragData.baseColor, frac((shift - (1 - hueShiftAlpha.r) + (0.0 /*_MainHueShiftSpeed*/) * _Time.x)));
+					}
+				}
+				if ((0.0 /*_MainGradationStrength*/) && (0.0 /*_ColorGradingToggle*/))
+				{
+					#if !defined(UNITY_COLORSPACE_GAMMA)
+					float3 tempColor = OpenLitLinearToSRGB(poiFragData.baseColor);
+					#else
+					float3 tempColor = poiFragData.baseColor;
+					#endif
+					#if defined(PROP_MAINGRADATIONTEX) || !defined(OPTIMIZER_ENABLED)
+					tempColor.r = POI_SAMPLE_1D_X(_MainGradationTex, sampler_linear_clamp, tempColor.r).r;
+					tempColor.g = POI_SAMPLE_1D_X(_MainGradationTex, sampler_linear_clamp, tempColor.g).g;
+					tempColor.b = POI_SAMPLE_1D_X(_MainGradationTex, sampler_linear_clamp, tempColor.b).b;
+					#else
+					tempColor = float3(1, 1, 1);
+					#endif
+					#if !defined(UNITY_COLORSPACE_GAMMA)
+					tempColor = OpenLitSRGBToLinear(tempColor);
+					#endif
+					poiFragData.baseColor = lerp(poiFragData.baseColor, tempColor, (0.0 /*_MainGradationStrength*/));
+				}
+				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), - ((-1.0 /*_Saturation*/)) * hueShiftAlpha.b);
+				poiFragData.baseColor = saturate(lerp(poiFragData.baseColor, poiFragData.baseColor * ((0.0 /*_MainBrightness*/) + 1), hueShiftAlpha.g));
+				#endif
 				#if defined(PROP_ALPHAMASK) || !defined(OPTIMIZER_ENABLED)
 				if ((2.0 /*_MainAlphaMaskMode*/))
 				{
@@ -9810,6 +10110,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 			BlendOp [_BlendOp], [_BlendOpAlpha]
 			Blend [_SrcBlend] [_DstBlend], [_SrcBlendAlpha] [_DstBlendAlpha]
 			CGPROGRAM
+ #define COLOR_GRADING_HDR 
  #define MOCHIE_PBR 
  #define POSTPROCESS 
  #define VIGNETTE_MASKED 
@@ -9918,6 +10219,36 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 			float _AlphaMaskValue;
 			#endif
 			float _Cutoff;
+			#ifdef COLOR_GRADING_HDR
+			float _MainColorAdjustToggle;
+			#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _MainColorAdjustTexture;
+			#endif
+			float4 _MainColorAdjustTexture_ST;
+			float2 _MainColorAdjustTexturePan;
+			float _MainColorAdjustTextureUV;
+			float _MainHueShiftToggle;
+			float _MainHueShiftReplace;
+			float _MainHueShift;
+			float _MainHueShiftSpeed;
+			float _Saturation;
+			float _MainBrightness;
+			float _MainHueALCTEnabled;
+			float _MainALHueShiftBand;
+			float _MainALHueShiftCTIndex;
+			float _MainHueALMotionSpeed;
+			float _MainHueGlobalMask;
+			float _MainHueGlobalMaskBlendType;
+			float _MainSaturationGlobalMask;
+			float _MainSaturationGlobalMaskBlendType;
+			float _MainBrightnessGlobalMask;
+			float _MainBrightnessGlobalMaskBlendType;
+			#if defined(PROP_MAINGRADATIONTEX) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _MainGradationTex;
+			#endif
+			float _ColorGradingToggle;
+			float _MainGradationStrength;
+			#endif
 			SamplerState sampler_linear_clamp;
 			SamplerState sampler_linear_repeat;
 			SamplerState sampler_trilinear_repeat;
@@ -12401,7 +12732,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 				}
 				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, mainUV, float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
-				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_BumpMapUV*/)].xy, float4(5,5,0,0)), float4(0,0,0,0), (0.0 /*_BumpMapStochastic*/)), (2.2 /*_BumpScale*/));
+				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_BumpMapUV*/)].xy, float4(5,5,0,0)), float4(0,0,0,0), (0.0 /*_BumpMapStochastic*/)), (2.24 /*_BumpScale*/));
 				#else
 				poiMesh.tangentSpaceNormal = UnpackNormal(float4(0.5, 0.5, 1, 1));
 				#endif
@@ -12440,6 +12771,64 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a5
 				calculateGlobalThemes(poiMods);
 				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, (0.0 /*_ColorThemeIndex*/));
 				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
+				#ifdef COLOR_GRADING_HDR
+				#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
+				float4 hueShiftAlpha = POI2D_SAMPLER_PAN(_MainColorAdjustTexture, _MainTex, poiUV(poiMesh.uv[(0.0 /*_MainColorAdjustTextureUV*/)], float4(1,1,0,0)), float4(0,0,0,0));
+				#else
+				float4 hueShiftAlpha = 1;
+				#endif
+				if ((0.0 /*_MainHueGlobalMask*/) > 0)
+				{
+					hueShiftAlpha.r = maskBlend(hueShiftAlpha.r, poiMods.globalMask[(0.0 /*_MainHueGlobalMask*/) - 1], (2.0 /*_MainHueGlobalMaskBlendType*/));
+				}
+				if ((0.0 /*_MainSaturationGlobalMask*/) > 0)
+				{
+					hueShiftAlpha.b = maskBlend(hueShiftAlpha.b, poiMods.globalMask[(0.0 /*_MainSaturationGlobalMask*/) - 1], (2.0 /*_MainSaturationGlobalMaskBlendType*/));
+				}
+				if ((0.0 /*_MainBrightnessGlobalMask*/) > 0)
+				{
+					hueShiftAlpha.g = maskBlend(hueShiftAlpha.g, poiMods.globalMask[(0.0 /*_MainBrightnessGlobalMask*/) - 1], (2.0 /*_MainBrightnessGlobalMaskBlendType*/));
+				}
+				if ((0.0 /*_MainHueShiftToggle*/))
+				{
+					float shift = (0.949 /*_MainHueShift*/);
+					#ifdef POI_AUDIOLINK
+					if (poiMods.audioLinkAvailable && (0.0 /*_MainHueALCTEnabled*/))
+					{
+						shift += AudioLinkGetChronoTime((0.0 /*_MainALHueShiftCTIndex*/), (0.0 /*_MainALHueShiftBand*/)) * (1.0 /*_MainHueALMotionSpeed*/);
+					}
+					#endif
+					if ((1.0 /*_MainHueShiftReplace*/))
+					{
+						poiFragData.baseColor = lerp(poiFragData.baseColor, hueShift(poiFragData.baseColor, shift + (0.0 /*_MainHueShiftSpeed*/) * _Time.x), hueShiftAlpha.r);
+					}
+					else
+					{
+						poiFragData.baseColor = hueShift(poiFragData.baseColor, frac((shift - (1 - hueShiftAlpha.r) + (0.0 /*_MainHueShiftSpeed*/) * _Time.x)));
+					}
+				}
+				if ((0.0 /*_MainGradationStrength*/) && (0.0 /*_ColorGradingToggle*/))
+				{
+					#if !defined(UNITY_COLORSPACE_GAMMA)
+					float3 tempColor = OpenLitLinearToSRGB(poiFragData.baseColor);
+					#else
+					float3 tempColor = poiFragData.baseColor;
+					#endif
+					#if defined(PROP_MAINGRADATIONTEX) || !defined(OPTIMIZER_ENABLED)
+					tempColor.r = POI_SAMPLE_1D_X(_MainGradationTex, sampler_linear_clamp, tempColor.r).r;
+					tempColor.g = POI_SAMPLE_1D_X(_MainGradationTex, sampler_linear_clamp, tempColor.g).g;
+					tempColor.b = POI_SAMPLE_1D_X(_MainGradationTex, sampler_linear_clamp, tempColor.b).b;
+					#else
+					tempColor = float3(1, 1, 1);
+					#endif
+					#if !defined(UNITY_COLORSPACE_GAMMA)
+					tempColor = OpenLitSRGBToLinear(tempColor);
+					#endif
+					poiFragData.baseColor = lerp(poiFragData.baseColor, tempColor, (0.0 /*_MainGradationStrength*/));
+				}
+				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), - ((-1.0 /*_Saturation*/)) * hueShiftAlpha.b);
+				poiFragData.baseColor = saturate(lerp(poiFragData.baseColor, poiFragData.baseColor * ((0.0 /*_MainBrightness*/) + 1), hueShiftAlpha.g));
+				#endif
 				#if defined(PROP_ALPHAMASK) || !defined(OPTIMIZER_ENABLED)
 				if ((2.0 /*_MainAlphaMaskMode*/))
 				{
