@@ -1,0 +1,30 @@
+{
+    "installedSDK": "SDK3World",
+    "installedPackages": [
+        {
+            "packageID": 6,
+            "installedVersion": "v0.3.0"
+        },
+        {
+            "packageID": 0,
+            "installedVersion": "v0.20.3"
+        },
+        {
+            "packageID": 7,
+            "installedVersion": "v0.3.0"
+        },
+        {
+            "packageID": 3,
+            "installedVersion": "v0.1.5"
+        },
+        {
+            "packageID": 4,
+            "installedVersion": "v1.0.1"
+        },
+        {
+            "packageID": 1,
+            "installedVersion": "v0.3.10"
+        }
+    ],
+    "updateSDKOnStart": false
+}
