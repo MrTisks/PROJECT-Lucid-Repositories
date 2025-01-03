@@ -161,6 +161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5511584365335411952}
   - component: {fileID: 8549363650152572856}
+  - component: {fileID: 4757401400491318330}
   m_Layer: 0
   m_Name: Water Noise
   m_TagString: Untagged
@@ -279,6 +280,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4757401400491318330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3017765541233991570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -617992517, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gain: 10
+  Far: 40
+  Near: 0
+  VolumetricRadius: 0
+  EnableSpatialization: 1
+  UseAudioSourceVolumeCurve: 0
 --- !u!1 &3166471087306912107
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,6 +725,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5465584983094456204}
   - component: {fileID: 4958916123039691914}
+  - component: {fileID: 576397306897601238}
   m_Layer: 0
   m_Name: Middle Waterfalls
   m_TagString: Untagged
@@ -825,6 +845,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &576397306897601238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5422345974361816686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -617992517, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gain: 10
+  Far: 40
+  Near: 0
+  VolumetricRadius: 0
+  EnableSpatialization: 1
+  UseAudioSourceVolumeCurve: 0
 --- !u!1 &5511313992931946370
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,6 +963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3357727087689533860}
   - component: {fileID: 5254869161190488294}
+  - component: {fileID: 6445014490877535620}
   m_Layer: 0
   m_Name: Large Waterfall 2
   m_TagString: Untagged
@@ -964,7 +1003,7 @@ AudioSource:
   m_Pitch: 1
   Loop: 1
   Mute: 0
-  Spatialize: 1
+  Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
@@ -1044,6 +1083,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6445014490877535620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6030933008273269753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -617992517, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gain: 10
+  Far: 40
+  Near: 0
+  VolumetricRadius: 0
+  EnableSpatialization: 1
+  UseAudioSourceVolumeCurve: 0
 --- !u!1 &6104402254782033355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,6 +1144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5004100704105821142}
   - component: {fileID: 5493810154364957681}
+  - component: {fileID: 3299693169304278693}
   m_Layer: 0
   m_Name: Large Waterfall 1
   m_TagString: Untagged
@@ -1206,6 +1264,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3299693169304278693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6721952645149207977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -617992517, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gain: 10
+  Far: 40
+  Near: 0
+  VolumetricRadius: 0
+  EnableSpatialization: 1
+  UseAudioSourceVolumeCurve: 0
 --- !u!1 &6937708382261499874
 GameObject:
   m_ObjectHideFlags: 0

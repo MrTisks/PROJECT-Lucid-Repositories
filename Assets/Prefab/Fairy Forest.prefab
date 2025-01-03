@@ -6455,6 +6455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6932804745478476561}
   - component: {fileID: 7609975577625133184}
+  - component: {fileID: 6944828586206566613}
   m_Layer: 0
   m_Name: Water Audio
   m_TagString: Untagged
@@ -6573,6 +6574,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6944828586206566613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418649755339759635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -617992517, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gain: 10
+  Far: 40
+  Near: 0
+  VolumetricRadius: 0
+  EnableSpatialization: 1
+  UseAudioSourceVolumeCurve: 0
 --- !u!1 &1420515421787268318
 GameObject:
   m_ObjectHideFlags: 0
@@ -44323,6 +44342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2062730749191646667}
   - component: {fileID: 485777193557406559}
+  - component: {fileID: 3375647314834196968}
   m_Layer: 0
   m_Name: Night Ambience
   m_TagString: Untagged
@@ -44441,6 +44461,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3375647314834196968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6312549485496872791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -617992517, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gain: 10
+  Far: 40
+  Near: 0
+  VolumetricRadius: 0
+  EnableSpatialization: 1
+  UseAudioSourceVolumeCurve: 0
 --- !u!1 &6332630312810069176
 GameObject:
   m_ObjectHideFlags: 0

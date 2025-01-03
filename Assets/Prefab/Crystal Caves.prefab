@@ -282,6 +282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7208517153235025829}
   - component: {fileID: 5044772566027003232}
+  - component: {fileID: 6963084012722429444}
   m_Layer: 0
   m_Name: Water Fall
   m_TagString: Untagged
@@ -409,6 +410,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6963084012722429444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889789506433347149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -617992517, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gain: 10
+  Far: 40
+  Near: 0
+  VolumetricRadius: 0
+  EnableSpatialization: 1
+  UseAudioSourceVolumeCurve: 0
 --- !u!1 &2009712401884579369
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,6 +752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2539965809088652811}
   - component: {fileID: 4253752188530312583}
+  - component: {fileID: 1729892731920311159}
   m_Layer: 0
   m_Name: Water dropplets
   m_TagString: Untagged
@@ -860,6 +880,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1729892731920311159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2649774026102769877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -617992517, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gain: 10
+  Far: 40
+  Near: 0
+  VolumetricRadius: 0
+  EnableSpatialization: 1
+  UseAudioSourceVolumeCurve: 0
 --- !u!1 &3265980141013540491
 GameObject:
   m_ObjectHideFlags: 0
@@ -15640,6 +15678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2329087557151519430}
   - component: {fileID: 6070710784561986825}
+  - component: {fileID: 695745734656683681}
   m_Layer: 0
   m_Name: Water Noises
   m_TagString: Untagged
@@ -15678,7 +15717,7 @@ AudioSource:
   m_Pitch: 1
   Loop: 1
   Mute: 0
-  Spatialize: 1
+  Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
@@ -15767,6 +15806,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &695745734656683681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5711317981301061602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -617992517, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gain: 10
+  Far: 40
+  Near: 0
+  VolumetricRadius: 0
+  EnableSpatialization: 1
+  UseAudioSourceVolumeCurve: 0
 --- !u!1 &5910955415008202555
 GameObject:
   m_ObjectHideFlags: 0
