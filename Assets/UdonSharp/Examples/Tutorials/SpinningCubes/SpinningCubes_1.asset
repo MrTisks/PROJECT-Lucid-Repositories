@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: SpinningCubes_1
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 8fe073eff9bb7294fba1d0498f5e7d3a,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 0c929d7aab3601a42838bf5ebab5af62,
     type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: b365f90eafa3fef4f9ed438f75be565a, type: 3}
   scriptVersion: 2
-  compiledVersion: 0
+  compiledVersion: 2
   behaviourSyncMode: 0
   hasInteractEvent: 0
-  scriptID: 0
+  scriptID: -930316076939333638
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
