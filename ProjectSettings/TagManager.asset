@@ -33,9 +33,9 @@ TagManager:
   - Red Trees
   - Pink Trees
   - Reflective water
-  - 
-  - 
-  - 
+  - Particles
+  - EnvironmentNoRef
+  - Lights
   - 
   - 
   m_SortingLayers:
