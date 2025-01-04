@@ -50,8 +50,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _ACES: 0
+    - _BAKERY_LMSPEC: 0
+    - _BAKERY_SHNONLINEAR: 0
+    - _BakeryMode: 0
+    - _BicubicLightmap: 1
+    - _Filtering: 0
+    - _Glossiness: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
+    - _SSR: 0
     - _UseSmoothness: 1
     m_Colors: []
   m_BuildTextureStacks: []

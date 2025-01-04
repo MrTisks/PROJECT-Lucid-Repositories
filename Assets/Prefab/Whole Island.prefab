@@ -36522,11 +36522,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 14ddd62c8f4f26b4abc3df322553304b,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1918993904240529347}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14ddd62c8f4f26b4abc3df322553304b, type: 3}
 --- !u!4 &4736420061293277923 stripped
 Transform:
@@ -36534,33 +36530,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5057997089772279048}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &5400084645949417561 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 14ddd62c8f4f26b4abc3df322553304b,
-    type: 3}
-  m_PrefabInstance: {fileID: 5057997089772279048}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1918993904240529347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5400084645949417561}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ec3f699b938b8245b219d4fbedf71f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reflectionMask:
-    serializedVersion: 2
-    m_Bits: 2048
-  reflectSkybox: 1
-  clearColor: {r: 0, g: 0, b: 0, a: 0}
-  reflectionSampler: _ReflectionTex
-  clipPlaneOffset: 0.07
-  quality: 0.01
-  m_SharedMaterial: {fileID: 2100000, guid: 9fe7485ca02c10346ae6e102c4a2872a, type: 2}
 --- !u!1001 &5065304494421374866
 PrefabInstance:
   m_ObjectHideFlags: 0
