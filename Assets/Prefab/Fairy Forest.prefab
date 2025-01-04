@@ -6591,7 +6591,7 @@ MonoBehaviour:
   Near: 0
   VolumetricRadius: 0
   EnableSpatialization: 1
-  UseAudioSourceVolumeCurve: 0
+  UseAudioSourceVolumeCurve: 1
 --- !u!1 &1420515421787268318
 GameObject:
   m_ObjectHideFlags: 0
@@ -44478,7 +44478,7 @@ MonoBehaviour:
   Near: 0
   VolumetricRadius: 0
   EnableSpatialization: 1
-  UseAudioSourceVolumeCurve: 0
+  UseAudioSourceVolumeCurve: 1
 --- !u!1 &6332630312810069176
 GameObject:
   m_ObjectHideFlags: 0
