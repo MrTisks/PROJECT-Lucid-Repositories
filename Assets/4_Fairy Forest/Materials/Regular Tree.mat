@@ -8,12 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Regular Tree
-  m_Shader: {fileID: 4800000, guid: cddaa3a02eb956746b502b80b76e92bc, type: 3}
+  m_Shader: {fileID: 4800000, guid: f927f4173320600459911ac97d99d0a2, type: 3}
   m_Parent: {fileID: 2100000, guid: 242fbb5364066f5498e3a68b7fbc7a33, type: 2}
   m_ModifiedSerializedProperties: 16
   m_ValidKeywords:
-  - BAKERY_LMSPEC
-  - _BICUBIC_SAMPLING_ON
   - _METALLICGLOSSMAP
   - _NORMALMAP
   - _SPECGLOSSMAP
@@ -57,10 +55,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _ACES: 0
-    - _BAKERY_LMSPEC: 1
+    - _BAKERY_LMSPEC: 0
     - _BAKERY_SHNONLINEAR: 0
     - _BakeryMode: 0
-    - _BicubicLightmap: 1
+    - _BicubicLightmap: 0
     - _Filtering: 0
     - _Glossiness: 1
     - _Metallic: 0

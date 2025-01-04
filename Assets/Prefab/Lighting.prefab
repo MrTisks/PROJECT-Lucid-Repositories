@@ -5149,7 +5149,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
-  m_ShadowAngle: 0
+  m_ShadowAngle: 7
 --- !u!1 &668814165748418625
 GameObject:
   m_ObjectHideFlags: 0
@@ -35370,7 +35370,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3539117848007629994
 Transform:
   m_ObjectHideFlags: 0
@@ -35410,7 +35410,7 @@ ReflectionProbe:
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1073739775
   m_IntensityMultiplier: 1
   m_BlendDistance: 1
   m_HDR: 1
@@ -36188,7 +36188,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
-  m_ShadowAngle: 0
+  m_ShadowAngle: 4
 --- !u!1 &4177925395023164730
 GameObject:
   m_ObjectHideFlags: 0
@@ -46853,7 +46853,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
-  m_ShadowAngle: 0
+  m_ShadowAngle: 5.5
 --- !u!1 &5398305894695874651
 GameObject:
   m_ObjectHideFlags: 0

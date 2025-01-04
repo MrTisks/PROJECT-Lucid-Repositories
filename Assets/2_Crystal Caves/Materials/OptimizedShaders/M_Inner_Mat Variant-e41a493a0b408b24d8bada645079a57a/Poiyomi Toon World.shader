@@ -4193,6 +4193,7 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 	}CGINCLUDE
 #define OPTIMIZER_ENABLED
 #define BSSBLOOMFOGTYPE_HEIGHT
+#define COLOR_GRADING_HDR
 #define MOCHIE_PBR
 #define POSTPROCESS
 #define VIGNETTE_MASKED
@@ -4224,7 +4225,7 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 #define PROP_MAINTEXSTOCHASTIC 0
 #define PROP_BUMPMAP
 #define PROP_BUMPMAPUV 0
-#define PROP_BUMPSCALE 2.2
+#define PROP_BUMPSCALE 2.24
 #define PROP_BUMPMAPSTOCHASTIC 0
 #define PROP_ALPHAMASKUV 0
 #define PROP_MAINALPHAMASKMODE 2
@@ -4232,10 +4233,10 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 #define PROP_ALPHAMASKVALUE 0
 #define PROP_ALPHAMASKINVERT 0
 #define PROP_CUTOFF 0
-#define PROPM_START_COLORADJUST 0
-#define PROP_MAINCOLORADJUSTTOGGLE 0
+#define PROPM_START_COLORADJUST 1
+#define PROP_MAINCOLORADJUSTTOGGLE 1
 #define PROP_MAINCOLORADJUSTTEXTUREUV 0
-#define PROP_SATURATION 0
+#define PROP_SATURATION -1
 #define PROP_MAINBRIGHTNESS 0
 #define PROPS_START_MAINHUESHIFT 0
 #define PROP_MAINHUESHIFTTOGGLE 0
@@ -4803,10 +4804,10 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 #define PROPM_END_DECALSECTION 0
 #define PROPM_START_NORMALCORRECT 0
 #define PROP_NORMALCORRECT 0
-#define PROP_NORMALCORRECTAMOUNT 0.308
+#define PROP_NORMALCORRECTAMOUNT 0.587
 #define PROPM_END_NORMALCORRECT 0
 #define PROPM_LIGHTINGCATEGORY 1
-#define PROPM_START_POILIGHTDATA 1
+#define PROPM_START_POILIGHTDATA 0
 #define PROP_LIGHTINGAOMAPSUV 0
 #define PROP_LIGHTDATAAOSTRENGTHR 1
 #define PROP_LIGHTDATAAOSTRENGTHG 0
@@ -4832,7 +4833,7 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 #define PROP_LIGHTINGSHADOWMASKSTRENGTHA 0
 #define PROP_LIGHTDATASHADOWMASKGLOBALMASKR 0
 #define PROP_LIGHTDATASHADOWMASKGLOBALMASKBLENDTYPER 2
-#define PROPS_START_LIGHTDATABASEPASS 1
+#define PROPS_START_LIGHTDATABASEPASS 0
 #define PROP_LIGHTINGCOLORMODE 0
 #define PROP_LIGHTINGMAPMODE 0
 #define PROP_LIGHTINGDIRECTIONMODE 0
@@ -4841,7 +4842,7 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 #define PROP_LIGHTINGFORCECOLORENABLED 0
 #define PROP_LIGHTINGFORCEDCOLORTHEMEINDEX 0
 #define PROP_UNLIT_INTENSITY 1
-#define PROP_LIGHTINGCAPENABLED 1
+#define PROP_LIGHTINGCAPENABLED 0
 #define PROP_LIGHTINGCAP 1
 #define PROP_LIGHTINGMINLIGHTBRIGHTNESS 0
 #define PROP_LIGHTINGINDIRECTUSESNORMALS 0
@@ -4850,7 +4851,7 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 #define PROP_LIGHTINGVERTEXLIGHTINGENABLED 1
 #define PROP_LIGHTINGMIRRORVERTEXLIGHTINGENABLED 1
 #define PROPS_END_LIGHTDATABASEPASS 1
-#define PROPS_START_LIGHTDATAADDPASS 1
+#define PROPS_START_LIGHTDATAADDPASS 0
 #define PROP_LIGHTINGADDITIVEENABLE 1
 #define PROP_DISABLEDIRECTIONALINADD 1
 #define PROP_LIGHTINGADDITIVELIMITED 1
@@ -4864,12 +4865,12 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 #define PROP_LIGHTINGDEBUGVISUALIZE 0
 #define PROPS_END_LIGHTDATADEBUG 0
 #define PROPM_END_POILIGHTDATA 0
-#define PROPM_START_BAKEDLIGHTING 1
+#define PROPM_START_BAKEDLIGHTING 0
 #define PROP_GIEMISSIONMULTIPLIER 1
 #define PROPDSGI 0
 #define PROPLIGHTMAPFLAGS 0
 #define PROPM_END_BAKEDLIGHTING 0
-#define PROPM_START_POISHADING 1
+#define PROPM_START_POISHADING 0
 #define PROP_SHADINGENABLED 1
 #define PROP_LIGHTINGMODE 6
 #define PROP_TOONRAMP
@@ -5468,7 +5469,7 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 #define PROP_SSSDISTORTION 1
 #define PROP_SSSBASECOLORMIX 0
 #define PROPM_END_SUBSURFACESCATTERING 0
-#define PROPM_START_BRDF 1
+#define PROPM_START_BRDF 0
 #define PROP_MOCHIEBRDF 1
 #define PROP_MOCHIEMETALLICMULTIPLIER 0
 #define PROP_MOCHIEROUGHNESSMULTIPLIER 1
@@ -5486,7 +5487,7 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 #define PROP_MOCHIEREFLECTIONMASKINVERT 0
 #define PROP_MOCHIESPECULARMASKINVERT 0
 #define PROP_MOCHIEREFLECTIONSTRENGTH 1
-#define PROP_MOCHIESPECULARSTRENGTH 5
+#define PROP_MOCHIESPECULARSTRENGTH 1
 #define PROP_MOCHIEFORCEFALLBACK 0
 #define PROPS_START_BRDFTPSMASKGROUP 0
 #define PROP_BRDFTPSDEPTHENABLED 0
@@ -5582,7 +5583,7 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 #define PROP_SET_HIGHCOLORMASKUV 0
 #define PROP_SET_HIGHCOLORMASKCHANNEL 1
 #define PROP_TWEAK_HIGHCOLORMASKLEVEL 0
-#define PROP_IS_SPECULARTOHIGHCOLOR 0
+#define PROP_IS_SPECULARTOHIGHCOLOR 1
 #define PROP_IS_BLENDADDTOHICOLOR 0
 #define PROP_STYLIZEDSPECULARSTRENGTH 1
 #define PROP_USELIGHTCOLOR 1
@@ -5591,12 +5592,12 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 #define PROP_STYLIZEDSPECULARFEATHER 0
 #define PROP_LAYER1STRENGTH 1
 #define PROPS_END_STYLIZEDSPECULARLAYER0 0
-#define PROPS_START_STYLIZEDSPECULARLAYER1 1
+#define PROPS_START_STYLIZEDSPECULARLAYER1 0
 #define PROP_LAYER2SIZE 0
 #define PROP_STYLIZEDSPECULAR2FEATHER 0
 #define PROP_LAYER2STRENGTH 0
 #define PROPS_END_STYLIZEDSPECULARLAYER1 0
-#define PROPS_START_STYLIZEDSPECULARADVANCED 0
+#define PROPS_START_STYLIZEDSPECULARADVANCED 1
 #define PROP_STYLIZEDSPECULARIGNORENORMAL 0
 #define PROP_STYLIZEDSPECULARIGNORESHADOW 0
 #define PROP_SSIGNORECASTEDSHADOWS 0
@@ -6094,10 +6095,10 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 #define PROPM_END_EMISSION3OPTIONS 0
 #define PROPM_START_GLITTER 1
 #define PROP_GLITTERENABLE 1
-#define PROP_GLITTERUV 0
+#define PROP_GLITTERUV 5
 #define PROP_GLITTERMODE 0
 #define PROP_GLITTERSHAPE 0
-#define PROP_GLITTERBLENDTYPE 1
+#define PROP_GLITTERBLENDTYPE 0
 #define PROP_GLITTERUSENORMALS 1
 #define PROP_GLITTERLAYERS 2
 #define PROPS_START_GLITTERCOLORANDSHAPE 1
@@ -6109,7 +6110,7 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 #define PROP_GLITTERRANDOMCOLORS 0
 #define PROPS_END_GLITTERCOLORANDSHAPE 0
 #define PROPS_START_GLITTERPOSITIONSIZE 1
-#define PROP_GLITTERFREQUENCY 253.57
+#define PROP_GLITTERFREQUENCY 3.39
 #define PROP_GLITTERSIZE 0.168
 #define PROP_GLITTERRANDOMLOCATION 0
 #define PROP_GLITTERRANDOMSIZE 1
@@ -6118,7 +6119,7 @@ Shader "Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a"
 #define PROP_GLITTERMINBRIGHTNESS 0
 #define PROP_GLITTERBRIGHTNESS 40
 #define PROP_GLITTERSPEED 2
-#define PROP_GLITTERANGLERANGE 59
+#define PROP_GLITTERANGLERANGE 75.5
 #define PROP_GLITTERBIAS 0.011
 #define PROP_GLITTERCENTERSIZE 0.08
 #define PROP_GLITTERCONTRAST 295
@@ -7016,7 +7017,7 @@ ENDCG
 			
 //			#pragma shader_feature_local _STOCHASTICMODE_DELIOT_HEITZ _STOCHASTICMODE_HEXTILE _STOCHASTICMODE_NONE
 			
-			//ifex float(0)==0
+			//ifex float(1)==0
 //			#pragma shader_feature COLOR_GRADING_HDR
 			//endex
 			
@@ -7432,7 +7433,7 @@ ENDCG
 			float _AlphaMaskValue;
 			#endif
 			float _Cutoff;
-			//ifex float(0)==0
+			//ifex float(1)==0
 			#ifdef COLOR_GRADING_HDR
 			float _MainColorAdjustToggle;
 			#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
@@ -11208,7 +11209,7 @@ ENDCG
 			
 //			#pragma shader_feature_local _STOCHASTICMODE_DELIOT_HEITZ _STOCHASTICMODE_HEXTILE _STOCHASTICMODE_NONE
 			
-			//ifex float(0)==0
+			//ifex float(1)==0
 //			#pragma shader_feature COLOR_GRADING_HDR
 			//endex
 			
@@ -11707,7 +11708,7 @@ ENDCG
 			float _AlphaMaskValue;
 			#endif
 			float _Cutoff;
-			//ifex float(0)==0
+			//ifex float(1)==0
 			#ifdef COLOR_GRADING_HDR
 			float _MainColorAdjustToggle;
 			#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
@@ -21190,7 +21191,7 @@ ENDCG
 				directColor *= saturate(poiLight.rampedLightMap + 1 - float(1)) * float4(1,1,1,1);
 				
 				float3 finalWrap = directColor + indirectColor;
-				if (float(1))
+				if (float(0))
 				{
 					finalWrap = clamp(finalWrap, float(0), float(1));
 				}
@@ -24194,7 +24195,7 @@ ENDCG
 				{
 					// Scale
 					
-					float2 st = (poiMesh.uv[float(0)] + float4(0.001,0.001,0,0).xy * _Time.x) * float(253.57);
+					float2 st = (poiMesh.uv[float(5)] + float4(0.18,0.001,0,0).xy * _Time.x) * float(3.39);
 					
 					// Tile the space
 					float2 i_st = floor(st);
@@ -24231,7 +24232,7 @@ ENDCG
 					
 					if (float(1))
 					{
-						size = lerp(float4(0.2912188,0.4178097,0,1).x, float4(0.2912188,0.4178097,0,1).y, randomFromPoint);
+						size = lerp(float4(0.790343,0.916934,0,1).x, float4(0.790343,0.916934,0,1).y, randomFromPoint);
 					}
 					#ifdef POI_AUDIOLINK
 					if (float(0))
@@ -24289,7 +24290,7 @@ ENDCG
 					
 					float3 finalGlitter = 0;
 					
-					half3 glitterColor = poiThemeColor(poiMods, float4(0,1.480739,2,1).rgb, float(0));
+					half3 glitterColor = poiThemeColor(poiMods, float4(0,7.94057,10.68063,1).rgb, float(0));
 					
 					float3 norm = lerp(poiMesh.normals[0], poiMesh.normals[1], float(1));
 					float3 randomRotation = 0;
@@ -24306,11 +24307,11 @@ ENDCG
 						
 						if (float(2) + glitterSpeedOffset > 0)
 						{
-							randomRotation = randomFloat3WiggleRange(randoPoint, float(59), float(2), glitterSpeedOffset);
+							randomRotation = randomFloat3WiggleRange(randoPoint, float(75.5), float(2), glitterSpeedOffset);
 						}
 						else
 						{
-							randomRotation = randomFloat3Range(randoPoint, float(59));
+							randomRotation = randomFloat3Range(randoPoint, float(75.5));
 						}
 						
 						float3 glitterReflectionDirection = normalize(mul(poiRotationMatrixFromAngles(randomRotation), norm));
@@ -24325,11 +24326,11 @@ ENDCG
 						case 2:
 						if (float(2) + glitterSpeedOffset > 0)
 						{
-							randomRotation = randomFloat3WiggleRange(randoPoint, float(59), float(2), glitterSpeedOffset);
+							randomRotation = randomFloat3WiggleRange(randoPoint, float(75.5), float(2), glitterSpeedOffset);
 						}
 						else
 						{
-							randomRotation = randomFloat3Range(randoPoint, float(59));
+							randomRotation = randomFloat3Range(randoPoint, float(75.5));
 						}
 						
 						float3 glitterLightReflectionDirection = normalize(mul(poiRotationMatrixFromAngles(randomRotation), norm));
@@ -24402,7 +24403,7 @@ ENDCG
 					
 					glitterMask *= lerp(1, poiLight.rampedLightMap, float(0));
 					glitterMask *= lerp(1, poiLight.directLuminance, float(1));
-					glitterMask *= float4(0,1.480739,2,1).a;
+					glitterMask *= float4(0,7.94057,10.68063,1).a;
 					
 					if (float(0) > 0)
 					{
@@ -24428,7 +24429,7 @@ ENDCG
 					#endif
 					
 					
-					if (float(1) == 1)
+					if (float(0) == 1)
 					{
 						poiFragData.baseColor = lerp(poiFragData.baseColor, finalGlitter * glitterColor * (float(40) + GlitterbrightnessOffset), finalGlitter * glitterTexture.a * glitterMask);
 						poiFragData.emission += finalGlitter * glitterColor * max(0, ((float(40) + GlitterbrightnessOffset) - 1) * glitterTexture.a) * glitterMask;
@@ -24666,7 +24667,7 @@ ENDCG
 				#endif
 				
 				reflectionMask *= float(1);
-				specularMask *= float(5);
+				specularMask *= float(1);
 				
 				if (float(0))
 				{
@@ -25019,7 +25020,7 @@ ENDCG
 				// Spec 1
 				float specMask1 = 0;
 				float specMask2 = 0;
-				if (float(0))
+				if (float(1))
 				{
 					specMask1 += pow(specArea, exp2(lerp(11, 1, float(0.2)))) * float(1);
 					specMask2 += pow(specArea, exp2(lerp(11, 1, float(0)))) * float(0);
@@ -25075,7 +25076,7 @@ ENDCG
 					{
 						if (!any(poiLight.vPosition[index])) continue;
 						specArea = 0.5 * poiLight.vDotNH[index] + 0.5;
-						if (float(0))
+						if (float(1))
 						{
 							vSpecMask = pow(specArea, exp2(lerp(11, 1, float(0.2)))) * float(1) * poiLight.vAttenuation[index];
 							vSpecMask = max(vSpecMask, pow(specArea, exp2(lerp(11, 1, float(0)))) * float(0) * poiLight.vAttenuation[index]);
@@ -25940,8 +25941,8 @@ ENDCG
 				normalCorrectObject.y = 0;
 				normalCorrectObject = normalize(normalCorrectObject);
 				float3 normalCorrectWorld = UnityObjectToWorldDir(normalCorrectObject);
-				i.normal.xyz = normalize(lerp(i.normal.xyz, normalCorrectWorld, float(0.308)));
-				//i.objNormal.xyz = normalize(lerp(i.objNormal.xyz, normalCorrectObject, float(0.308)));
+				i.normal.xyz = normalize(lerp(i.normal.xyz, normalCorrectWorld, float(0.587)));
+				//i.objNormal.xyz = normalize(lerp(i.objNormal.xyz, normalCorrectObject, float(0.587)));
 			}
 			#endif
 			//endex
@@ -26698,7 +26699,7 @@ ENDCG
 				//endex
 				
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
-				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[float(0)].xy, float4(5,5,0,0)), float4(0,0,0,0), float(0)), float(2.2));
+				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[float(0)].xy, float4(5,5,0,0)), float4(0,0,0,0), float(0)), float(2.24));
 				#else
 				poiMesh.tangentSpaceNormal = UnpackNormal(float4(0.5, 0.5, 1, 1));
 				#endif
@@ -27073,7 +27074,7 @@ ENDCG
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), float(0));
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), float(0));
 				
-				if (float(1))
+				if (float(0))
 				{
 					poiLight.directColor = min(poiLight.directColor, float(1));
 					poiLight.indirectColor = min(poiLight.indirectColor, float(1));
@@ -27250,7 +27251,7 @@ ENDCG
 				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, float(0));
 				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
 				
-				//ifex float(0)==0
+				//ifex float(1)==0
 				#ifdef COLOR_GRADING_HDR
 				#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
 				float4 hueShiftAlpha = POI2D_SAMPLER_PAN(_MainColorAdjustTexture, _MainTex, poiUV(poiMesh.uv[float(0)], float4(1,1,0,0)), float4(0,0,0,0));
@@ -27311,7 +27312,7 @@ ENDCG
 					poiFragData.baseColor = lerp(poiFragData.baseColor, tempColor, float(0));
 				}
 				
-				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), - (float(0)) * hueShiftAlpha.b);
+				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), - (float(-1)) * hueShiftAlpha.b);
 				poiFragData.baseColor = saturate(lerp(poiFragData.baseColor, poiFragData.baseColor * (float(0) + 1), hueShiftAlpha.g));
 				#endif
 				//endex
@@ -27689,7 +27690,7 @@ ENDCG
 					poiLight.finalLightAdd += (acc.specular * lerp(unity_ColorSpaceDielectricSpec, poiFragData.baseColor, LTCGImetalness)) * LTCGISpecMask;
 					
 					poiLight.finalLighting += acc.diffuse;
-					if (float(1))
+					if (float(0))
 					{
 						poiLight.finalLighting = min(poiLight.finalLighting, float(1));
 					}
@@ -27928,7 +27929,7 @@ ENDCG
 			
 //			#pragma shader_feature_local _STOCHASTICMODE_DELIOT_HEITZ _STOCHASTICMODE_HEXTILE _STOCHASTICMODE_NONE
 			
-			//ifex float(0)==0
+			//ifex float(1)==0
 //			#pragma shader_feature COLOR_GRADING_HDR
 			//endex
 			
@@ -28426,7 +28427,7 @@ ENDCG
 			float _AlphaMaskValue;
 			#endif
 			float _Cutoff;
-			//ifex float(0)==0
+			//ifex float(1)==0
 			#ifdef COLOR_GRADING_HDR
 			float _MainColorAdjustToggle;
 			#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
@@ -36281,7 +36282,7 @@ ENDCG
 				directColor *= saturate(poiLight.rampedLightMap + 1 - float(1)) * float4(1,1,1,1);
 				
 				float3 finalWrap = directColor + indirectColor;
-				if (float(1))
+				if (float(0))
 				{
 					finalWrap = clamp(finalWrap, float(0), float(1));
 				}
@@ -38879,7 +38880,7 @@ ENDCG
 				{
 					// Scale
 					
-					float2 st = (poiMesh.uv[float(0)] + float4(0.001,0.001,0,0).xy * _Time.x) * float(253.57);
+					float2 st = (poiMesh.uv[float(5)] + float4(0.18,0.001,0,0).xy * _Time.x) * float(3.39);
 					
 					// Tile the space
 					float2 i_st = floor(st);
@@ -38916,7 +38917,7 @@ ENDCG
 					
 					if (float(1))
 					{
-						size = lerp(float4(0.2912188,0.4178097,0,1).x, float4(0.2912188,0.4178097,0,1).y, randomFromPoint);
+						size = lerp(float4(0.790343,0.916934,0,1).x, float4(0.790343,0.916934,0,1).y, randomFromPoint);
 					}
 					#ifdef POI_AUDIOLINK
 					if (float(0))
@@ -38974,7 +38975,7 @@ ENDCG
 					
 					float3 finalGlitter = 0;
 					
-					half3 glitterColor = poiThemeColor(poiMods, float4(0,1.480739,2,1).rgb, float(0));
+					half3 glitterColor = poiThemeColor(poiMods, float4(0,7.94057,10.68063,1).rgb, float(0));
 					
 					float3 norm = lerp(poiMesh.normals[0], poiMesh.normals[1], float(1));
 					float3 randomRotation = 0;
@@ -38991,11 +38992,11 @@ ENDCG
 						
 						if (float(2) + glitterSpeedOffset > 0)
 						{
-							randomRotation = randomFloat3WiggleRange(randoPoint, float(59), float(2), glitterSpeedOffset);
+							randomRotation = randomFloat3WiggleRange(randoPoint, float(75.5), float(2), glitterSpeedOffset);
 						}
 						else
 						{
-							randomRotation = randomFloat3Range(randoPoint, float(59));
+							randomRotation = randomFloat3Range(randoPoint, float(75.5));
 						}
 						
 						float3 glitterReflectionDirection = normalize(mul(poiRotationMatrixFromAngles(randomRotation), norm));
@@ -39010,11 +39011,11 @@ ENDCG
 						case 2:
 						if (float(2) + glitterSpeedOffset > 0)
 						{
-							randomRotation = randomFloat3WiggleRange(randoPoint, float(59), float(2), glitterSpeedOffset);
+							randomRotation = randomFloat3WiggleRange(randoPoint, float(75.5), float(2), glitterSpeedOffset);
 						}
 						else
 						{
-							randomRotation = randomFloat3Range(randoPoint, float(59));
+							randomRotation = randomFloat3Range(randoPoint, float(75.5));
 						}
 						
 						float3 glitterLightReflectionDirection = normalize(mul(poiRotationMatrixFromAngles(randomRotation), norm));
@@ -39087,7 +39088,7 @@ ENDCG
 					
 					glitterMask *= lerp(1, poiLight.rampedLightMap, float(0));
 					glitterMask *= lerp(1, poiLight.directLuminance, float(1));
-					glitterMask *= float4(0,1.480739,2,1).a;
+					glitterMask *= float4(0,7.94057,10.68063,1).a;
 					
 					if (float(0) > 0)
 					{
@@ -39113,7 +39114,7 @@ ENDCG
 					#endif
 					
 					
-					if (float(1) == 1)
+					if (float(0) == 1)
 					{
 						poiFragData.baseColor = lerp(poiFragData.baseColor, finalGlitter * glitterColor * (float(40) + GlitterbrightnessOffset), finalGlitter * glitterTexture.a * glitterMask);
 						poiFragData.emission += finalGlitter * glitterColor * max(0, ((float(40) + GlitterbrightnessOffset) - 1) * glitterTexture.a) * glitterMask;
@@ -39351,7 +39352,7 @@ ENDCG
 				#endif
 				
 				reflectionMask *= float(1);
-				specularMask *= float(5);
+				specularMask *= float(1);
 				
 				if (float(0))
 				{
@@ -39666,7 +39667,7 @@ ENDCG
 				// Spec 1
 				float specMask1 = 0;
 				float specMask2 = 0;
-				if (float(0))
+				if (float(1))
 				{
 					specMask1 += pow(specArea, exp2(lerp(11, 1, float(0.2)))) * float(1);
 					specMask2 += pow(specArea, exp2(lerp(11, 1, float(0)))) * float(0);
@@ -39722,7 +39723,7 @@ ENDCG
 					{
 						if (!any(poiLight.vPosition[index])) continue;
 						specArea = 0.5 * poiLight.vDotNH[index] + 0.5;
-						if (float(0))
+						if (float(1))
 						{
 							vSpecMask = pow(specArea, exp2(lerp(11, 1, float(0.2)))) * float(1) * poiLight.vAttenuation[index];
 							vSpecMask = max(vSpecMask, pow(specArea, exp2(lerp(11, 1, float(0)))) * float(0) * poiLight.vAttenuation[index]);
@@ -40532,8 +40533,8 @@ ENDCG
 				normalCorrectObject.y = 0;
 				normalCorrectObject = normalize(normalCorrectObject);
 				float3 normalCorrectWorld = UnityObjectToWorldDir(normalCorrectObject);
-				i.normal.xyz = normalize(lerp(i.normal.xyz, normalCorrectWorld, float(0.308)));
-				//i.objNormal.xyz = normalize(lerp(i.objNormal.xyz, normalCorrectObject, float(0.308)));
+				i.normal.xyz = normalize(lerp(i.normal.xyz, normalCorrectWorld, float(0.587)));
+				//i.objNormal.xyz = normalize(lerp(i.objNormal.xyz, normalCorrectObject, float(0.587)));
 			}
 			#endif
 			//endex
@@ -41285,7 +41286,7 @@ ENDCG
 				//endex
 				
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
-				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[float(0)].xy, float4(5,5,0,0)), float4(0,0,0,0), float(0)), float(2.2));
+				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[float(0)].xy, float4(5,5,0,0)), float4(0,0,0,0), float(0)), float(2.24));
 				#else
 				poiMesh.tangentSpaceNormal = UnpackNormal(float4(0.5, 0.5, 1, 1));
 				#endif
@@ -41660,7 +41661,7 @@ ENDCG
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), float(0));
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), float(0));
 				
-				if (float(1))
+				if (float(0))
 				{
 					poiLight.directColor = min(poiLight.directColor, float(1));
 					poiLight.indirectColor = min(poiLight.indirectColor, float(1));
@@ -41837,7 +41838,7 @@ ENDCG
 				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, float(0));
 				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
 				
-				//ifex float(0)==0
+				//ifex float(1)==0
 				#ifdef COLOR_GRADING_HDR
 				#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
 				float4 hueShiftAlpha = POI2D_SAMPLER_PAN(_MainColorAdjustTexture, _MainTex, poiUV(poiMesh.uv[float(0)], float4(1,1,0,0)), float4(0,0,0,0));
@@ -41898,7 +41899,7 @@ ENDCG
 					poiFragData.baseColor = lerp(poiFragData.baseColor, tempColor, float(0));
 				}
 				
-				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), - (float(0)) * hueShiftAlpha.b);
+				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), - (float(-1)) * hueShiftAlpha.b);
 				poiFragData.baseColor = saturate(lerp(poiFragData.baseColor, poiFragData.baseColor * (float(0) + 1), hueShiftAlpha.g));
 				#endif
 				//endex
@@ -42401,7 +42402,7 @@ ENDCG
 			
 //			#pragma shader_feature_local _STOCHASTICMODE_DELIOT_HEITZ _STOCHASTICMODE_HEXTILE _STOCHASTICMODE_NONE
 			
-			//ifex float(0)==0
+			//ifex float(1)==0
 //			#pragma shader_feature COLOR_GRADING_HDR
 			//endex
 			
@@ -42900,7 +42901,7 @@ ENDCG
 			float _AlphaMaskValue;
 			#endif
 			float _Cutoff;
-			//ifex float(0)==0
+			//ifex float(1)==0
 			#ifdef COLOR_GRADING_HDR
 			float _MainColorAdjustToggle;
 			#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
@@ -48582,7 +48583,7 @@ ENDCG
 				directColor *= saturate(poiLight.rampedLightMap + 1 - float(1)) * float4(1,1,1,1);
 				
 				float3 finalWrap = directColor + indirectColor;
-				if (float(1))
+				if (float(0))
 				{
 					finalWrap = clamp(finalWrap, float(0), float(1));
 				}
@@ -49283,8 +49284,8 @@ ENDCG
 				normalCorrectObject.y = 0;
 				normalCorrectObject = normalize(normalCorrectObject);
 				float3 normalCorrectWorld = UnityObjectToWorldDir(normalCorrectObject);
-				i.normal.xyz = normalize(lerp(i.normal.xyz, normalCorrectWorld, float(0.308)));
-				//i.objNormal.xyz = normalize(lerp(i.objNormal.xyz, normalCorrectObject, float(0.308)));
+				i.normal.xyz = normalize(lerp(i.normal.xyz, normalCorrectWorld, float(0.587)));
+				//i.objNormal.xyz = normalize(lerp(i.objNormal.xyz, normalCorrectObject, float(0.587)));
 			}
 			#endif
 			//endex
@@ -50036,7 +50037,7 @@ ENDCG
 				//endex
 				
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
-				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[float(0)].xy, float4(5,5,0,0)), float4(0,0,0,0), float(0)), float(2.2));
+				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[float(0)].xy, float4(5,5,0,0)), float4(0,0,0,0), float(0)), float(2.24));
 				#else
 				poiMesh.tangentSpaceNormal = UnpackNormal(float4(0.5, 0.5, 1, 1));
 				#endif
@@ -50411,7 +50412,7 @@ ENDCG
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), float(0));
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), float(0));
 				
-				if (float(1))
+				if (float(0))
 				{
 					poiLight.directColor = min(poiLight.directColor, float(1));
 					poiLight.indirectColor = min(poiLight.indirectColor, float(1));
@@ -50582,7 +50583,7 @@ ENDCG
 				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, float(0));
 				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
 				
-				//ifex float(0)==0
+				//ifex float(1)==0
 				#ifdef COLOR_GRADING_HDR
 				#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
 				float4 hueShiftAlpha = POI2D_SAMPLER_PAN(_MainColorAdjustTexture, _MainTex, poiUV(poiMesh.uv[float(0)], float4(1,1,0,0)), float4(0,0,0,0));
@@ -50643,7 +50644,7 @@ ENDCG
 					poiFragData.baseColor = lerp(poiFragData.baseColor, tempColor, float(0));
 				}
 				
-				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), - (float(0)) * hueShiftAlpha.b);
+				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), - (float(-1)) * hueShiftAlpha.b);
 				poiFragData.baseColor = saturate(lerp(poiFragData.baseColor, poiFragData.baseColor * (float(0) + 1), hueShiftAlpha.g));
 				#endif
 				//endex
@@ -50886,7 +50887,7 @@ ENDCG
 			
 //			#pragma shader_feature_local _STOCHASTICMODE_DELIOT_HEITZ _STOCHASTICMODE_HEXTILE _STOCHASTICMODE_NONE
 			
-			//ifex float(0)==0
+			//ifex float(1)==0
 //			#pragma shader_feature COLOR_GRADING_HDR
 			//endex
 			
@@ -51309,7 +51310,7 @@ ENDCG
 			float _AlphaMaskValue;
 			#endif
 			float _Cutoff;
-			//ifex float(0)==0
+			//ifex float(1)==0
 			#ifdef COLOR_GRADING_HDR
 			float _MainColorAdjustToggle;
 			#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
@@ -56887,8 +56888,8 @@ ENDCG
 				normalCorrectObject.y = 0;
 				normalCorrectObject = normalize(normalCorrectObject);
 				float3 normalCorrectWorld = UnityObjectToWorldDir(normalCorrectObject);
-				i.normal.xyz = normalize(lerp(i.normal.xyz, normalCorrectWorld, float(0.308)));
-				//i.objNormal.xyz = normalize(lerp(i.objNormal.xyz, normalCorrectObject, float(0.308)));
+				i.normal.xyz = normalize(lerp(i.normal.xyz, normalCorrectWorld, float(0.587)));
+				//i.objNormal.xyz = normalize(lerp(i.objNormal.xyz, normalCorrectObject, float(0.587)));
 			}
 			#endif
 			//endex
@@ -57654,7 +57655,7 @@ ENDCG
 				//endex
 				
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
-				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[float(0)].xy, float4(5,5,0,0)), float4(0,0,0,0), float(0)), float(2.2));
+				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[float(0)].xy, float4(5,5,0,0)), float4(0,0,0,0), float(0)), float(2.24));
 				#else
 				poiMesh.tangentSpaceNormal = UnpackNormal(float4(0.5, 0.5, 1, 1));
 				#endif
@@ -57732,7 +57733,7 @@ ENDCG
 				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, float(0));
 				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
 				
-				//ifex float(0)==0
+				//ifex float(1)==0
 				#ifdef COLOR_GRADING_HDR
 				#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
 				float4 hueShiftAlpha = POI2D_SAMPLER_PAN(_MainColorAdjustTexture, _MainTex, poiUV(poiMesh.uv[float(0)], float4(1,1,0,0)), float4(0,0,0,0));
@@ -57793,7 +57794,7 @@ ENDCG
 					poiFragData.baseColor = lerp(poiFragData.baseColor, tempColor, float(0));
 				}
 				
-				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), - (float(0)) * hueShiftAlpha.b);
+				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), - (float(-1)) * hueShiftAlpha.b);
 				poiFragData.baseColor = saturate(lerp(poiFragData.baseColor, poiFragData.baseColor * (float(0) + 1), hueShiftAlpha.g));
 				#endif
 				//endex
@@ -57939,7 +57940,7 @@ ENDCG
 			
 //			#pragma shader_feature_local _STOCHASTICMODE_DELIOT_HEITZ _STOCHASTICMODE_HEXTILE _STOCHASTICMODE_NONE
 			
-			//ifex float(0)==0
+			//ifex float(1)==0
 //			#pragma shader_feature COLOR_GRADING_HDR
 			//endex
 			
@@ -58363,7 +58364,7 @@ ENDCG
 			float _AlphaMaskValue;
 			#endif
 			float _Cutoff;
-			//ifex float(0)==0
+			//ifex float(1)==0
 			#ifdef COLOR_GRADING_HDR
 			float _MainColorAdjustToggle;
 			#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
@@ -66749,7 +66750,7 @@ ENDCG
 				{
 					// Scale
 					
-					float2 st = (poiMesh.uv[float(0)] + float4(0.001,0.001,0,0).xy * _Time.x) * float(253.57);
+					float2 st = (poiMesh.uv[float(5)] + float4(0.18,0.001,0,0).xy * _Time.x) * float(3.39);
 					
 					// Tile the space
 					float2 i_st = floor(st);
@@ -66786,7 +66787,7 @@ ENDCG
 					
 					if (float(1))
 					{
-						size = lerp(float4(0.2912188,0.4178097,0,1).x, float4(0.2912188,0.4178097,0,1).y, randomFromPoint);
+						size = lerp(float4(0.790343,0.916934,0,1).x, float4(0.790343,0.916934,0,1).y, randomFromPoint);
 					}
 					#ifdef POI_AUDIOLINK
 					if (float(0))
@@ -66844,7 +66845,7 @@ ENDCG
 					
 					float3 finalGlitter = 0;
 					
-					half3 glitterColor = poiThemeColor(poiMods, float4(0,1.480739,2,1).rgb, float(0));
+					half3 glitterColor = poiThemeColor(poiMods, float4(0,7.94057,10.68063,1).rgb, float(0));
 					
 					float3 norm = lerp(poiMesh.normals[0], poiMesh.normals[1], float(1));
 					float3 randomRotation = 0;
@@ -66861,11 +66862,11 @@ ENDCG
 						
 						if (float(2) + glitterSpeedOffset > 0)
 						{
-							randomRotation = randomFloat3WiggleRange(randoPoint, float(59), float(2), glitterSpeedOffset);
+							randomRotation = randomFloat3WiggleRange(randoPoint, float(75.5), float(2), glitterSpeedOffset);
 						}
 						else
 						{
-							randomRotation = randomFloat3Range(randoPoint, float(59));
+							randomRotation = randomFloat3Range(randoPoint, float(75.5));
 						}
 						
 						float3 glitterReflectionDirection = normalize(mul(poiRotationMatrixFromAngles(randomRotation), norm));
@@ -66880,11 +66881,11 @@ ENDCG
 						case 2:
 						if (float(2) + glitterSpeedOffset > 0)
 						{
-							randomRotation = randomFloat3WiggleRange(randoPoint, float(59), float(2), glitterSpeedOffset);
+							randomRotation = randomFloat3WiggleRange(randoPoint, float(75.5), float(2), glitterSpeedOffset);
 						}
 						else
 						{
-							randomRotation = randomFloat3Range(randoPoint, float(59));
+							randomRotation = randomFloat3Range(randoPoint, float(75.5));
 						}
 						
 						float3 glitterLightReflectionDirection = normalize(mul(poiRotationMatrixFromAngles(randomRotation), norm));
@@ -66957,7 +66958,7 @@ ENDCG
 					
 					glitterMask *= lerp(1, poiLight.rampedLightMap, float(0));
 					glitterMask *= lerp(1, poiLight.directLuminance, float(1));
-					glitterMask *= float4(0,1.480739,2,1).a;
+					glitterMask *= float4(0,7.94057,10.68063,1).a;
 					
 					if (float(0) > 0)
 					{
@@ -66983,7 +66984,7 @@ ENDCG
 					#endif
 					
 					
-					if (float(1) == 1)
+					if (float(0) == 1)
 					{
 						poiFragData.baseColor = lerp(poiFragData.baseColor, finalGlitter * glitterColor * (float(40) + GlitterbrightnessOffset), finalGlitter * glitterTexture.a * glitterMask);
 						poiFragData.emission += finalGlitter * glitterColor * max(0, ((float(40) + GlitterbrightnessOffset) - 1) * glitterTexture.a) * glitterMask;
@@ -67372,8 +67373,8 @@ ENDCG
 				normalCorrectObject.y = 0;
 				normalCorrectObject = normalize(normalCorrectObject);
 				float3 normalCorrectWorld = UnityObjectToWorldDir(normalCorrectObject);
-				i.normal.xyz = normalize(lerp(i.normal.xyz, normalCorrectWorld, float(0.308)));
-				//i.objNormal.xyz = normalize(lerp(i.objNormal.xyz, normalCorrectObject, float(0.308)));
+				i.normal.xyz = normalize(lerp(i.normal.xyz, normalCorrectWorld, float(0.587)));
+				//i.objNormal.xyz = normalize(lerp(i.objNormal.xyz, normalCorrectObject, float(0.587)));
 			}
 			#endif
 			//endex
@@ -68130,7 +68131,7 @@ ENDCG
 				//endex
 				
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
-				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[float(0)].xy, float4(5,5,0,0)), float4(0,0,0,0), float(0)), float(2.2));
+				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[float(0)].xy, float4(5,5,0,0)), float4(0,0,0,0), float(0)), float(2.24));
 				#else
 				poiMesh.tangentSpaceNormal = UnpackNormal(float4(0.5, 0.5, 1, 1));
 				#endif
@@ -68210,7 +68211,7 @@ ENDCG
 				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, float(0));
 				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
 				
-				//ifex float(0)==0
+				//ifex float(1)==0
 				#ifdef COLOR_GRADING_HDR
 				#if defined(PROP_MAINCOLORADJUSTTEXTURE) || !defined(OPTIMIZER_ENABLED)
 				float4 hueShiftAlpha = POI2D_SAMPLER_PAN(_MainColorAdjustTexture, _MainTex, poiUV(poiMesh.uv[float(0)], float4(1,1,0,0)), float4(0,0,0,0));
@@ -68271,7 +68272,7 @@ ENDCG
 					poiFragData.baseColor = lerp(poiFragData.baseColor, tempColor, float(0));
 				}
 				
-				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), - (float(0)) * hueShiftAlpha.b);
+				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), - (float(-1)) * hueShiftAlpha.b);
 				poiFragData.baseColor = saturate(lerp(poiFragData.baseColor, poiFragData.baseColor * (float(0) + 1), hueShiftAlpha.g));
 				#endif
 				//endex

@@ -7,7 +7,7 @@ OcclusionCullingSettings:
   m_OcclusionBakeSettings:
     smallestOccluder: 3
     smallestHole: 0.25
-    backfaceThreshold: 100
+    backfaceThreshold: 5
   m_SceneGUID: 5bd54f89673f4c44187c2f01ded1435e
   m_OcclusionCullingData: {fileID: 36300000, guid: 65c0c36818b8cc04ea5b4d900fa34b8b,
     type: 2}
@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 34ddc9bc87dec26408e69a4bb5084b9e, type: 3}
   m_Sun: {fileID: 1787983410}
-  m_IndirectSpecularColor: {r: 0.00078295707, g: 0.004132676, b: 0.020004826, a: 1}
+  m_IndirectSpecularColor: {r: 0.00077856245, g: 0.0041305395, b: 0.020029467, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -31918,7 +31918,7 @@ MonoBehaviour:
     ID: 11
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 708420245}
+  - gameObject: {fileID: 0}
     ID: 12
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
@@ -31934,11 +31934,11 @@ MonoBehaviour:
     ID: 15
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 634569473}
+  - gameObject: {fileID: 0}
     ID: 16
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 786344528}
+  - gameObject: {fileID: 0}
     ID: 17
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
@@ -31967,7 +31967,7 @@ MonoBehaviour:
     ID: 23
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 660629263}
+  - gameObject: {fileID: 0}
     ID: 24
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
@@ -31980,7 +31980,7 @@ MonoBehaviour:
     ID: 26
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 521242989}
+  - gameObject: {fileID: 0}
     ID: 27
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
@@ -32005,7 +32005,7 @@ MonoBehaviour:
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour
     - VRC.Udon.UdonBehaviour
-  - gameObject: {fileID: 420429975}
+  - gameObject: {fileID: 0}
     ID: 33
     SerializedTypeNames:
     - VRC.Udon.UdonBehaviour

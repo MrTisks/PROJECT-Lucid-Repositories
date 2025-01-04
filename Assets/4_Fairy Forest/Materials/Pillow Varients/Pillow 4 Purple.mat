@@ -8,12 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Pillow 4 Purple
-  m_Shader: {fileID: 4800000, guid: cddaa3a02eb956746b502b80b76e92bc, type: 3}
+  m_Shader: {fileID: 4800000, guid: f927f4173320600459911ac97d99d0a2, type: 3}
   m_Parent: {fileID: 2100000, guid: 9587fa2a2cacafc4fb2d33f96e7ed1c1, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - BAKERY_LMSPEC
-  - _BICUBIC_SAMPLING_ON
   - _METALLICGLOSSMAP
   - _NORMALMAP
   - _WORKFLOW_PACKED_ON

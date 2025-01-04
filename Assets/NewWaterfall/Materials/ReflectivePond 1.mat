@@ -11,8 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 2ecd2903d107ab243b62d6869ae2eef8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - VERTEX
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -58,7 +57,7 @@ Material:
     - _Height: 0.015
     - _HorSpeed: 0.06
     - _Metallic: 0
-    - _NoiseScale: 0.065
+    - _NoiseScale: 0.04
     - _RIM: 0
     - _Reflectivity: 0.48
     - _RimPower: 1
@@ -70,11 +69,11 @@ Material:
     - _Test: 0.03
     - _TopScale: 0.118
     - _TopSpread: -0.63
-    - _VERTEX: 1
+    - _VERTEX: 0
     - _VertSpeed: 6.2
     m_Colors:
     - _FoamColor: {r: 0.10457456, g: 0.8867924, b: 0.83622813, a: 1}
     - _RimColor: {r: 0, g: 0.42517543, b: 0.5660378, a: 1}
-    - _TColor: {r: 0, g: 0.8565588, b: 1, a: 0}
-    - _WaterColor: {r: 0, g: 1, b: 1, a: 0.2901961}
+    - _TColor: {r: 0, g: 0, b: 0, a: 1}
+    - _WaterColor: {r: 0, g: 1, b: 1, a: 0.38431373}
   m_BuildTextureStacks: []

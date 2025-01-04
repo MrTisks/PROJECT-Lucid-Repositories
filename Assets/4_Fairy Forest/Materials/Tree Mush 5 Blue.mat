@@ -8,12 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Tree Mush 5 Blue
-  m_Shader: {fileID: 4800000, guid: cddaa3a02eb956746b502b80b76e92bc, type: 3}
+  m_Shader: {fileID: 4800000, guid: f927f4173320600459911ac97d99d0a2, type: 3}
   m_Parent: {fileID: 2100000, guid: 97c2c5ae9fc7cb745bfcb1f7f67a7d75, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - BAKERY_LMSPEC
-  - _BICUBIC_SAMPLING_ON
   - _EMISSION
   - _METALLICGLOSSMAP
   - _NORMALMAP

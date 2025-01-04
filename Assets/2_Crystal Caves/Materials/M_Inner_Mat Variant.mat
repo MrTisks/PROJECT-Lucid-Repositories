@@ -8,27 +8,20 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Inner_Mat Variant
-  m_Shader: {fileID: 4800000, guid: adc3b1e094a16d54b8f1b32fd29710d2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 068a561b92960af4786ddb828817c039, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
-  - BSSBLOOMFOGTYPE_HEIGHT
-  - COLOR_GRADING_HDR
-  - MOCHIE_PBR
-  - POSTPROCESS
-  - VIGNETTE_MASKED
   - _LIGHTINGMODE_REALISTIC
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_POIYOMI
   - _STOCHASTICMODE_DELIOT_HEITZ
-  - _SUNDISK_SIMPLE
   m_LightmapFlags: 6
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
-    AllLockedGUIDS: e41a493a0b408b24d8bada645079a57a
     OptimizedShaderFolder: e41a493a0b408b24d8bada645079a57a
     OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT COLOR_GRADING_HDR MOCHIE_PBR POSTPROCESS
       VIGNETTE_MASKED _LIGHTINGMODE_REALISTIC _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
@@ -1402,16 +1395,16 @@ Material:
     - _GlitterALEnabled: 0
     - _GlitterALMaxBrightnessBand: 0
     - _GlitterALSizeAddBand: 0
-    - _GlitterAngleRange: 59
+    - _GlitterAngleRange: 75.5
     - _GlitterBias: 0.011
-    - _GlitterBlendType: 1
+    - _GlitterBlendType: 0
     - _GlitterBrightness: 40
     - _GlitterCenterSize: 0.08
     - _GlitterColorMapUV: 0
     - _GlitterColorThemeIndex: 0
     - _GlitterContrast: 295
     - _GlitterEnable: 1
-    - _GlitterFrequency: 253.57
+    - _GlitterFrequency: 3.39
     - _GlitterHideInShadow: 0
     - _GlitterHueShift: 0.477
     - _GlitterHueShiftEnabled: 0
@@ -1434,7 +1427,7 @@ Material:
     - _GlitterSize: 0.168
     - _GlitterSpeed: 2
     - _GlitterTextureRotation: 0.1
-    - _GlitterUV: 0
+    - _GlitterUV: 5
     - _GlitterUseNormals: 1
     - _GlitterUseSurfaceColor: 0
     - _GlobalMaskBackface_0: 0
@@ -2414,7 +2407,7 @@ Material:
     - _Set_RimLightMaskChannel: 1
     - _Set_RimLightMaskUV: 0
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 1
+    - _ShaderOptimizerEnabled: 0
     - _ShaderUIWarning0: -0
     - _ShaderUIWarning1: -0
     - _ShadingEnabled: 1
@@ -3529,14 +3522,14 @@ Material:
     - _GlitterALAlphaAdd: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterALMaxBrightnessAdd: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterALSizeAdd: {r: 0, g: 0, b: 0, a: 0}
-    - _GlitterColor: {r: 0, g: 1.4807394, b: 1.9999999, a: 1}
+    - _GlitterColor: {r: 0, g: 7.94057, b: 10.680627, a: 1}
     - _GlitterColorMapPan: {r: 1, g: 0.5, b: 0, a: 0}
     - _GlitterMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterMinMaxBrightness: {r: 0.49038845, g: 1, b: 0, a: 1}
     - _GlitterMinMaxSaturation: {r: 0.9062848, g: 1, b: 0, a: 1}
-    - _GlitterMinMaxSize: {r: 0.29121876, g: 0.41780972, b: 0, a: 1}
+    - _GlitterMinMaxSize: {r: 0.79034305, g: 0.916934, b: 0, a: 1}
     - _GlitterRandomRotationSpeed: {r: -20, g: 20, b: 0, a: 0}
-    - _GlitterUVPanning: {r: 0.001, g: 0.001, b: 0, a: 0}
+    - _GlitterUVPanning: {r: 0.18, g: 0.001, b: 0, a: 0}
     - _GlobalMaskMinMaxSlider_0: {r: 0, g: 1, b: 0, a: 1}
     - _GlobalMaskMinMaxSlider_1: {r: 0, g: 1, b: 0, a: 1}
     - _GlobalMaskMinMaxSlider_10: {r: 0, g: 1, b: 0, a: 1}

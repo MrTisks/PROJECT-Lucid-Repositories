@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 929044156661287863, guid: b3699b40e289f544b8799623ccfbb7ca,
         type: 3}
       propertyPath: m_Name
-      value: ROOF CRYSTAL
+      value: ROOF CRYSTAL Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1717808762920042963, guid: b3699b40e289f544b8799623ccfbb7ca,
         type: 3}
@@ -62,6 +62,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717808762920042963, guid: b3699b40e289f544b8799623ccfbb7ca,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
