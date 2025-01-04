@@ -1,5 +1,10 @@
 {
     "installedSDK": "SDK3World",
-    "installedPackages": [],
+    "installedPackages": [
+        {
+            "packageID": 3,
+            "installedVersion": "v0.1.5"
+        }
+    ],
     "updateSDKOnStart": false
 }
