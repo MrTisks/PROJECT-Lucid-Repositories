@@ -12,6 +12,7 @@ Material:
   m_Parent: {fileID: 2100000, guid: a62ca950b0607cd44876ce0036156a6d, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _BICUBIC_SAMPLING_ON
   - _METALLICGLOSSMAP
   - _NORMALMAP
   m_InvalidKeywords: []
@@ -27,6 +28,12 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _ACES: 0
+    - _BAKERY_LMSPEC: 0
+    - _BAKERY_SHNONLINEAR: 0
+    - _BakeryMode: 0
+    - _BicubicLightmap: 1
+    - _Filtering: 0
     - _UseSmoothness: 1
     m_Colors:
     - _Color: {r: 1, g: 0.390566, b: 0.39961675, a: 1}

@@ -15,7 +15,7 @@ Material:
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -57,7 +57,7 @@ Material:
     - _Height: 0.015
     - _HorSpeed: 0.06
     - _Metallic: 0
-    - _NoiseScale: 0.1
+    - _NoiseScale: 0.009
     - _RIM: 0
     - _Reflectivity: 0
     - _RimPower: 1
@@ -66,6 +66,7 @@ Material:
     - _Speed: 0.5
     - _SpeedV: 0.6
     - _Stretch: 0.15
+    - _Tess: 32
     - _Test: 0.03
     - _TopScale: 0.118
     - _TopSpread: -0.63
