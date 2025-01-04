@@ -15,7 +15,7 @@ Material:
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -45,7 +45,7 @@ Material:
     - _BrightNess: 1.698
     - _Brightness: 2
     - _DepthOffset: 2.8
-    - _Distort: 1
+    - _Distort: 0
     - _EdgeWidth: 1.73
     - _EdgeWidth2: -0.3
     - _Foam: 1
