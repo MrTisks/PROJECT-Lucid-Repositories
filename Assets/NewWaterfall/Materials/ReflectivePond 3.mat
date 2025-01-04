@@ -14,7 +14,7 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SideNoiseTex:
-        m_Texture: {fileID: 2800000, guid: 3e9bfd5bdde68c1438213544ce4815cb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7c05e966fef446a48ba5758ef13f0c97, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TopNoiseTex:
@@ -46,23 +46,23 @@ Material:
     - _Brightness: 2
     - _DepthOffset: 2.8
     - _Distort: 1
-    - _EdgeWidth: 1.73
+    - _EdgeWidth: 1.042
     - _EdgeWidth2: -0.3
-    - _Foam: 1
-    - _FresnelBias: 0.61
-    - _FresnelPower: -5
-    - _FresnelScale: 2.21
+    - _Foam: 50
+    - _FresnelBias: 1.02
+    - _FresnelPower: -1.67
+    - _FresnelScale: 2.5
     - _FresnelScale2: 0.94
     - _FresnelScale3: 0.69
     - _Height: 0.015
     - _HorSpeed: 0.06
     - _Metallic: 0
-    - _NoiseScale: 0.009
+    - _NoiseScale: 0.032
     - _RIM: 0
-    - _Reflectivity: 0
+    - _Reflectivity: 0.551
     - _RimPower: 1
     - _Smoothness: 1
-    - _Softness: 0.5
+    - _Softness: 0.078
     - _Speed: 0.5
     - _SpeedV: 0.6
     - _Stretch: 0.15
@@ -71,10 +71,10 @@ Material:
     - _TopScale: 0.118
     - _TopSpread: -0.63
     - _VERTEX: 0
-    - _VertSpeed: 6.2
+    - _VertSpeed: 18.5
     m_Colors:
-    - _FoamColor: {r: 0.10457456, g: 0.8867924, b: 0.83622813, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 0, g: 0.42517543, b: 0.5660378, a: 1}
-    - _TColor: {r: 0, g: 0.8565588, b: 1, a: 0}
-    - _WaterColor: {r: 0, g: 1, b: 1, a: 0.2901961}
+    - _TColor: {r: 0, g: 0, b: 0, a: 1}
+    - _WaterColor: {r: 0, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

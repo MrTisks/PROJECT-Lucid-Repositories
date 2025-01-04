@@ -12,16 +12,20 @@ Material:
   m_Parent: {fileID: 2100000, guid: 27c50d25c7eb93441b53d82061381385, type: 2}
   m_ModifiedSerializedProperties: 2
   m_ValidKeywords:
+  - BAKERY_LMSPEC
   - _BICUBIC_SAMPLING_ON
   - _METALLICGLOSSMAP
   - _NORMALMAP
+  - _SPECGLOSSMAP
+  - _WORKFLOW_PACKED_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 6
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - ALWAYS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -31,7 +35,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _Glossiness: 1
     m_Colors:
     - _Color: {r: 0.72264147, g: 0.85974544, b: 1, a: 1}
   m_BuildTextureStacks: []
