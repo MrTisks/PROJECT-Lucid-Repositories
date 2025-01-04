@@ -8,20 +8,23 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SMAT
-  m_Shader: {fileID: 4800000, guid: cddaa3a02eb956746b502b80b76e92bc, type: 3}
+  m_Shader: {fileID: 4800000, guid: f927f4173320600459911ac97d99d0a2, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - BAKERY_LMSPEC
   - _BICUBIC_SAMPLING_ON
   - _METALLICGLOSSMAP
   - _NORMALMAP
+  - _WORKFLOW_PACKED_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - ALWAYS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -123,7 +126,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PackedMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 6b5950a075e1eb84092b49ec267df390, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -191,7 +194,7 @@ Material:
     - _AudioLinkEmissionStrength: 1
     - _AudioLinkMax: 1
     - _AudioLinkMin: 0
-    - _BAKERY_LMSPEC: 0
+    - _BAKERY_LMSPEC: 1
     - _BAKERY_SHNONLINEAR: 0
     - _BakeryMode: 0
     - _BicubicLightmap: 1
@@ -242,7 +245,7 @@ Material:
     - _GSAA: 0
     - _GSAAStrength: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 1
     - _GlossyReflections: 1
     - _HDRReflShad: 1
     - _HeightChannel: 3
@@ -259,15 +262,15 @@ Material:
     - _LTCGI_DIFFUSE_OFF: 0
     - _LTCGI_SPECULAR_OFF: 0
     - _MetaCull: 0
-    - _Metallic: 0
-    - _MetallicChannel: 2
+    - _Metallic: 1
+    - _MetallicChannel: 0
     - _MetallicMult: 0
     - _MirrorNormalOffsetSwizzle: 0
     - _MirrorToggle: 0
     - _Mode: 0
     - _MonoTint: 0
     - _NaNLmao: 0
-    - _OcclusionChannel: 0
+    - _OcclusionChannel: 3
     - _OcclusionMult: 0
     - _OcclusionStrength: 1
     - _OcclusionUVSet: 0
@@ -296,7 +299,7 @@ Material:
     - _RippleSpeed: 10
     - _RippleStr: 1
     - _RoughnessChannel: 1
-    - _RoughnessMult: 0
+    - _RoughnessMult: 1
     - _SSR: 0
     - _SSRHeight: 0.1
     - _SSRStrength: 1
@@ -346,9 +349,9 @@ Material:
     - _UseAlphaMask: 0
     - _UseFresnel: 1
     - _UseHeight: 0
-    - _UseSmoothness: 1
+    - _UseSmoothness: 0
     - _VertexBaseColor: 0
-    - _Workflow: 0
+    - _Workflow: 1
     - _WrappingFactor: 0.01
     - _ZTest: 4
     - _ZWrite: 1

@@ -6795,60 +6795,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &1517840818353694879
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3549556017615641793}
-  - component: {fileID: 7919712385801938094}
-  m_Layer: 0
-  m_Name: Collider
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3549556017615641793
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1517840818353694879}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.42915216, z: -0, w: 0.9032322}
-  m_LocalPosition: {x: 2.4, y: 4.1, z: -74.6}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2189928047937798715}
-  m_LocalEulerAnglesHint: {x: 0, y: 50.828, z: 0}
---- !u!64 &7919712385801938094
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1517840818353694879}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6941269574596492685, guid: 8ec2dac24f058f64e8bfcf746d754942, type: 3}
 --- !u!1 &1616607023780803807
 GameObject:
   m_ObjectHideFlags: 0
@@ -103760,11 +103706,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 859f7771b114c7845997d041e3654bb4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5393349924581689541, guid: 948a41fa45ebcd643a36824e49660680,
-        type: 3}
-      insertIndex: 0
-      addedObject: {fileID: 3549556017615641793}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 948a41fa45ebcd643a36824e49660680, type: 3}
 --- !u!4 &2189928047937798715 stripped

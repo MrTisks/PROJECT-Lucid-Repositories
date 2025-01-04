@@ -12,10 +12,12 @@ Material:
   m_Parent: {fileID: 2100000, guid: 97c2c5ae9fc7cb745bfcb1f7f67a7d75, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - BAKERY_LMSPEC
   - _BICUBIC_SAMPLING_ON
   - _EMISSION
   - _METALLICGLOSSMAP
   - _NORMALMAP
+  - _WORKFLOW_PACKED_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
