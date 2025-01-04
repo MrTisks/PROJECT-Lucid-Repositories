@@ -45,7 +45,7 @@ Material:
     - _BrightNess: 1.698
     - _Brightness: 2
     - _DepthOffset: 2.8
-    - _Distort: 0
+    - _Distort: 1
     - _EdgeWidth: 1.73
     - _EdgeWidth2: -0.3
     - _Foam: 1
@@ -57,7 +57,7 @@ Material:
     - _Height: 0.015
     - _HorSpeed: 0.06
     - _Metallic: 0
-    - _NoiseScale: 0.1
+    - _NoiseScale: 0.009
     - _RIM: 0
     - _Reflectivity: 0
     - _RimPower: 1
@@ -66,6 +66,7 @@ Material:
     - _Speed: 0.5
     - _SpeedV: 0.6
     - _Stretch: 0.15
+    - _Tess: 32
     - _Test: 0.03
     - _TopScale: 0.118
     - _TopSpread: -0.63

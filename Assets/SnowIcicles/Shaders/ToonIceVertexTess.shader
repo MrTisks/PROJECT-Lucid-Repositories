@@ -28,9 +28,7 @@
 
 		[Header(Ice Displacement)]	
 		_Scale("Noise Scale Ice", Range(0,1)) = 1
-		_IceDisplacement("Ice Displacement Cutoff", Range(-2,0)) = -1
 		_Sharpness("Ice Sharpness", Range(0,1)) = 1
-		_Height("Ice Length", Range(0,2)) = 0.7	
 		_IceCutoff("Ice Cutoff", Range(0.1,1)) = 0.1
 	}
 
