@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 34ddc9bc87dec26408e69a4bb5084b9e, type: 3}
   m_Sun: {fileID: 1787983410}
-  m_IndirectSpecularColor: {r: 0.00077856245, g: 0.0041305395, b: 0.020029467, a: 1}
+  m_IndirectSpecularColor: {r: 0.00078295707, g: 0.004132676, b: 0.020004826, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3826,7 +3826,7 @@ MonoBehaviour:
   Near: 0
   VolumetricRadius: 0
   EnableSpatialization: 1
-  UseAudioSourceVolumeCurve: 0
+  UseAudioSourceVolumeCurve: 1
 --- !u!114 &2164208548563211390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3844,7 +3844,7 @@ MonoBehaviour:
   Near: 0
   VolumetricRadius: 0
   EnableSpatialization: 1
-  UseAudioSourceVolumeCurve: 0
+  UseAudioSourceVolumeCurve: 1
 --- !u!114 &2164208548563211391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3862,7 +3862,7 @@ MonoBehaviour:
   Near: 0
   VolumetricRadius: 0
   EnableSpatialization: 1
-  UseAudioSourceVolumeCurve: 0
+  UseAudioSourceVolumeCurve: 1
 --- !u!1001 &2193622330924742422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20536,7 +20536,7 @@ PrefabInstance:
     - target: {fileID: 5493810154364957681, guid: 1d06cf6cbaefed34eb9077b347e903ae,
         type: 3}
       propertyPath: MaxDistance
-      value: 15.7
+      value: 29.88444
       objectReference: {fileID: 0}
     - target: {fileID: 5493810154364957681, guid: 1d06cf6cbaefed34eb9077b347e903ae,
         type: 3}
@@ -20547,12 +20547,12 @@ PrefabInstance:
     - target: {fileID: 5493810154364957681, guid: 1d06cf6cbaefed34eb9077b347e903ae,
         type: 3}
       propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].time
-      value: 0.79725075
+      value: 0.7934818
       objectReference: {fileID: 0}
     - target: {fileID: 5493810154364957681, guid: 1d06cf6cbaefed34eb9077b347e903ae,
         type: 3}
       propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].value
-      value: 0.8765274
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 5498878146443340940, guid: 1d06cf6cbaefed34eb9077b347e903ae,
         type: 3}
@@ -26455,7 +26455,7 @@ MonoBehaviour:
   Near: 0
   VolumetricRadius: 0
   EnableSpatialization: 1
-  UseAudioSourceVolumeCurve: 0
+  UseAudioSourceVolumeCurve: 1
 --- !u!114 &3481448887418424356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26473,7 +26473,7 @@ MonoBehaviour:
   Near: 0
   VolumetricRadius: 0
   EnableSpatialization: 1
-  UseAudioSourceVolumeCurve: 0
+  UseAudioSourceVolumeCurve: 1
 --- !u!114 &3481448887418424357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26491,7 +26491,7 @@ MonoBehaviour:
   Near: 0
   VolumetricRadius: 0
   EnableSpatialization: 1
-  UseAudioSourceVolumeCurve: 0
+  UseAudioSourceVolumeCurve: 1
 --- !u!114 &3481448887418424358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26509,7 +26509,7 @@ MonoBehaviour:
   Near: -0
   VolumetricRadius: 0
   EnableSpatialization: 1
-  UseAudioSourceVolumeCurve: 0
+  UseAudioSourceVolumeCurve: 1
 --- !u!114 &3591906996255472209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35683,7 +35683,7 @@ MonoBehaviour:
   Near: 0
   VolumetricRadius: 0
   EnableSpatialization: 1
-  UseAudioSourceVolumeCurve: 0
+  UseAudioSourceVolumeCurve: 1
 --- !u!114 &6698364286177274606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35701,7 +35701,7 @@ MonoBehaviour:
   Near: 0
   VolumetricRadius: 0
   EnableSpatialization: 1
-  UseAudioSourceVolumeCurve: 0
+  UseAudioSourceVolumeCurve: 1
 --- !u!114 &7111575897785925491
 MonoBehaviour:
   m_ObjectHideFlags: 0
