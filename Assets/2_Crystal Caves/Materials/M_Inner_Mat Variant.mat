@@ -8,17 +8,23 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Inner_Mat Variant
-  m_Shader: {fileID: 4800000, guid: 068a561b92960af4786ddb828817c039, type: 3}
+  m_Shader: {fileID: 4800000, guid: 68d4032c05798c44eafe02f272e6895c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
+  m_ValidKeywords:
+  - BSSBLOOMFOGTYPE_HEIGHT
+  - COLOR_GRADING_HDR
+  - MOCHIE_PBR
+  - POSTPROCESS
+  - VIGNETTE_MASKED
   - _LIGHTINGMODE_REALISTIC
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_POIYOMI
   - _STOCHASTICMODE_DELIOT_HEITZ
+  - _SUNDISK_SIMPLE
+  m_InvalidKeywords: []
   m_LightmapFlags: 6
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
@@ -26,9 +32,8 @@ Material:
     OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT COLOR_GRADING_HDR MOCHIE_PBR POSTPROCESS
       VIGNETTE_MASKED _LIGHTINGMODE_REALISTIC _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
       _STOCHASTICMODE_DELIOT_HEITZ _SUNDISK_SIMPLE
-    OriginalShader: .poiyomi/Poiyomi Toon World
-    OriginalShaderGUID: 68d4032c05798c44eafe02f272e6895c
-    RenderType: Opaque
+    OriginalShader: Hidden/.poiyomi/Poiyomi Toon World/e41a493a0b408b24d8bada645079a57a
+    OriginalShaderGUID: 068a561b92960af4786ddb828817c039
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -1327,7 +1332,7 @@ Material:
     - _FXProximityColorMinColorThemeIndex: 0
     - _FXProximityColorMinDistance: 0
     - _FXProximityColorType: 1
-    - _FlipBackfaceNormals: 1
+    - _FlipBackfaceNormals: 0
     - _FlipbookAlphaControlsFinalAlpha: 0
     - _FlipbookBlendType: 0
     - _FlipbookChronoType: 0
@@ -1698,7 +1703,7 @@ Material:
     - _HighColor_Power: 0.2
     - _HighColor_TexUV: 0
     - _IgnoreCastedShadows: 0
-    - _IgnoreFog: 0
+    - _IgnoreFog: 1
     - _Is_BlendAddToHiColor: 0
     - _Is_LightColor_Ap_Rim2Light: 1
     - _Is_LightColor_Ap_RimLight: 1
@@ -2531,10 +2536,10 @@ Material:
     - _UDIMDiscardRow3_2: 0
     - _UDIMDiscardRow3_3: 0
     - _UDIMDiscardUV: 0
-    - _UVModLocalPos0: 0
-    - _UVModLocalPos1: 1
-    - _UVModWorldPos0: 0
-    - _UVModWorldPos1: 2
+    - _UVModLocalPos0: 5
+    - _UVModLocalPos1: 4
+    - _UVModWorldPos0: 2
+    - _UVModWorldPos1: 0
     - _UVSec: 0
     - _UVTileDissolveAlpha_Row0_0: 0
     - _UVTileDissolveAlpha_Row0_1: 0
@@ -2872,9 +2877,9 @@ Material:
     - m_start_PathAudioLink: 0
     - m_start_PoiGlobalCategory: 0
     - m_start_PoiLightData: 0
-    - m_start_PoiPostProcessingCategory: 1
+    - m_start_PoiPostProcessingCategory: 0
     - m_start_PoiShading: 0
-    - m_start_PoiUVCategory: 0
+    - m_start_PoiUVCategory: 1
     - m_start_RGBMask: 0
     - m_start_Rim2AudioLink: 0
     - m_start_RimAudioLink: 0
@@ -2925,7 +2930,7 @@ Material:
     - m_start_parallax: 0
     - m_start_pathing: 0
     - m_start_pointToPoint: 0
-    - m_start_postprocess: 1
+    - m_start_postprocess: 0
     - m_start_reflectionRim: 0
     - m_start_rim2LightOptions: 0
     - m_start_rimLight1Options: 0
@@ -2933,7 +2938,7 @@ Material:
     - m_start_subsurfaceScattering: 0
     - m_start_udimdiscardOptions: 0
     - m_start_uvDistortion: 0
-    - m_start_uvLocalWorld: 0
+    - m_start_uvLocalWorld: 1
     - m_start_uvPanosphere: 0
     - m_start_uvPolar: 0
     - m_start_vertexGlitching: 0
@@ -3644,7 +3649,7 @@ Material:
     - _PBRMaskScaleTiling: {r: 1, g: 1, b: 0, a: 0}
     - _PPMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _PPRGB: {r: 1, g: 1, b: 1, a: 1}
-    - _PPTint: {r: 1.4980394, g: 1.4980394, b: 1.4980394, a: 1}
+    - _PPTint: {r: 5.992157, g: 5.992157, b: 5.992157, a: 1}
     - _ParallaxInternalMapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _ParallaxInternalMapPan: {r: 0, g: 0, b: 1, a: 1}
     - _ParallaxInternalMaxColor: {r: 1, g: 1, b: 1, a: 1}
