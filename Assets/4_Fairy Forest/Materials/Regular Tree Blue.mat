@@ -10,7 +10,7 @@ Material:
   m_Name: Regular Tree Blue
   m_Shader: {fileID: 4800000, guid: f927f4173320600459911ac97d99d0a2, type: 3}
   m_Parent: {fileID: 2100000, guid: 27c50d25c7eb93441b53d82061381385, type: 2}
-  m_ModifiedSerializedProperties: 2
+  m_ModifiedSerializedProperties: 6
   m_ValidKeywords:
   - _METALLICGLOSSMAP
   - _NORMALMAP
@@ -18,7 +18,7 @@ Material:
   - _WORKFLOW_PACKED_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 6
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -35,6 +35,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _Glossiness: 1
+    - _GlossyReflections: 1
+    - _SpecularHighlights: 1
+    - _UseFresnel: 0
     m_Colors:
     - _Color: {r: 0.72264147, g: 0.85974544, b: 1, a: 1}
   m_BuildTextureStacks: []

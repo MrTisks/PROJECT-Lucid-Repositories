@@ -345,7 +345,7 @@ Material:
     - _UVSecSwizzle: 0
     - _UnityFogToggle: 1
     - _UseAlphaMask: 0
-    - _UseFresnel: 1
+    - _UseFresnel: 0
     - _UseHeight: 0
     - _UseSmoothness: 0
     - _VertexBaseColor: 0
