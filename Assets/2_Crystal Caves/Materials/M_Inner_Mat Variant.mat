@@ -13,7 +13,6 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
-  - COLOR_GRADING_HDR
   - MOCHIE_PBR
   - POSTPROCESS
   - VIGNETTE_MASKED
@@ -368,7 +367,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MochieMetallicMaps:
-        m_Texture: {fileID: 2800000, guid: ba50b840410b51644a03de6fb9c8722e, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _MochieReflCube:
@@ -910,7 +909,7 @@ Material:
     - _CurvatureU: 0
     - _CurvatureV: 0
     - _CustomColors: 0
-    - _Cutoff: 0
+    - _Cutoff: 0.016
     - _Decal0ApplyGlobalMaskBlendType: 0
     - _Decal0ApplyGlobalMaskIndex: 0
     - _Decal0ChannelSeparation: 0
@@ -1402,7 +1401,7 @@ Material:
     - _GlitterALSizeAddBand: 0
     - _GlitterAngleRange: 75.5
     - _GlitterBias: 0.011
-    - _GlitterBlendType: 0
+    - _GlitterBlendType: 1
     - _GlitterBrightness: 40
     - _GlitterCenterSize: 0.08
     - _GlitterColorMapUV: 0
@@ -1434,7 +1433,7 @@ Material:
     - _GlitterTextureRotation: 0.1
     - _GlitterUV: 5
     - _GlitterUseNormals: 1
-    - _GlitterUseSurfaceColor: 0
+    - _GlitterUseSurfaceColor: 1
     - _GlobalMaskBackface_0: 0
     - _GlobalMaskBackface_1: 0
     - _GlobalMaskBackface_10: 0
@@ -1792,7 +1791,7 @@ Material:
     - _MainBrightnessGlobalMask: 0
     - _MainBrightnessGlobalMaskBlendType: 2
     - _MainColorAdjustTextureUV: 0
-    - _MainColorAdjustToggle: 1
+    - _MainColorAdjustToggle: 0
     - _MainGradationStrength: 0
     - _MainHueALCTEnabled: 0
     - _MainHueALMotionSpeed: 1
@@ -2004,8 +2003,8 @@ Material:
     - _MirrorTextureUV: 0
     - _MochieBRDF: 1
     - _MochieForceFallback: 0
-    - _MochieGSAAEnabled: 1
-    - _MochieLitFallback: 1
+    - _MochieGSAAEnabled: 0
+    - _MochieLitFallback: 0
     - _MochieMetallicGlobalMask: 0
     - _MochieMetallicGlobalMaskBlendType: 2
     - _MochieMetallicMapInvert: 0
@@ -2023,7 +2022,7 @@ Material:
     - _MochieReflectionStrengthGlobalMaskBlendType: 2
     - _MochieReflectionTintThemeIndex: 0
     - _MochieRoughnessMapInvert: 0
-    - _MochieRoughnessMultiplier: 1
+    - _MochieRoughnessMultiplier: 0
     - _MochieRoughnessMultiplier2: 1
     - _MochieSmoothnessGlobalMask: 0
     - _MochieSmoothnessGlobalMaskBlendType: 2
@@ -2817,7 +2816,7 @@ Material:
     - m_start_BonusSliders: 0
     - m_start_CRT: 0
     - m_start_CenterOutDissolve: 0
-    - m_start_ColorAdjust: 1
+    - m_start_ColorAdjust: 0
     - m_start_CubeMap: 0
     - m_start_Decal0: 0
     - m_start_Decal0AudioLink: 0
@@ -2907,7 +2906,7 @@ Material:
     - m_start_backlight: 0
     - m_start_bakedLighting: 0
     - m_start_blending: 0
-    - m_start_brdf: 0
+    - m_start_brdf: 1
     - m_start_clearCoat: 0
     - m_start_clearcoatadvanced: 0
     - m_start_clearcoatglobalmask: 0
@@ -3319,7 +3318,7 @@ Material:
     - s_start_VertexSphereMode: 0
     - s_start_VertexTornadoMode: 0
     - s_start_WorldTranslation: 0
-    - s_start_brdfadvanced: 0
+    - s_start_brdfadvanced: 1
     - s_start_decal1_position: 1
     - s_start_decal2_position: 1
     - s_start_decal3_position: 1
