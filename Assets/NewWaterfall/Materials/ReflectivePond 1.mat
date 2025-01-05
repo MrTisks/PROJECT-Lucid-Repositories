@@ -44,7 +44,7 @@ Material:
     - _Amount: 4.02
     - _BrightNess: 1.698
     - _Brightness: 2
-    - _DepthOffset: -0.8
+    - _DepthOffset: 0
     - _Distort: 1
     - _EdgeWidth: 1.73
     - _EdgeWidth2: -0.3
@@ -57,7 +57,7 @@ Material:
     - _Height: 0.015
     - _HorSpeed: 0.06
     - _Metallic: 0
-    - _NoiseScale: 0.04
+    - _NoiseScale: 0.08
     - _RIM: 0
     - _Reflectivity: 0.48
     - _RimPower: 1
@@ -65,7 +65,7 @@ Material:
     - _Softness: 0.5
     - _Speed: 0.5
     - _SpeedV: 0.6
-    - _Stretch: 0.55
+    - _Stretch: 0.46
     - _Test: 0.03
     - _TopScale: 0.118
     - _TopSpread: -0.63
@@ -75,5 +75,5 @@ Material:
     - _FoamColor: {r: 0.10457456, g: 0.8867924, b: 0.83622813, a: 1}
     - _RimColor: {r: 0, g: 0.42517543, b: 0.5660378, a: 1}
     - _TColor: {r: 0, g: 0, b: 0, a: 1}
-    - _WaterColor: {r: 0, g: 1, b: 1, a: 0.38431373}
+    - _WaterColor: {r: 0, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
